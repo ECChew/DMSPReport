@@ -350,16 +350,6 @@ Considering that \(ISP = 315s\) and annotating
 \hypertarget{header-n470}{%
 	\subsection{\texorpdfstring{Global equation between \(m_{UP}\) and
 			\(m_{initial}\)}{Global equation between m\_\{UP\} and m\_\{initial\}}}\label{header-n470}}
-
-Here, we are calculating the percentage of the initial mass that is
-required in terms of usable propellant to do each step and then summing
-it up to get the percentage of usable mass compared to the total mass to
-complete the mission in terms of burns.\\
-
-
-\subsection{Second iteration of mass budget}
-
-\qquad As our way of presenting our first iteration of the mass budget didn't seems clear enough to us, we decided to present it in another, more logical way :
 \begin{longtable}[]{@{}ccc@{}}
 	\toprule
 	Step & \(\frac{m_{UP}}{m_{initial}}\) & Bias due to
@@ -376,12 +366,125 @@ complete the mission in terms of burns.\\
 	\bottomrule
 \end{longtable}
 
-In this second iteration with a better \(I_{sp}\), we gained
-approximately \(1.7\)\% in pure usable propellant mass and about \(5\)\%
-on the phases were the satellite creates a bias. We could then either
-lower our initial mass or allocate what we have saved there to other
-systems that may require more mass.\\
 
+
+This time our equation between those two masses is given by 
+\begin{equation}
+	m_{UsableProp} = \frac 1{0.1336}\bigg[0.8664 m_{rest} + 1304.028\bigg]
+\end{equation}
+
+\subsection{Second iteration of mass budget}
+
+\qquad As our way of presenting our first iteration of the mass budget didn't seems clear enough to us, we decided to present it in another, more logical way :
+\textbf{\underline{Structure}}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Hull & $192$\\
+		\hline
+		Tanks (including non usable propellant) & $700$\\
+		\hline
+		Wings & $136$\\
+		\hline
+		Lines & $60$\\
+		\hline
+		Connectors & $16$\\
+		\hline
+		$H_2$ tank & $12$\\
+		\hline
+		\cellcolor{green!30}\textbf{Structure} & \textbf{$1\ 116$}\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\textbf{\underline{Electrical related contributors}}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Batteries & $241$\\
+		\hline
+		Fuel cells & $202$\\
+		\hline
+		On Board Computer & $5$\\
+		\hline
+		Cables & $20$\\
+		\hline
+		$H_2$ for fuel cells & $5$\\
+		\hline
+		Wing actuators & $10$\\
+		\hline
+		Telecommunications & $10$\\
+		\hline
+		GNC & $5$\\
+		\hline
+		Thermal Control & $10$\\
+		\hline
+		Magnets (Payload) & $25.65$\\
+		\hline
+		\cellcolor{green!30}\textbf{Electrical related contributors} & \textbf{$533.65$}\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\textbf{\underline{ACS and RCS}}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Thrusters & $36$\\
+		\hline
+		$H_2O_2$ & $90$\\
+		\hline
+		Reaction wheels & $106$\\
+		\hline
+		\cellcolor{green!30}\textbf{ACS \& RCS} & \textbf{$232$}\\
+		\hline
+	\end{tabular}
+\end{center}
+
+\textbf{\underline{Propulsion}}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Engine & $93$\\
+		\hline
+		Turbopumps & $25$\\
+		\hline
+		Pressurization ($He$) & $1.3$\\
+		\hline
+		Catalyzer & $30$\\
+		\hline
+		\cellcolor{green!30}\textbf{Propulsion} & \textbf{$149.3$}\\
+		\hline
+	\end{tabular}
+\end{center}
+
+With those tables, we can deduce $m_{rest}$ :
+\begin{align}
+	m_{rest} &= m_{Structure} + m_{Elec} + m_{ACS\&RCS} + m_{Propulsion}\\
+	m_{rest} &= 2\ 030.95kg
+\end{align}
+Thus,
+\begin{align}
+	m_{UsableProp} &= \frac 1{0.1336}\bigg[0.8664 m_{rest} + 1304.028\bigg]\\
+	m_{UsableProp} &= 22\ 931kg\\
+	m_{Fuel} &= \frac{m_{UsableProp}}{MR+1}\\
+	m_{Fuel} &= 2841.6kg\\
+	m_{Ox} &= m_{UsableProp} - m_{Fuel}\\
+	m_{Ox} &= 20\ 089.89kg\\
+	m_0 &= 24\ 962.41kg
+\end{align}
+
+
+
+In this second iteration with a better \(I_{sp}\) and refined values for all of the contributors, we have a large improvement as our initial mass decreased drastically.
 \newpage
 \section{Frozen information}
 After our second iteration of the mass budget, we decided to make a list of the fixed values that we will work around in our further design.
