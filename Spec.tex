@@ -105,12 +105,12 @@ clearvars; clc;
 catchtime = 1;
 x0 = 10;
 while 1
-[t,x] = ode45(@f3,[0:1:catchtime], [x0; 0; 0; 0]);
-if (x(catchtime ,1)>= 2 * x0)
-break
-else
-catchtime = catchtime +1;
-end
+    [t,x] = ode45(@f3,[0:1:catchtime], [x0; 0; 0; 0]);
+        if (x(catchtime ,1) >= 2 * x0)
+            break
+        else
+            catchtime = catchtime +1;
+        end
 end
 \end{minted}
 And the function used for the $ode$ solver :
