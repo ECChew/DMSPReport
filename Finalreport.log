@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  15 JAN 2020 13:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  2 FEB 2020 19:24
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1622,7 +1622,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  (_minted-Finalreport/default-pyg-prefix.pygstyle)
 (_minted-Finalreport/default.pygstyle)
-(_minted-Finalreport/FE6F6E69A68622A7436B53B2560C3F0EF8C1700CD029DD70258A628F48
+runsystem(python -c "import sys; import os; import textwrap; from io import ope
+n; fname = os.path.expanduser(os.path.expandvars(\"Finalreport.pyg\")); f = ope
+n(fname, \"r\", encoding=\"UTF8\") if os.path.isfile(fname) else None; t = f.re
+adlines() if f is not None else None; t_opt = t if t is not None else []; f.clo
+se() if f is not None else None; tmpfname = os.path.expanduser(os.path.expandva
+rs(\"Finalreport.pyg\")); f = open(tmpfname, \"w\", encoding=\"UTF8\") if t is 
+not None else None; fvstartnum = 0; fvstopnum = 0; s = fvstartnum-1 if fvstartn
+um != 0 else 0; e = fvstopnum if fvstopnum != 0 else len(t_opt); [f.write(textw
+rap.dedent(\"\".join(x))) for x in (t_opt[0:s], t_opt[s:e], t_opt[e:]) if x and
+ t is not None]; f.close() if t is not None else os.remove(tmpfname);")...execu
+ted.
+
+runsystem(pygmentize -l matlab -f latex -P commandprefix=PYG -F tokenmerge -o _
+minted-Finalreport/2AE0EE0F144BAD01E564196AD9EFC5B1F8C1700CD029DD70258A628F4875
+5E37.pygtex Finalreport.pyg)...executed.
+
+
+(_minted-Finalreport/2AE0EE0F144BAD01E564196AD9EFC5B1F8C1700CD029DD70258A628F48
 755E37.pygtex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1.
  (D:\Miktex\tex\latex\base\t1cmtt.fd
@@ -1714,6 +1731,9 @@ No file annexes.tex.
 No file Finalreport.ind.
 
 AED: lastpage setting LastPage
+runsystem(del _minted-Finalreport\FE6F6E69A68622A7436B53B2560C3F0EF8C1700CD029D
+D70258A628F48755E37.pygtex)...executed.
+
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -1736,8 +1756,8 @@ runsystem(del Finalreport.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
  ) 
 Here is how much of TeX's memory you used:
- 41482 strings out of 492970
- 926770 string characters out of 3143823
+ 41483 strings out of 492970
+ 926834 string characters out of 3143823
  1245167 words of memory out of 3000000
  44342 multiletter control sequences out of 15000+200000
  29817 words of font info for 90 fonts, out of 3000000 for 9000
@@ -1763,7 +1783,7 @@ nts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Miktex
 /fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/public/amsfont
 s/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/f
 onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (28 pages, 1017591 bytes).
+Output written on Finalreport.pdf (28 pages, 1017672 bytes).
 PDF statistics:
  881 PDF objects out of 1000 (max. 8388607)
  116 named destinations out of 1000 (max. 500000)
