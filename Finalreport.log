@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  2 FEB 2020 19:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  8 FEB 2020 15:10
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1494,25 +1494,30 @@ LaTeX Info: Redefining \nameref on input line 187.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 187.
-<logohsb.png, id=150, 200.75pt x 93.34875pt>
+<logohsb.png, id=162, 200.75pt x 93.34875pt>
 File: logohsb.png Graphic file (type png)
 <use logohsb.png>
 Package pdftex.def Info: logohsb.png  used on input line 197.
-(pdftex.def)             Requested size: 276.43555pt x 128.56215pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 219.
+(pdftex.def)             Requested size: 230.36061pt x 107.12515pt.
+<greder.png, id=164, 188.50426pt x 131.89275pt>
+File: greder.png Graphic file (type png)
+<use greder.png>
+Package pdftex.def Info: greder.png  used on input line 209.
+(pdftex.def)             Requested size: 243.99413pt x 170.71652pt.
+LaTeX Font Info:    Try loading font information for U+msa on input line 223.
  (D:\Miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 219.
+LaTeX Font Info:    Try loading font information for U+msb on input line 223.
 
 (D:\Miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 219.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 223.
  (D:\Miktex\tex\latex\wasysym\uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 219
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 223
 .
 
 (D:\Miktex\tex\latex\calrsfs\omsrsfs.fd) [1
@@ -1521,7 +1526,7 @@ LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 219
 
 
 {C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./logohsb.p
-ng>] (Finalreport.toc [1
+ng> <./greder.png>] (Finalreport.toc [1
 
 
 ])
@@ -1531,8 +1536,7 @@ ng>] (Finalreport.toc [1
  [2]
 \openout2 = `introduction.aux'.
 
-
-(introduction.tex
+ (introduction.tex
 Chapter 1.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -1553,7 +1557,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.254 \include{introduction}
+l.258 \include{introduction}
                              [1
 
 
@@ -1601,13 +1605,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<magnetCAD.png, id=247, 490.2315pt x 276.43275pt>
+<magnetCAD.png, id=265, 490.2315pt x 276.43275pt>
 File: magnetCAD.png Graphic file (type png)
 <use magnetCAD.png>
 Package pdftex.def Info: magnetCAD.png  used on input line 68.
 (pdftex.def)             Requested size: 460.72124pt x 259.79619pt.
 [6 <./magnetCAD.png>]
-<catching.png, id=257, 767.2665pt x 273.4215pt>
+<catching.png, id=275, 767.2665pt x 273.4215pt>
 File: catching.png Graphic file (type png)
 <use catching.png>
 Package pdftex.def Info: catching.png  used on input line 89.
@@ -1622,23 +1626,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  (_minted-Finalreport/default-pyg-prefix.pygstyle)
 (_minted-Finalreport/default.pygstyle)
-runsystem(python -c "import sys; import os; import textwrap; from io import ope
-n; fname = os.path.expanduser(os.path.expandvars(\"Finalreport.pyg\")); f = ope
-n(fname, \"r\", encoding=\"UTF8\") if os.path.isfile(fname) else None; t = f.re
-adlines() if f is not None else None; t_opt = t if t is not None else []; f.clo
-se() if f is not None else None; tmpfname = os.path.expanduser(os.path.expandva
-rs(\"Finalreport.pyg\")); f = open(tmpfname, \"w\", encoding=\"UTF8\") if t is 
-not None else None; fvstartnum = 0; fvstopnum = 0; s = fvstartnum-1 if fvstartn
-um != 0 else 0; e = fvstopnum if fvstopnum != 0 else len(t_opt); [f.write(textw
-rap.dedent(\"\".join(x))) for x in (t_opt[0:s], t_opt[s:e], t_opt[e:]) if x and
- t is not None]; f.close() if t is not None else os.remove(tmpfname);")...execu
-ted.
-
-runsystem(pygmentize -l matlab -f latex -P commandprefix=PYG -F tokenmerge -o _
-minted-Finalreport/2AE0EE0F144BAD01E564196AD9EFC5B1F8C1700CD029DD70258A628F4875
-5E37.pygtex Finalreport.pyg)...executed.
-
-
 (_minted-Finalreport/2AE0EE0F144BAD01E564196AD9EFC5B1F8C1700CD029DD70258A628F48
 755E37.pygtex
 LaTeX Font Info:    Try loading font information for T1+cmtt on input line 1.
@@ -1674,12 +1661,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <to be read again> 
                    \relax 
 l.556 ... and m\_\{initial\}}}\label{header-n470}}
-                                                  ) [19]
+                                                  
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
+[21]
 \openout2 = `Design.aux'.
 
  (Design.tex
 Chapter 4.
-) [20
+) [22
 
 
 
@@ -1688,7 +1682,7 @@ Chapter 4.
 
  (Simulation.tex
 Chapter 5.
-) [21
+) [23
 
 
 
@@ -1697,11 +1691,11 @@ Chapter 5.
 
  (Conclusion.tex
 Chapter 6.
-) [22
+) [24
 
 
 
-] [23
+] [25
 
 
 ]
@@ -1713,7 +1707,7 @@ No file lexique_an_fr.tex.
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [24
+ [26
 
 
 
@@ -1721,7 +1715,7 @@ No file lexique_an_fr.tex.
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [25
+ [27
 
 ]
 \openout2 = `annexes.aux'.
@@ -1731,35 +1725,32 @@ No file annexes.tex.
 No file Finalreport.ind.
 
 AED: lastpage setting LastPage
-runsystem(del _minted-Finalreport\FE6F6E69A68622A7436B53B2560C3F0EF8C1700CD029D
-D70258A628F48755E37.pygtex)...executed.
-
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 295.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
 (Finalreport.aux (introduction.aux) (Def.aux) (Spec.aux) (Design.aux)
 (Simulation.aux) (Conclusion.aux) (lexique_an_fr.aux) (annexes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `Finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: A23754052B946839A51675ADC7BA1DD1;2647.
+(rerunfilecheck)             Checksum: 9499C4441163E9E5B8B864AFC232E139;2859.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
 runsystem(del Finalreport.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 41483 strings out of 492970
- 926834 string characters out of 3143823
+ 41500 strings out of 492970
+ 927002 string characters out of 3143823
  1245167 words of memory out of 3000000
- 44342 multiletter control sequences out of 15000+200000
+ 44350 multiletter control sequences out of 15000+200000
  29817 words of font info for 90 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,12n,136p,1994b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1776,16 +1767,17 @@ pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
 \ecbi1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
 \ec\dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
 r\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\font
-s\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><D:/Miktex/fonts/type1/public/amsfon
-ts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Mikte
-x/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Miktex/fonts/type1/public/amsfo
-nts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Miktex
-/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (28 pages, 1017672 bytes).
+s\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Huynh\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><D:/Miktex/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Miktex/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
+<D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/publ
+ic/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
+:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on Finalreport.pdf (30 pages, 1070519 bytes).
 PDF statistics:
- 881 PDF objects out of 1000 (max. 8388607)
- 116 named destinations out of 1000 (max. 500000)
- 316 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 933 PDF objects out of 1000 (max. 8388607)
+ 125 named destinations out of 1000 (max. 500000)
+ 345 words of extra memory for PDF output out of 10000 (max. 10000000)
 

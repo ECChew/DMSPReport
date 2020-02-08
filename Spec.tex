@@ -527,8 +527,8 @@ After our second iteration of the mass budget, we decided to make a list of the 
 	\end{tabular}
 \end{center}
 \newpage
-\section{Mass Budget - Third iteration}
-As the fixed $I_{sp}$ has been refined aswell as other parameters, we went into our third iteration of the mass budget with the same process as the two previous ones.
+\section{Mass Budget - Final iteration}
+As the fixed $I_{sp}$ has been refined as well as other parameters, we went into our final iteration of the mass budget with the same process as the two previous ones.
 \subsection{Coefficients \& Masses after steps}
 
 Considering that \(ISP = 335s\) and annotating
@@ -567,9 +567,131 @@ debris\tabularnewline
 2 & 0.143 & 0\tabularnewline
 3 & 0.042 & 0\tabularnewline
 4 & 0.088 & 1274\tabularnewline
-5 & 0.0002 & 4.186\tabularnewline
-6 & 0.0033 & -36.68\tabularnewline
-TOTAL & 0.8664 & +1304.028\tabularnewline
+5 & 0.0002 & -2.038\tabularnewline
+6 & 0.0033 & -27.73\tabularnewline
+TOTAL & 0.8505 & +1244.232\tabularnewline
 \bottomrule
 \end{longtable}
+Thus,
+$$
+m_{UsablePropellant} = \frac 1{0.1495}[0.8505m_{rest}+1244.232]
+$$
+\subsection{Detailed contributors}
+\subsubsection{Structure}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Hull & $192$\\
+		\hline
+		Tanks & $700$\\
+		\hline
+		Wings & $136$\\
+		\hline
+		Lines & $70$\\
+		\hline
+		Connectors & $16$\\
+		\hline
+		Brackets & $35$\\
+		\hline
+		$H_2$ Tanks & $12$\\
+		\hline
+		\cellcolor{green!30}\textbf{Structure} & \textbf{$1161$}\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{Electrical systems}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Batteries & $369.03$\\
+		\hline
+		Fuel cell & $202$\\
+		\hline
+		OBC & $10$\\
+		\hline
+		Cables & $57$\\
+		\hline
+		$H_2$ for fuel cells & $5$\\
+		\hline
+		Wing actuators & $10$\\
+		\hline
+		Data transmission & $20$\\
+		\hline
+		GNC & $10$\\
+		\hline
+		Thermal control & $20$\\
+		\hline
+		Magnets & $25.65$\\
+		\hline
+		\cellcolor{green!30}\textbf{Electrical systems} & \textbf{$728.68$}\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{Attitude control}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Thrusters & $36$\\
+		\hline
+		$H_2O_2$ for the ACS & $90$\\
+		\hline
+		
+		Reaction wheels & $106$\\
+		\hline
+		\cellcolor{green!30}\textbf{Attitude control} & \textbf{$232$}\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsubsection{Propulsion}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Engine & $93$\\
+		\hline
+		Turbopumps + Electric motors & $180$\\
+		\hline
+		$He$ for pressurization & $1.3$\\
+		\hline
+		Catalyzer & $40.86$\\
+		\hline
+		\cellcolor{green!30}\textbf{Propulsion} & \textbf{$315.16$}\\
+		\hline
+	\end{tabular}
+\end{center}
+\subsection{Final mass budget}
+\begin{center}
+	\begin{tabular}[H]{|c|c|}
+		\hline
+		\cellcolor{gray!50}Contributor & \cellcolor{gray!50}Mass (kg)\\
+		\hline
+		Structure & $1161$\\
+		\hline
+		Electrical systems & $728.68$\\
+		\hline
+		Attitude control & $232$\\
+		\hline
+		Heat shield & $360$\\
+		\hline
+		Propulsion & $315.16$\\
+		\hline
+		\cellcolor{green!30}\textbf{$m_{rest}$} & \textbf{$2796.84$}\\
+		\hline
+		\cellcolor{green!30}\textbf{$m_{UP}$} with a $5\%$ performance window & \textbf{$25\ 508$}\\
+		\hline
+		\cellcolor{green!30}\textbf{$m_{Fuel}$}  & \textbf{$3160$}\\
+		\hline
+		\cellcolor{green!30}\textbf{$m_{Ox}$}  & \textbf{$22\ 347$}\\
+		\hline
+		\cellcolor{red!30}\textbf{Initial wet mass}  & \textbf{$28\ 304$}\\
+		\hline
+	\end{tabular}
+\end{center}
 \section{Simulation concept}
