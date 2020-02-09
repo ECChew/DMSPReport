@@ -42,6 +42,8 @@
 \contentsline {chapter}{\numberline {4}Design of propulsion systems}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}System conceptualization}{22}{section.4.1}
 \contentsline {section}{\numberline {4.2}Subsystem design}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Feeding system}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Turbo pumps}{22}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Design review}{22}{section.4.3}
 \contentsline {chapter}{\numberline {5}Simulation}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Subsystem simulation}{23}{section.5.1}
