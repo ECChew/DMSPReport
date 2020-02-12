@@ -42,12 +42,18 @@
 \contentsline {chapter}{\numberline {4}Design of propulsion systems}{22}{chapter.4}
 \contentsline {section}{\numberline {4.1}System conceptualization}{22}{section.4.1}
 \contentsline {section}{\numberline {4.2}Subsystem design}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Feeding system}{22}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Turbo pumps}{22}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Design review}{22}{section.4.3}
-\contentsline {chapter}{\numberline {5}Simulation}{23}{chapter.5}
-\contentsline {section}{\numberline {5.1}Subsystem simulation}{23}{section.5.1}
-\contentsline {section}{\numberline {5.2}System simulation}{23}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation preparation and execution}{23}{section.5.3}
-\contentsline {section}{\numberline {5.4}Simulation review}{23}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{24}{chapter.6}
+\contentsline {subsection}{\numberline {4.2.1}Regenerative cooling}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Catalyzer}{22}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Injectors}{22}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Feeding system}{22}{subsection.4.2.4}
+\contentsline {subsubsection}{Line diameters}{25}{section*.18}
+\contentsline {subsubsection}{Fuel feeding system}{25}{section*.19}
+\contentsline {subsubsection}{Oxidizer feeding system}{26}{section*.20}
+\contentsline {subsection}{\numberline {4.2.5}Turbo pumps}{27}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Design review}{27}{section.4.3}
+\contentsline {chapter}{\numberline {5}Simulation}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}Subsystem simulation}{28}{section.5.1}
+\contentsline {section}{\numberline {5.2}System simulation}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation preparation and execution}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Simulation review}{28}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{29}{chapter.6}
