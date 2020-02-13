@@ -121,5 +121,52 @@ $$
 \Delta P_{exit} = K_{exit} \times \frac{\rho_o}2 \times 8 ^ 2 = 0.01856\text{ bar}
 $$
 \subsection{Turbo pumps}
-As most of our subsystems have a defined pressure drop due to their specific design, we have made the choice to use this feeding system design with all losses included to then design our turbopumps to have a pressure rise in accordance with our pressure requirements. We chose to go with electrically driven turbo pumps as we have a good amount of electrical power since we use fuel cells in our spacecraft.
+As most of our subsystems have a defined pressure drop due to their specific design, we have made the choice to use this feeding system design with all losses included to then design our turbopumps to have a pressure rise in accordance with our pressure requirements. We chose to go with electrically driven turbo pumps as we have a good amount of electrical power since we use fuel cells in our spacecraft.\\
+
+Our respective turbopump required created pressures are : 
+\begin{itemize}
+	\item Fuel side : $\Delta P_{T_f} = P_{Chamber} + \Delta P_{feeding_f} + \Delta P_{inj_f} + \Delta P_{Regenerative\ cooling} - P_{Tank_f}$
+	\item Oxidizer side : 	$\Delta P_{T_o} = P_{Chamber} + \Delta P_{feeding_o} + \Delta P_{inj_o} + \Delta P_{Catalyzer} - P_{Tank_o}$
+\end{itemize}
+Thus,
+\begin{align}
+	\Delta P_{T_f} &= 54.395\ \text{bars}\\
+	\Delta P_{T_o} &= 102.28\ \text{bars}
+\end{align}
+\subsection{Pressure evolution summary}
+\subsubsection{Fuel side}
+\begin{tabular}[H]{|c|c|c|}
+	\hline
+	\cellcolor{gray!50}Contributor& \cellcolor{gray!50}Pressure Drop (bars) & \cellcolor{gray!50}Pressure (bars)\\
+	\hline
+	Tank & NA & $1.5$ \\
+	\hline
+	Tank exit & $0.010368$ & \\
+	\hline
+	First section & &\\
+	\hline
+	First bend & &\\
+	\hline
+	Second section & &\\
+	\hline
+	Second bend & &\\
+	\hline
+	Third section & &\\
+	\hline
+	Turbo pump & &\\
+	\hline
+	Third bend & &\\
+	\hline
+	Fourth section & &\\
+	\hline
+	Fourth bend & &\\
+	\hline
+	Fifth section & &\\
+	\hline
+	Cooling & &\\
+	\hline
+	Injection & &\\
+	\hline
+	Combustion chamber & &\\
+\end{tabular}
 \section{Design review}

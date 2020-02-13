@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  12 FEB 2020 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  13 FEB 2020 10:13
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1721,12 +1721,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[26]) [27]
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
+
+ []
+
+) [27] [28]
 \openout2 = `Simulation.aux'.
 
  (Simulation.tex
 Chapter 5.
-) [28
+) [29
 
 
 
@@ -1735,11 +1740,11 @@ Chapter 5.
 
  (Conclusion.tex
 Chapter 6.
-) [29
+) [30
 
 
 
-] [30
+] [31
 
 
 ]
@@ -1751,7 +1756,7 @@ No file lexique_an_fr.tex.
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [31
+ [32
 
 
 
@@ -1759,7 +1764,7 @@ No file lexique_an_fr.tex.
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [32
+ [33
 
 ]
 \openout2 = `annexes.aux'.
@@ -1791,9 +1796,9 @@ runsystem(del Finalreport.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 41554 strings out of 492970
- 927722 string characters out of 3143823
- 1245167 words of memory out of 3000000
+ 41557 strings out of 492970
+ 927757 string characters out of 3143823
+ 1245172 words of memory out of 3000000
  44368 multiletter control sequences out of 15000+200000
  30581 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1819,9 +1824,9 @@ blic/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
 <D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
 :/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (35 pages, 1262700 bytes).
+Output written on Finalreport.pdf (36 pages, 1265398 bytes).
 PDF statistics:
- 1029 PDF objects out of 1200 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
+ 1037 PDF objects out of 1200 (max. 8388607)
+ 160 named destinations out of 1000 (max. 500000)
  400 words of extra memory for PDF output out of 10000 (max. 10000000)
 
