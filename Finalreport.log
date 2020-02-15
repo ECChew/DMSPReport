@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  13 FEB 2020 10:13
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  15 FEB 2020 14:18
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1494,12 +1494,12 @@ LaTeX Info: Redefining \nameref on input line 187.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 187.
-<logohsb.png, id=182, 200.75pt x 93.34875pt>
+<logohsb.png, id=186, 200.75pt x 93.34875pt>
 File: logohsb.png Graphic file (type png)
 <use logohsb.png>
 Package pdftex.def Info: logohsb.png  used on input line 197.
 (pdftex.def)             Requested size: 230.36061pt x 107.12515pt.
-<greder.png, id=184, 188.50426pt x 131.89275pt>
+<greder.png, id=188, 188.50426pt x 131.89275pt>
 File: greder.png Graphic file (type png)
 <use greder.png>
 Package pdftex.def Info: greder.png  used on input line 209.
@@ -1605,13 +1605,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<magnetCAD.png, id=290, 490.2315pt x 276.43275pt>
+<magnetCAD.png, id=295, 490.2315pt x 276.43275pt>
 File: magnetCAD.png Graphic file (type png)
 <use magnetCAD.png>
 Package pdftex.def Info: magnetCAD.png  used on input line 68.
 (pdftex.def)             Requested size: 460.72124pt x 259.79619pt.
 [6 <./magnetCAD.png>]
-<catching.png, id=300, 767.2665pt x 273.4215pt>
+<catching.png, id=305, 767.2665pt x 273.4215pt>
 File: catching.png Graphic file (type png)
 <use catching.png>
 Package pdftex.def Info: catching.png  used on input line 89.
@@ -1678,7 +1678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-<pertecharge.png, id=429, 192.11775pt x 247.52475pt>
+<pertecharge.png, id=434, 192.11775pt x 247.52475pt>
 File: pertecharge.png Graphic file (type png)
 <use pertecharge.png>
 Package pdftex.def Info: pertecharge.png  used on input line 19.
@@ -1700,12 +1700,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
-<feeding.png, id=435, 110.814pt x 218.0145pt>
+<feeding.png, id=440, 110.814pt x 218.0145pt>
 File: feeding.png Graphic file (type png)
 <use feeding.png>
 Package pdftex.def Info: feeding.png  used on input line 29.
 (pdftex.def)             Requested size: 144.62967pt x 284.52756pt.
-<feedingzoom.png, id=436, 348.70274pt x 291.489pt>
+<feedingzoom.png, id=441, 348.70274pt x 291.489pt>
 File: feedingzoom.png Graphic file (type png)
 <use feedingzoom.png>
 Package pdftex.def Info: feedingzoom.png  used on input line 34.
@@ -1726,12 +1726,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
-) [27] [28]
+<fuelchart.png, id=482, 524.55975pt x 195.129pt>
+File: fuelchart.png Graphic file (type png)
+<use fuelchart.png>
+Package pdftex.def Info: fuelchart.png  used on input line 175.
+(pdftex.def)             Requested size: 460.72124pt x 171.3895pt.
+[27]
+<oxchart.png, id=495, 592.01175pt x 277.63725pt>
+File: oxchart.png Graphic file (type png)
+<use oxchart.png>
+Package pdftex.def Info: oxchart.png  used on input line 217.
+(pdftex.def)             Requested size: 460.72124pt x 216.06898pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./fuelchart.png>]) [29 <./oxchart.png>]
 \openout2 = `Simulation.aux'.
 
  (Simulation.tex
 Chapter 5.
-) [29
+) [30
 
 
 
@@ -1740,11 +1754,11 @@ Chapter 5.
 
  (Conclusion.tex
 Chapter 6.
-) [30
+) [31
 
 
 
-] [31
+] [32
 
 
 ]
@@ -1756,7 +1770,7 @@ No file lexique_an_fr.tex.
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [32
+ [33
 
 
 
@@ -1764,7 +1778,7 @@ No file lexique_an_fr.tex.
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [33
+ [34
 
 ]
 \openout2 = `annexes.aux'.
@@ -1786,7 +1800,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 295.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 295.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 295.
 Package rerunfilecheck Info: File `Finalreport.out' has not changed.
-(rerunfilecheck)             Checksum: B762951B1D1CCF68FBE701A1079C109D;3197.
+(rerunfilecheck)             Checksum: 754B5381FB5DE8B1B07F1E1BE5E626B5;3278.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -1796,10 +1810,10 @@ runsystem(del Finalreport.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 295.
  ) 
 Here is how much of TeX's memory you used:
- 41557 strings out of 492970
- 927757 string characters out of 3143823
- 1245172 words of memory out of 3000000
- 44368 multiletter control sequences out of 15000+200000
+ 41574 strings out of 492970
+ 928012 string characters out of 3143823
+ 1247172 words of memory out of 3000000
+ 44377 multiletter control sequences out of 15000+200000
  30581 words of font info for 91 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,12n,136p,1994b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1824,9 +1838,9 @@ blic/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb>
 <D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
 :/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (36 pages, 1265398 bytes).
+Output written on Finalreport.pdf (37 pages, 1341297 bytes).
 PDF statistics:
- 1037 PDF objects out of 1200 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
- 400 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1062 PDF objects out of 1200 (max. 8388607)
+ 166 named destinations out of 1000 (max. 500000)
+ 418 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -50,10 +50,13 @@
 \contentsline {subsubsection}{Fuel feeding system}{25}{section*.19}
 \contentsline {subsubsection}{Oxidizer feeding system}{26}{section*.20}
 \contentsline {subsection}{\numberline {4.2.5}Turbo pumps}{27}{subsection.4.2.5}
-\contentsline {section}{\numberline {4.3}Design review}{28}{section.4.3}
-\contentsline {chapter}{\numberline {5}Simulation}{29}{chapter.5}
-\contentsline {section}{\numberline {5.1}Subsystem simulation}{29}{section.5.1}
-\contentsline {section}{\numberline {5.2}System simulation}{29}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation preparation and execution}{29}{section.5.3}
-\contentsline {section}{\numberline {5.4}Simulation review}{29}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{30}{chapter.6}
+\contentsline {subsection}{\numberline {4.2.6}Pressure evolution summary}{28}{subsection.4.2.6}
+\contentsline {subsubsection}{Fuel side}{28}{section*.21}
+\contentsline {subsubsection}{Oxidizer side}{29}{section*.23}
+\contentsline {section}{\numberline {4.3}Design review}{29}{section.4.3}
+\contentsline {chapter}{\numberline {5}Simulation}{30}{chapter.5}
+\contentsline {section}{\numberline {5.1}Subsystem simulation}{30}{section.5.1}
+\contentsline {section}{\numberline {5.2}System simulation}{30}{section.5.2}
+\contentsline {section}{\numberline {5.3}Simulation preparation and execution}{30}{section.5.3}
+\contentsline {section}{\numberline {5.4}Simulation review}{30}{section.5.4}
+\contentsline {chapter}{\numberline {6}Conclusion}{31}{chapter.6}

@@ -137,36 +137,84 @@ Thus,
 \subsubsection{Fuel side}
 \begin{tabular}[H]{|c|c|c|}
 	\hline
-	\cellcolor{gray!50}Contributor& \cellcolor{gray!50}Pressure Drop (bars) & \cellcolor{gray!50}Pressure (bars)\\
+	\cellcolor{gray!50}Contributor& \cellcolor{gray!50}Pressure Drop (bars) & \cellcolor{gray!50}Pressure at the end of this part (bars)\\
 	\hline
-	Tank & NA & $1.5$ \\
+	Tank & NA & $1.3$ \\
 	\hline
-	Tank exit & $0.010368$ & \\
+	Tank exit & $0.010368$ & $1.29$\\
 	\hline
-	First section & &\\
+	First section & $0.037$ &$1.253$\\
 	\hline
-	First bend & &\\
+	First bend &$0.14$ &$1.113$\\
 	\hline
-	Second section & &\\
+	Second section &$0.074$ &$1.039$\\
 	\hline
-	Second bend & &\\
+	Second bend &$0.14$ &$0.899$\\
 	\hline
-	Third section & &\\
+	Third section &$0.37$ &$0.529$\\
 	\hline
-	Turbo pump & &\\
+	Turbo pump & $54.395 $ (Rise) &$54.924$\\
 	\hline
-	Third bend & &\\
+	Third bend &$1.8957$ &$53.0283$\\
 	\hline
-	Fourth section & &\\
+	Fourth section &$0.997$ &$52.0313$\\
 	\hline
-	Fourth bend & &\\
+	Fourth bend &$1.8957$ &$50.1356$\\
 	\hline
-	Fifth section & &\\
+	Fifth section &$0.499$ &$49.6366$\\
 	\hline
-	Cooling & &\\
+	Cooling &$0.25$ &$49.3866$\\
 	\hline
-	Injection & &\\
+	Injection &$9.38$ &$40.0066$\\
 	\hline
-	Combustion chamber & &\\
+	Combustion chamber & NA &$40.0066$\\
+	\hline
 \end{tabular}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{fuelchart}
+	\caption{Pressure evolution on fuel side (bars)}
+\end{figure}
+\subsubsection{Oxidizer side}
+\begin{tabular}[H]{|c|c|c|}
+	\hline
+	\cellcolor{gray!50}Contributor& \cellcolor{gray!50}Pressure Drop (bars) & \cellcolor{gray!50}Pressure at the end of this part (bars)\\
+	\hline
+	Tank & NA & $1.3$ \\
+	\hline
+	Tank exit & $0.010368$ & $1.29$\\
+	\hline
+	First section & $0.031$ &$1.259$\\
+	\hline
+	First bend &$0.25$ &$1.009$\\
+	\hline
+	Turbo pump & $102.28 $ (Rise) &$103.289$\\
+	\hline
+	Second section &$9.09$ &$94.199$\\
+	\hline
+	Second bend &$1.06$ &$93.139$\\
+	\hline
+	Third section &$6.9228$ &$86.2162$\\
+	\hline
+	Third bend &$1.06$ &$85.1562$\\
+	\hline
+	Fourth section &$5.366$ &$79.7902$\\
+	\hline
+	Fourth bend &$1.06$ &$78.7302$\\
+	\hline
+	Fifth section &$2.7997$ &$75.9305$\\
+	\hline
+	Catalyzer &$30.95$ &$44.9805$\\
+	\hline
+	Injection &$4.96$ &$40.0205$\\
+	\hline
+	Combustion chamber & NA &$40.0205$\\
+	\hline
+\end{tabular}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{oxchart}
+	\caption{Pressure evolution on oxidizer side (bars)}
+\end{figure}
 \section{Design review}
