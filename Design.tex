@@ -26,8 +26,25 @@ Why silver ? We chose silver because is the mostly used catalyser for $H_2O_2$. 
 
 The figure above shows basically how a catalyser works. To have an idea of the shape of ours we just have to swap the ceramic catalyst by silver catalyst. So, it will be a steel cylinder filled with small spherical silver pellet separated by some baffles (silver grid mesh). \\
 
-An important characteristic of the catalyser is the pressure drop it creates. 
+An important characteristic of the catalyser is the pressure drop it creates. This pressure drop influences the whole feeding system, the turbo pump sizing and even the injector design. that's why we need to characterize the pressure drop created by the catalyser. In order to do so, we are going to use the Ergun equation for packed bed reactor:
 
+$$
+\frac{\Delta p}{L} = 151.2 \frac{\mu}{d^2}\frac{(1-\epsilon)^2}{\epsilon^2}u + 1.8 \frac{\rho}{d}\frac{1- \epsilon}{\epsilon^3}u^2
+$$
+
+With $\mu$ the dynamic viscosity, $\epsilon$ the porosity, $d$ the pellet diameter, $\rho$ the density, $L$ the length of the bed and $u$ the velocity. \\
+
+In this equation we need some important component such as $\epsilon$. The porosity is complicated to compute and need to be model. According to a recent research we determined a porosity of $0.3802$ with a pellet diameter of 5mm.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{pressuredrop}
+	\caption{Pressure drop depending on the size of the catalyst bed}
+\end{figure}
+
+We see on the graph that the pressure drop rise quickly with the size of the bed. So we need to limit the size of our catalyser in order to not oversize the turbo pump. To do so, we chose to limit our pressure drop to around 30 bars. Finally we obtain a cylinder of 20 cm of diameter and 20 cm of length. \\
+
+This geometry allows the catalyser to provide a sufficient decomposition rate, a "contained" pressure drop and size. It also generates a great heat as high as $1000K$ at the exit of the catalyst bed. 
 
 \subsection{Injectors}
 \subsection{Feeding system}
