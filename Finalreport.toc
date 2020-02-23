@@ -1,62 +1,59 @@
 \babel@toc {english}{}
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}Definition}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}Mission planning}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}Vehicle requirements}{2}{section.2.2}
-\contentsline {section}{\numberline {2.3}Operationnal requirements}{2}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}Environment}{3}{subsection.2.3.1}
-\contentsline {subsubsection}{Thermal effects}{3}{section*.2}
-\contentsline {chapter}{\numberline {3}Specification}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}Satellite catching process}{4}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Choice of the process}{4}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Magnetic solution}{5}{subsection.3.1.2}
-\contentsline {subsubsection}{Assumptions}{5}{section*.3}
-\contentsline {subsection}{\numberline {3.1.3}Sketching and Calculations}{5}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}Propellant selection}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}Mass analysis}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Mass Budget - First Iteration}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Coefficients \& Masses after steps}{11}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{11}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}First iteration of mass budget}{12}{subsection.3.4.3}
-\contentsline {subsubsection}{Sub systems}{12}{section*.6}
-\contentsline {subsubsection}{Payload}{12}{section*.7}
-\contentsline {subsubsection}{Structure}{12}{section*.8}
-\contentsline {subsubsection}{Others}{13}{section*.9}
-\contentsline {subsubsection}{Results}{13}{section*.10}
-\contentsline {section}{\numberline {3.5}Mass Budget - Second iteration}{15}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Coefficients \& Masses after steps}{15}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{15}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}Second iteration of mass budget}{16}{subsection.3.5.3}
-\contentsline {section}{\numberline {3.6}Frozen information}{18}{section.3.6}
-\contentsline {subsection}{\numberline {3.6.1}Frozen points}{18}{subsection.3.6.1}
-\contentsline {section}{\numberline {3.7}Mass Budget - Final iteration}{19}{section.3.7}
-\contentsline {subsection}{\numberline {3.7.1}Coefficients \& Masses after steps}{19}{subsection.3.7.1}
-\contentsline {subsection}{\numberline {3.7.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{19}{subsection.3.7.2}
-\contentsline {subsection}{\numberline {3.7.3}Detailed contributors}{20}{subsection.3.7.3}
-\contentsline {subsubsection}{Structure}{20}{section*.11}
-\contentsline {subsubsection}{Electrical systems}{20}{section*.12}
-\contentsline {subsubsection}{Attitude control}{20}{section*.13}
-\contentsline {subsubsection}{Propulsion}{21}{section*.14}
-\contentsline {subsection}{\numberline {3.7.4}Final mass budget}{21}{subsection.3.7.4}
-\contentsline {section}{\numberline {3.8}Simulation concept}{21}{section.3.8}
-\contentsline {chapter}{\numberline {4}Design of propulsion systems}{22}{chapter.4}
-\contentsline {section}{\numberline {4.1}System conceptualization}{22}{section.4.1}
-\contentsline {section}{\numberline {4.2}Subsystem design}{22}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Regenerative cooling}{22}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Catalyzer}{22}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Injectors}{22}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Feeding system}{22}{subsection.4.2.4}
-\contentsline {subsubsection}{Line diameters}{25}{section*.18}
-\contentsline {subsubsection}{Fuel feeding system}{25}{section*.19}
-\contentsline {subsubsection}{Oxidizer feeding system}{26}{section*.20}
-\contentsline {subsection}{\numberline {4.2.5}Turbo pumps}{27}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Pressure evolution summary}{28}{subsection.4.2.6}
-\contentsline {subsubsection}{Fuel side}{28}{section*.21}
-\contentsline {subsubsection}{Oxidizer side}{29}{section*.23}
-\contentsline {section}{\numberline {4.3}Design review}{29}{section.4.3}
-\contentsline {chapter}{\numberline {5}Simulation}{30}{chapter.5}
-\contentsline {section}{\numberline {5.1}Subsystem simulation}{30}{section.5.1}
-\contentsline {section}{\numberline {5.2}System simulation}{30}{section.5.2}
-\contentsline {section}{\numberline {5.3}Simulation preparation and execution}{30}{section.5.3}
-\contentsline {section}{\numberline {5.4}Simulation review}{30}{section.5.4}
-\contentsline {chapter}{\numberline {6}Conclusion}{31}{chapter.6}
+\contentsline {chapter}{\numberline {2}Schedule}{2}{chapter.2}
+\contentsline {section}{\numberline {2.1}Initial Schedule}{2}{section.2.1}
+\contentsline {section}{\numberline {2.2}Final schedule \IeC {\textendash } comparison as planned and as achieved}{3}{section.2.2}
+\contentsline {chapter}{\numberline {3}Requirements}{5}{chapter.3}
+\contentsline {chapter}{\numberline {4}Specification}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}Satellite catching process}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Choice of the process}{7}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Magnetic solution}{8}{subsection.4.1.2}
+\contentsline {subsubsection}{Assumptions}{8}{section*.5}
+\contentsline {subsection}{\numberline {4.1.3}Sketching and Calculations}{8}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Propellant selection}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Mass analysis}{13}{section.4.3}
+\contentsline {section}{\numberline {4.4}Mass Budget - First Iteration}{14}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Coefficients \& Masses after steps}{14}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{14}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}First iteration of mass budget}{15}{subsection.4.4.3}
+\contentsline {subsubsection}{Sub systems}{15}{section*.8}
+\contentsline {subsubsection}{Payload}{15}{section*.9}
+\contentsline {subsubsection}{Structure}{15}{section*.10}
+\contentsline {subsubsection}{Others}{16}{section*.11}
+\contentsline {subsubsection}{Results}{16}{section*.12}
+\contentsline {section}{\numberline {4.5}Mass Budget - Second iteration}{18}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Coefficients \& Masses after steps}{18}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{18}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Second iteration of mass budget}{19}{subsection.4.5.3}
+\contentsline {section}{\numberline {4.6}Frozen information}{21}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Frozen points}{21}{subsection.4.6.1}
+\contentsline {section}{\numberline {4.7}Mass Budget - Final iteration}{22}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Coefficients \& Masses after steps}{22}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{22}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Detailed contributors}{23}{subsection.4.7.3}
+\contentsline {subsubsection}{Structure}{23}{section*.13}
+\contentsline {subsubsection}{Electrical systems}{23}{section*.14}
+\contentsline {subsubsection}{Attitude control}{23}{section*.15}
+\contentsline {subsubsection}{Propulsion}{24}{section*.16}
+\contentsline {subsection}{\numberline {4.7.4}Final mass budget}{24}{subsection.4.7.4}
+\contentsline {section}{\numberline {4.8}Simulation concept}{24}{section.4.8}
+\contentsline {chapter}{\numberline {5}Design of propulsion systems}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}System conceptualization}{25}{section.5.1}
+\contentsline {section}{\numberline {5.2}Subsystem design}{25}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Regenerative cooling}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Catalyzer}{25}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Injectors}{27}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Feeding system}{27}{subsection.5.2.4}
+\contentsline {subsubsection}{Line diameters}{30}{section*.23}
+\contentsline {subsubsection}{Fuel feeding system}{30}{section*.24}
+\contentsline {subsubsection}{Oxidizer feeding system}{31}{section*.25}
+\contentsline {subsection}{\numberline {5.2.5}Turbo pumps}{32}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Pressure evolution summary}{33}{subsection.5.2.6}
+\contentsline {subsubsection}{Fuel side}{33}{section*.26}
+\contentsline {subsubsection}{Oxidizer side}{34}{section*.28}
+\contentsline {section}{\numberline {5.3}Design review}{34}{section.5.3}
+\contentsline {chapter}{\numberline {6}Simulation}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Subsystem simulation}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}System simulation}{35}{section.6.2}
+\contentsline {section}{\numberline {6.3}Simulation preparation and execution}{35}{section.6.3}
+\contentsline {section}{\numberline {6.4}Simulation review}{35}{section.6.4}

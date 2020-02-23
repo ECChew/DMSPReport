@@ -26,6 +26,7 @@ set decimal separator={,\!},
 }
 \usepackage{ifthen}
 \usepackage{ifpdf}
+\usepackage{pdfpages}
 \ifpdf
 \usepackage[pdftex]{hyperref}
 \else
@@ -176,6 +177,10 @@ urlcolor=black}
 \usepackage{pifont}
 \usepackage{makeidx}
 \usepackage{setspace}
+\usepackage{xr}
+\usepackage{zref}
+\usepackage{zref-xr}
+\usepackage{xr-hyper}
 \makeindex
 \usepackage[xindy]{glossaries}
 \makeglossaries
@@ -256,7 +261,8 @@ urlcolor=black}
 
 
 \include{introduction}
-\include{Def}
+\include{schedule}
+\include{requirements}
 \include{Spec}
 \include{Design}
 \include{Simulation}
@@ -278,7 +284,6 @@ urlcolor=black}
 %\printbibliography
 
 
-\chapter*{Liste des sigles et acronymes}
 \begin{acronym}[EHPAD] % Give the longest acronym here
 
 \end{acronym}
