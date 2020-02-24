@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  23 FEB 2020 22:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  24 FEB 2020 16:01
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -2089,17 +2089,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
-<fuelchart.png, id=628, 524.55975pt x 195.129pt>
+<fuelchart.png, id=628, 487.22025pt x 235.47975pt>
 File: fuelchart.png Graphic file (type png)
 <use fuelchart.png>
 Package pdftex.def Info: fuelchart.png  used on input line 218.
-(pdftex.def)             Requested size: 460.72124pt x 171.3895pt.
+(pdftex.def)             Requested size: 460.72124pt x 222.66966pt.
 [42]
-<oxchart.png, id=641, 592.01175pt x 277.63725pt>
+<oxchart.png, id=641, 482.40225pt x 210.18526pt>
 File: oxchart.png Graphic file (type png)
 <use oxchart.png>
 Package pdftex.def Info: oxchart.png  used on input line 260.
-(pdftex.def)             Requested size: 460.72124pt x 216.06898pt.
+(pdftex.def)             Requested size: 460.72124pt x 200.74925pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2299,9 +2299,9 @@ s/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/
 cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/
 type1/public/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (58 pages, 1964287 bytes).
+Output written on Finalreport.pdf (58 pages, 1926983 bytes).
 PDF statistics:
- 1704 PDF objects out of 1728 (max. 8388607)
+ 1705 PDF objects out of 1728 (max. 8388607)
  214 named destinations out of 1000 (max. 500000)
  584 words of extra memory for PDF output out of 10000 (max. 10000000)
 
