@@ -17,51 +17,53 @@
 \contentsline {section}{\numberline {7.3}H2O2/RP-1 feasibility check}{20}{section.7.3}
 \contentsline {section}{\numberline {7.4}Summary}{21}{section.7.4}
 \contentsline {chapter}{\numberline {8}Vehicle design}{22}{chapter.8}
-\contentsline {chapter}{\numberline {9}Flow schematic}{23}{chapter.9}
-\contentsline {chapter}{\numberline {10}Mass model}{24}{chapter.10}
-\contentsline {section}{\numberline {10.1}Mass Budget - First Iteration}{24}{section.10.1}
-\contentsline {subsection}{\numberline {10.1.1}Coefficients \& Masses after steps}{24}{subsection.10.1.1}
-\contentsline {subsection}{\numberline {10.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{24}{subsection.10.1.2}
-\contentsline {subsection}{\numberline {10.1.3}First iteration of mass budget}{25}{subsection.10.1.3}
-\contentsline {subsubsection}{Sub systems}{25}{section*.11}
-\contentsline {subsubsection}{Payload}{26}{section*.12}
-\contentsline {subsubsection}{Structure}{26}{section*.13}
-\contentsline {subsubsection}{Others}{26}{section*.14}
-\contentsline {subsubsection}{Results}{27}{section*.15}
-\contentsline {section}{\numberline {10.2}Mass Budget - Second iteration}{28}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Coefficients \& Masses after steps}{28}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{28}{subsection.10.2.2}
-\contentsline {subsection}{\numberline {10.2.3}Second iteration of mass budget}{29}{subsection.10.2.3}
-\contentsline {section}{\numberline {10.3}Frozen information}{31}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Frozen points}{31}{subsection.10.3.1}
-\contentsline {section}{\numberline {10.4}Mass Budget - Final iteration}{32}{section.10.4}
-\contentsline {subsection}{\numberline {10.4.1}Coefficients \& Masses after steps}{32}{subsection.10.4.1}
-\contentsline {subsection}{\numberline {10.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{32}{subsection.10.4.2}
-\contentsline {subsection}{\numberline {10.4.3}Detailed contributors}{33}{subsection.10.4.3}
-\contentsline {subsubsection}{Structure}{33}{section*.16}
-\contentsline {subsubsection}{Electrical systems}{33}{section*.17}
-\contentsline {subsubsection}{Attitude control}{33}{section*.18}
-\contentsline {subsubsection}{Propulsion}{34}{section*.19}
-\contentsline {subsection}{\numberline {10.4.4}Final mass budget}{34}{subsection.10.4.4}
-\contentsline {chapter}{\numberline {11}Propulsion system}{35}{chapter.11}
-\contentsline {section}{\numberline {11.1}RCS / ACS}{35}{section.11.1}
-\contentsline {section}{\numberline {11.2}Propellant tanks}{35}{section.11.2}
-\contentsline {section}{\numberline {11.3}Pressurization system}{35}{section.11.3}
-\contentsline {section}{\numberline {11.4}Catalyzer}{35}{section.11.4}
-\contentsline {section}{\numberline {11.5}Injectors}{37}{section.11.5}
-\contentsline {section}{\numberline {11.6}Feeding system}{37}{section.11.6}
-\contentsline {subsection}{\numberline {11.6.1}Line diameters}{40}{subsection.11.6.1}
-\contentsline {subsection}{\numberline {11.6.2}Fuel feeding system}{40}{subsection.11.6.2}
-\contentsline {subsection}{\numberline {11.6.3}Oxidizer feeding system}{41}{subsection.11.6.3}
-\contentsline {section}{\numberline {11.7}Turbo pumps}{42}{section.11.7}
-\contentsline {section}{\numberline {11.8}Pressure evolution summary}{43}{section.11.8}
-\contentsline {subsection}{\numberline {11.8.1}Fuel side}{43}{subsection.11.8.1}
-\contentsline {subsection}{\numberline {11.8.2}Oxidizer side}{44}{subsection.11.8.2}
-\contentsline {section}{\numberline {11.9}Engine}{44}{section.11.9}
-\contentsline {section}{\numberline {11.10}Nozzle}{44}{section.11.10}
-\contentsline {chapter}{\numberline {12}Simulation}{45}{chapter.12}
-\contentsline {section}{\numberline {12.1}Subsystem simulation}{45}{section.12.1}
-\contentsline {section}{\numberline {12.2}System simulation}{45}{section.12.2}
-\contentsline {section}{\numberline {12.3}Simulation preparation and execution}{45}{section.12.3}
-\contentsline {section}{\numberline {12.4}Simulation review}{45}{section.12.4}
-\contentsline {chapter}{\numberline {13}Lessons learnt}{46}{chapter.13}
+\contentsline {chapter}{\numberline {9}Mass model}{23}{chapter.9}
+\contentsline {section}{\numberline {9.1}Mass Budget - First Iteration}{23}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Coefficients \& Masses after steps}{23}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{23}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}First iteration of mass budget}{24}{subsection.9.1.3}
+\contentsline {subsubsection}{Sub systems}{24}{section*.11}
+\contentsline {subsubsection}{Payload}{25}{section*.12}
+\contentsline {subsubsection}{Structure}{25}{section*.13}
+\contentsline {subsubsection}{Others}{25}{section*.14}
+\contentsline {subsubsection}{Results}{26}{section*.15}
+\contentsline {section}{\numberline {9.2}Mass Budget - Second iteration}{27}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Coefficients \& Masses after steps}{27}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{27}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Second iteration of mass budget}{28}{subsection.9.2.3}
+\contentsline {section}{\numberline {9.3}Frozen information}{30}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Frozen points}{30}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Mass Budget - Final iteration}{31}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Coefficients \& Masses after steps}{31}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{31}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Detailed contributors}{32}{subsection.9.4.3}
+\contentsline {subsubsection}{Structure}{32}{section*.16}
+\contentsline {subsubsection}{Electrical systems}{32}{section*.17}
+\contentsline {subsubsection}{Attitude control}{32}{section*.18}
+\contentsline {subsubsection}{Propulsion}{33}{section*.19}
+\contentsline {subsection}{\numberline {9.4.4}Final mass budget}{33}{subsection.9.4.4}
+\contentsline {chapter}{\numberline {10}Propulsion system}{34}{chapter.10}
+\contentsline {section}{\numberline {10.1}Engine cycle}{34}{section.10.1}
+\contentsline {section}{\numberline {10.2}RCS / ACS}{37}{section.10.2}
+\contentsline {section}{\numberline {10.3}Multi-usage of hydrogen peroxide}{37}{section.10.3}
+\contentsline {section}{\numberline {10.4}Propellant tanks}{37}{section.10.4}
+\contentsline {section}{\numberline {10.5}Pressurization system}{37}{section.10.5}
+\contentsline {section}{\numberline {10.6}Catalyzer}{37}{section.10.6}
+\contentsline {section}{\numberline {10.7}Injectors}{39}{section.10.7}
+\contentsline {section}{\numberline {10.8}Feeding system}{39}{section.10.8}
+\contentsline {subsection}{\numberline {10.8.1}Line diameters}{42}{subsection.10.8.1}
+\contentsline {subsection}{\numberline {10.8.2}Fuel feeding system}{42}{subsection.10.8.2}
+\contentsline {subsection}{\numberline {10.8.3}Oxidizer feeding system}{43}{subsection.10.8.3}
+\contentsline {section}{\numberline {10.9}Turbo pumps}{44}{section.10.9}
+\contentsline {section}{\numberline {10.10}Pressure evolution summary}{45}{section.10.10}
+\contentsline {subsection}{\numberline {10.10.1}Fuel side}{45}{subsection.10.10.1}
+\contentsline {subsection}{\numberline {10.10.2}Oxidizer side}{46}{subsection.10.10.2}
+\contentsline {section}{\numberline {10.11}Engine}{46}{section.10.11}
+\contentsline {section}{\numberline {10.12}Nozzle}{46}{section.10.12}
+\contentsline {chapter}{\numberline {11}Simulations}{47}{chapter.11}
+\contentsline {section}{\numberline {11.1}Engine performance simulation}{47}{section.11.1}
+\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{51}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{53}{section.11.3}
+\contentsline {chapter}{\numberline {12}Evaluation}{56}{chapter.12}
+\contentsline {section}{\numberline {12.1}Requirement verification}{56}{section.12.1}
+\contentsline {section}{\numberline {12.2}Lessons learnt}{56}{section.12.2}

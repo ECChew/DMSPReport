@@ -1,5 +1,22 @@
 \chapter{Propulsion system}
+\section{Engine cycle}
+\qquad The spacecraft uses electrically-driven turbo pumps to feed the oxidizer as well as the fuel to the engine. The propellant and oxidizer are each driven out of their tanks at low pressure, where after a turbo pump in each propellant line strain raises their pressures. As the oxidizer strain has a higher mass flow rate and faces a large pressure drop in the catalyzer, the respective pump is also more powerful as a result. The turbo pumps are driven electrically by electric motors which use large batteries for their power intake. These batteries offer enough charge for one maximum burn time of 900 seconds, after which they are re-powered by a fuel cell which runs on hydrogen and the hydrogen peroxide decomposition product oxygen. This will be explained further in \autoref{sec:10-3}. In order to demonstrate how exactly the engine cycle is made up, a flow schematic is shown in the following. Firstly, the pressurization system is shown in \autoref{fig1}.
+\begin{figure}[H]
+	\centering\includegraphics[width=0.5\linewidth]{pressurizationsystem}
+	\caption{Flow Schematic - Pressurization system}\label{fig1}
+\end{figure}
+
+As the figure shows, only the RP-1 tank is pressurized by pressurization gas, using a $300$ bars helium tank. The hydrogen peroxide has certain decomposition characteristics which enable it to self-pressurize due to the rising pressure upon vaporization. The critical point of hydrogen peroxide is at around $150$ degrees Celsius and $1.5$ bars, meaning that if the thermal control is sufficiently reliable, a tank pressure of around $1.3$ bars can be maintained by self-pressurization. The control system and more details will be explained in \autoref{sec:10-3}. The $300$ bars H2 Tank that can be seen in the pressurization system flow schematic is therefore not a pressurization tank, but a tank for the sole purpose of running the fuel cell in combination with the oxygen which is separated from water, which is the second decomposition product of hydrogen peroxide. The separation works by simply condensing the water and allowing the gaseous oxygen to pass through a filter. Both the RP-1 tank and the H2O2 tank have a main valve after their outlets, which are visible in \autoref{fig1}. The remaining feeding system is shown in the second part of the flow schematic, depicted in \autoref{fig2}.
+
+\begin{figure}[H]
+	\centering\includegraphics[width=0.7\linewidth]{flowenginesection}
+	\caption{Flow Schematic - Engine section}\label{fig2}
+\end{figure}
+The fueling ports for RP-1 as well as hydrogen peroxide extend to the left- and right-hand-side of the top of the figure. Check valves are situated at these points to only allow propellant flowing in. A second main valve for both propellants is installed just before the turbopumps, which are closed during refueling. While the RP-1 is then funneled through cooling channels in the regenerative cooling system, the oxidizer runs into a catalyzer, where a rapid decomposition reaction splits the hydrogen peroxide into its reactive products for combustion. A second oxidizer strain is guided towards a pressure regulation valve, behind which it continues into a buffer tank of hydrogen peroxide for monopropellant use in the ACS. The catalyzers for ACS thrusters are located in close proximity to their respective combustion chambers. The ACS is not depicted as a flow schematic.
 \section{RCS / ACS}
+\section{Multi-usage of hydrogen peroxide}
+\label{sec:10-3}
+
 \section{Propellant tanks}
 \section{Pressurization system}
 \section{Catalyzer}
@@ -196,7 +213,9 @@ Thus,
 	\hline
 	Third section &$0.37$ &$0.529$\\
 	\hline
-	Turbo pump & $54.395 $ (Rise) &$54.924$\\
+	Turbo pump & $54.395 $ (Rise) &$59.924$\\
+	\hline
+	Valve & $5$ &$54.924$\\
 	\hline
 	Third bend &$1.8957$ &$53.0283$\\
 	\hline
@@ -231,7 +250,9 @@ Thus,
 	\hline
 	First bend &$0.25$ &$1.009$\\
 	\hline
-	Turbo pump & $102.28 $ (Rise) &$103.289$\\
+	Turbo pump & $102.28 $ (Rise) &$108.289$\\
+	\hline
+	Turbo pump & $5$ &$103.289$\\
 	\hline
 	Second section &$9.09$ &$94.199$\\
 	\hline
