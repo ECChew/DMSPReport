@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  24 FEB 2020 21:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  24 FEB 2020 21:23
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -2170,27 +2170,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 
  []
 
-[48]
-<fuelchart.png, id=716, 487.22025pt x 235.47975pt>
+<fuelchart.png, id=705, 487.22025pt x 235.47975pt>
 File: fuelchart.png Graphic file (type png)
 <use fuelchart.png>
-Package pdftex.def Info: fuelchart.png  used on input line 240.
+Package pdftex.def Info: fuelchart.png  used on input line 241.
 (pdftex.def)             Requested size: 460.72124pt x 222.66966pt.
- [49 <./fuelchart.png>]
-<oxchart.png, id=725, 482.40225pt x 210.18526pt>
+[48]
+<oxchart.png, id=718, 482.40225pt x 210.18526pt>
 File: oxchart.png Graphic file (type png)
 <use oxchart.png>
-Package pdftex.def Info: oxchart.png  used on input line 288.
+Package pdftex.def Info: oxchart.png  used on input line 289.
 (pdftex.def)             Requested size: 460.72124pt x 200.74925pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+ [49 <./fuelchart.png>])
+Underfull \vbox (badness 5622) has occurred while \output is active []
 
  [50 <./oxchart.png>] [51]
 \openout2 = `Simulation.aux'.
 
  (Simulation.tex
 Chapter 11.
-<thrusttime.png, id=740, 421.575pt x 316.0608pt>
+<thrusttime.png, id=741, 421.575pt x 316.0608pt>
 File: thrusttime.png Graphic file (type png)
 <use thrusttime.png>
 Package pdftex.def Info: thrusttime.png  used on input line 22.
@@ -2203,7 +2202,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<accdeltav.png, id=750, 421.575pt x 316.0608pt>
+<accdeltav.png, id=751, 421.575pt x 316.0608pt>
 File: accdeltav.png Graphic file (type png)
 <use accdeltav.png>
 Package pdftex.def Info: accdeltav.png  used on input line 28.
@@ -2229,12 +2228,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
  []
 
 [56]
-<coolingchannelwidth.png, id=780, 421.575pt x 316.0608pt>
+<coolingchannelwidth.png, id=779, 421.575pt x 316.0608pt>
 File: coolingchannelwidth.png Graphic file (type png)
 <use coolingchannelwidth.png>
 Package pdftex.def Info: coolingchannelwidth.png  used on input line 61.
 (pdftex.def)             Requested size: 414.6463pt x 310.8708pt.
-<relevanttemps.png, id=782, 421.575pt x 316.0608pt>
+<relevanttemps.png, id=781, 421.575pt x 316.0608pt>
 File: relevanttemps.png Graphic file (type png)
 <use relevanttemps.png>
 Package pdftex.def Info: relevanttemps.png  used on input line 68.
@@ -2243,7 +2242,7 @@ Package pdftex.def Info: relevanttemps.png  used on input line 68.
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [57 <./coolingchannelwidth.png>] [58 <./relevanttemps.png>]
-<feasibility.png, id=802, 371.58826pt x 302.93175pt>
+<feasibility.png, id=800, 371.58826pt x 302.93175pt>
 File: feasibility.png Graphic file (type png)
 <use feasibility.png>
 Package pdftex.def Info: feasibility.png  used on input line 86.
@@ -2414,56 +2413,41 @@ runsystem(del Finalreport.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
  ) 
 Here is how much of TeX's memory you used:
- 43499 strings out of 492970
- 959735 string characters out of 3143823
+ 43494 strings out of 492970
+ 959650 string characters out of 3143823
  1286556 words of memory out of 3000000
  46066 multiletter control sequences out of 15000+200000
  30918 words of font info for 92 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,18n,136p,2001b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.24} has been referenced but does n
-ot exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.23} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.22} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.35} has been referenced but does not
- exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.33} has been referenced but does not
- exist, replaced by a fixed one
-
- <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-rm1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\tcrm0800.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecbi1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\Huynh\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Huynh\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk> <C:\User
-s\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
-crm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Huynh\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><D:/Mikt
-ex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Mik
-tex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Mikte
-x/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Miktex/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb>
-Output written on Finalreport.pdf (73 pages, 2538930 bytes).
+ <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecrm1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\
+ec\dpi600\tcrm0800.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
+\jknappen\ec\dpi600\ecbi1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts
+\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX
+\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\Huynh\AppData\Lo
+cal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Huynh\
+AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk> <C:\Us
+ers\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.
+pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600
+\ecrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen
+\ec\dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfou
+r\jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\font
+s\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTe
+X\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\L
+ocal\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Huynh
+\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><D:/Mi
+ktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/am
+sfonts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/M
+iktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Mik
+tex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Miktex/fonts/type1/public/amsfo
+nts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex
+/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfont
+s/cm/cmsy8.pfb>
+Output written on Finalreport.pdf (73 pages, 2539804 bytes).
 PDF statistics:
  1906 PDF objects out of 2073 (max. 8388607)
- 268 named destinations out of 1000 (max. 500000)
+ 263 named destinations out of 1000 (max. 500000)
  645 words of extra memory for PDF output out of 10000 (max. 10000000)
 
