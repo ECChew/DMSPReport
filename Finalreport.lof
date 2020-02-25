@@ -6,34 +6,36 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Falcon 9 - Ariane 6 - combined fairing\relax }}{8}{figure.caption.6}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Mission planning - First part\relax }}{12}{figure.caption.8}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Mission planning - Second part\relax }}{13}{figure.caption.9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces CAD of a catching magnet\relax }}{12}{figure.caption.7}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Catching sequence (not to scale)\relax }}{13}{figure.caption.8}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces CAD of a catching magnet\relax }}{16}{figure.caption.10}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Catching sequence (not to scale)\relax }}{17}{figure.caption.11}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Shape effect on drag\relax }}{18}{figure.caption.10}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Shadowgraph images of Reentry vehicles\relax }}{21}{figure.caption.11}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Radiative cooling of the heat shield\relax }}{23}{figure.caption.12}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces GREDER Spacecraft (various views) - Heat shield sown in gray\relax }}{24}{figure.caption.13}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Shape effect on drag\relax }}{22}{figure.caption.13}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Shadowgraph images of Reentry vehicles\relax }}{25}{figure.caption.14}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Radiative cooling of the heat shield\relax }}{27}{figure.caption.15}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces GREDER Spacecraft (various views) - Heat shield sown in gray\relax }}{28}{figure.caption.16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {10.1}{\ignorespaces Flow Schematic - Pressurization system\relax }}{45}{figure.caption.29}
-\contentsline {figure}{\numberline {10.2}{\ignorespaces Flow Schematic - Engine section\relax }}{46}{figure.caption.30}
-\contentsline {figure}{\numberline {10.3}{\ignorespaces RCS thruster repartition\relax }}{47}{figure.caption.31}
-\contentsline {figure}{\numberline {10.4}{\ignorespaces $H_2O_2$ chemical decomposition process\relax }}{50}{figure.caption.32}
-\contentsline {figure}{\numberline {10.5}{\ignorespaces Example of catalyst bed\relax }}{50}{figure.caption.33}
-\contentsline {figure}{\numberline {10.6}{\ignorespaces Pressure drop depending on the size of the catalyst bed\relax }}{51}{figure.caption.34}
-\contentsline {figure}{\numberline {10.7}{\ignorespaces $K$ values for geometry changes\relax }}{53}{figure.caption.35}
-\contentsline {figure}{\numberline {10.8}{\ignorespaces Feeding system layout (To scale)\relax }}{54}{figure.caption.36}
-\contentsline {figure}{\numberline {10.9}{\ignorespaces Feeding system layout - Zoomed (To scale)\relax }}{54}{figure.caption.37}
-\contentsline {figure}{\numberline {10.10}{\ignorespaces Pressure evolution on fuel side (bars)\relax }}{60}{figure.caption.39}
-\contentsline {figure}{\numberline {10.11}{\ignorespaces Pressure evolution on oxidizer side (bars)\relax }}{61}{figure.caption.41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{64}{figure.caption.42}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{65}{figure.caption.43}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{66}{figure.caption.44}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{68}{figure.caption.45}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{69}{figure.caption.46}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{71}{figure.caption.47}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {10.1}{\ignorespaces Flow Schematic - Pressurization system\relax }}{49}{figure.caption.32}
+\contentsline {figure}{\numberline {10.2}{\ignorespaces Flow Schematic - Engine section\relax }}{50}{figure.caption.33}
+\contentsline {figure}{\numberline {10.3}{\ignorespaces RCS thruster repartition\relax }}{51}{figure.caption.34}
+\contentsline {figure}{\numberline {10.4}{\ignorespaces $H_2O_2$ chemical decomposition process\relax }}{54}{figure.caption.35}
+\contentsline {figure}{\numberline {10.5}{\ignorespaces Example of catalyst bed\relax }}{54}{figure.caption.36}
+\contentsline {figure}{\numberline {10.6}{\ignorespaces Pressure drop depending on the size of the catalyst bed\relax }}{55}{figure.caption.37}
+\contentsline {figure}{\numberline {10.7}{\ignorespaces $K$ values for geometry changes\relax }}{57}{figure.caption.38}
+\contentsline {figure}{\numberline {10.8}{\ignorespaces Feeding system layout (To scale)\relax }}{58}{figure.caption.39}
+\contentsline {figure}{\numberline {10.9}{\ignorespaces Feeding system layout - Zoomed (To scale)\relax }}{58}{figure.caption.40}
+\contentsline {figure}{\numberline {10.10}{\ignorespaces Pressure evolution on fuel side (bars)\relax }}{64}{figure.caption.42}
+\contentsline {figure}{\numberline {10.11}{\ignorespaces Pressure evolution on oxidizer side (bars)\relax }}{65}{figure.caption.44}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{68}{figure.caption.45}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{69}{figure.caption.46}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{70}{figure.caption.47}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{72}{figure.caption.48}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{73}{figure.caption.49}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{75}{figure.caption.50}
 \addvspace {10\p@ }
