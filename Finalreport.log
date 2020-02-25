@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  25 FEB 2020 09:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  25 FEB 2020 20:13
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -767,24 +767,30 @@ Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
 ) (D:\Miktex\tex\latex\lastpage\lastpage.sty
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
+(D:\Miktex\tex\latex\makecell\makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen193
+\c@nlinenum=\count145
+\TeXr@lab=\toks40
+)
 (D:\Miktex\tex\latex\amscls\amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks40
-\thm@bodyfont=\toks41
-\thm@headfont=\toks42
-\thm@notefont=\toks43
-\thm@headpunct=\toks44
+\thm@style=\toks41
+\thm@bodyfont=\toks42
+\thm@headfont=\toks43
+\thm@notefont=\toks44
+\thm@headpunct=\toks45
 \thm@preskip=\skip66
 \thm@postskip=\skip67
 \thm@headsep=\skip68
-\dth@everypar=\toks45
+\dth@everypar=\toks46
 )
 (D:\Miktex\tex\latex\amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 (D:\Miktex\tex\latex\amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks46
+\@emptytoks=\toks47
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
@@ -800,51 +806,51 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (D:\Miktex\tex\latex\amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks47
-\ex@=\dimen193
+\@emptytoks=\toks48
+\ex@=\dimen194
 ))
 (D:\Miktex\tex\latex\amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen194
+\pmbraise@=\dimen195
 )
 (D:\Miktex\tex\latex\amsmath\amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count145
+\inf@bad=\count146
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count146
-\leftroot@=\count147
+\uproot@=\count147
+\leftroot@=\count148
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count148
-\DOTSCASE@=\count149
+\classnum@=\count149
+\DOTSCASE@=\count150
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box64
 \strutbox@=\box65
-\big@size=\dimen195
+\big@size=\dimen196
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count150
-\c@MaxMatrixCols=\count151
+\macc@depth=\count151
+\c@MaxMatrixCols=\count152
 \dotsspace@=\muskip11
-\c@parentequation=\count152
-\dspbrk@lvl=\count153
-\tag@help=\toks48
-\row@=\count154
-\column@=\count155
-\maxfields@=\count156
-\andhelp@=\toks49
-\eqnshift@=\dimen196
-\alignsep@=\dimen197
-\tagshift@=\dimen198
-\tagwidth@=\dimen199
-\totwidth@=\dimen256
-\lineht@=\dimen257
-\@envbody=\toks50
+\c@parentequation=\count153
+\dspbrk@lvl=\count154
+\tag@help=\toks49
+\row@=\count155
+\column@=\count156
+\maxfields@=\count157
+\andhelp@=\toks50
+\eqnshift@=\dimen197
+\alignsep@=\dimen198
+\tagshift@=\dimen199
+\tagwidth@=\dimen256
+\totwidth@=\dimen257
+\lineht@=\dimen258
+\@envbody=\toks51
 \multlinegap=\skip70
 \multlinetaggap=\skip71
-\mathdisplay@stack=\toks51
+\mathdisplay@stack=\toks52
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 ) (D:\Miktex\tex\latex\bbm\bbm.sty
@@ -864,9 +870,9 @@ LaTeX Info: Redefining \bm on input line 207.
 ) (D:\Miktex\tex\latex\multirow\multirow.sty
 Package: multirow 2018/08/03 v2.3 Span multiple rows of a table
 \multirow@colwidth=\skip72
-\multirow@cntb=\count157
+\multirow@cntb=\count158
 \multirow@dima=\skip73
-\bigstrutjot=\dimen258
+\bigstrutjot=\dimen259
 )
 (D:\Miktex\tex\latex\acronym\acronym.sty
 Package: acronym 2015/03/21 v1.41 Support for acronyms (Tobias Oetiker)
@@ -876,12 +882,12 @@ Package: suffix 2006/07/15 1.5a Variant command support
 )
 (D:\Miktex\tex\latex\xstring\xstring.sty
 (D:\Miktex\tex\generic\xstring\xstring.tex
-\integerpart=\count158
-\decimalpart=\count159
+\integerpart=\count159
+\decimalpart=\count160
 )
 Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
-\AC@clearlist=\toks52
+\AC@clearlist=\toks53
 )
 (D:\Miktex\tex\latex\wasysym\wasysym.sty
 Package: wasysym 2003/10/30 v2.0 Wasy-2 symbol support package
@@ -890,11 +896,11 @@ LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
 (Font)                  U/wasy/m/n --> U/wasy/b/n on input line 90.
 )
 (D:\Miktex\tex\latex\wrapfig\wrapfig.sty
-\wrapoverhang=\dimen259
-\WF@size=\dimen260
-\c@WF@wrappedlines=\count160
+\wrapoverhang=\dimen260
+\WF@size=\dimen261
+\c@WF@wrappedlines=\count161
 \WF@box=\box66
-\WF@everypar=\toks53
+\WF@everypar=\toks54
 Package: wrapfig 2003/01/31  v 3.6
 )
 (D:\Miktex\tex\latex\eurosym\eurosym.sty
@@ -903,21 +909,21 @@ Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
 )
 (D:\Miktex\tex\latex\supertabular\supertabular.sty
 Package: supertabular 2004/02/20 v4.1e the supertabular environment
-\c@tracingst=\count161
-\ST@wd=\dimen261
+\c@tracingst=\count162
+\ST@wd=\dimen262
 \ST@rightskip=\skip74
 \ST@leftskip=\skip75
 \ST@parfillskip=\skip76
-\ST@pageleft=\dimen262
-\ST@headht=\dimen263
-\ST@tailht=\dimen264
-\ST@pagesofar=\dimen265
-\ST@pboxht=\dimen266
-\ST@lineht=\dimen267
-\ST@stretchht=\dimen268
-\ST@prevht=\dimen269
-\ST@toadd=\dimen270
-\ST@dimen=\dimen271
+\ST@pageleft=\dimen263
+\ST@headht=\dimen264
+\ST@tailht=\dimen265
+\ST@pagesofar=\dimen266
+\ST@pboxht=\dimen267
+\ST@lineht=\dimen268
+\ST@stretchht=\dimen269
+\ST@prevht=\dimen270
+\ST@toadd=\dimen271
+\ST@dimen=\dimen272
 \ST@pbox=\box68
 )
 (D:\Miktex\tex\latex\oberdiek\pdflscape.sty
@@ -937,37 +943,37 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip78
 \LTpre=\skip79
 \LTpost=\skip80
-\LTchunksize=\count162
-\LTcapwidth=\dimen272
+\LTchunksize=\count163
+\LTcapwidth=\dimen273
 \LT@head=\box69
 \LT@firsthead=\box70
 \LT@foot=\box71
 \LT@lastfoot=\box72
-\LT@cols=\count163
-\LT@rows=\count164
-\c@LT@tables=\count165
-\c@LT@chunks=\count166
-\LT@p@ftn=\toks54
+\LT@cols=\count164
+\LT@rows=\count165
+\c@LT@tables=\count166
+\c@LT@chunks=\count167
+\LT@p@ftn=\toks55
 )
 (D:\Miktex\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen273
-\lightrulewidth=\dimen274
-\cmidrulewidth=\dimen275
-\belowrulesep=\dimen276
-\belowbottomsep=\dimen277
-\aboverulesep=\dimen278
-\abovetopsep=\dimen279
-\cmidrulesep=\dimen280
-\cmidrulekern=\dimen281
-\defaultaddspace=\dimen282
-\@cmidla=\count167
-\@cmidlb=\count168
-\@aboverulesep=\dimen283
-\@belowrulesep=\dimen284
-\@thisruleclass=\count169
-\@lastruleclass=\count170
-\@thisrulewidth=\dimen285
+\heavyrulewidth=\dimen274
+\lightrulewidth=\dimen275
+\cmidrulewidth=\dimen276
+\belowrulesep=\dimen277
+\belowbottomsep=\dimen278
+\aboverulesep=\dimen279
+\abovetopsep=\dimen280
+\cmidrulesep=\dimen281
+\cmidrulekern=\dimen282
+\defaultaddspace=\dimen283
+\@cmidla=\count168
+\@cmidlb=\count169
+\@aboverulesep=\dimen284
+\@belowrulesep=\dimen285
+\@thisruleclass=\count170
+\@lastruleclass=\count171
+\@thisrulewidth=\dimen286
 )
 (D:\Miktex\tex\latex\minted\minted.sty
 Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
@@ -975,17 +981,17 @@ Package: minted 2017/07/19 v2.5 Yet another Pygments shim for LaTeX
 Package: fvextra 2019/02/04 v1.4 fvextra - extensions and patches for fancyvrb
 (D:\Miktex\tex\latex\etoolbox\etoolbox.sty
 Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count171
+\etb@tempcnta=\count172
 )
 (D:\Miktex\tex\latex\fancyvrb\fancyvrb.sty
 Package: fancyvrb 2019/01/15
 
 Style option: `fancyvrb' v3.2a <2019/01/15> (tvz)
-\FV@CodeLineNo=\count172
+\FV@CodeLineNo=\count173
 \FV@InFile=\read2
 \FV@TabBox=\box73
-\c@FancyVerbLine=\count173
-\FV@StepNumber=\count174
+\c@FancyVerbLine=\count174
+\FV@StepNumber=\count175
 \FV@OutFile=\write4
 )
 (D:\Miktex\tex\latex\upquote\upquote.sty
@@ -1148,44 +1154,44 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 ))
 (D:\Miktex\tex\latex\lineno\lineno.sty
 Package: lineno 2005/11/02 line numbers on paragraphs v4.41
-\linenopenalty=\count175
-\output=\toks55
-\linenoprevgraf=\count176
-\linenumbersep=\dimen286
-\linenumberwidth=\dimen287
-\c@linenumber=\count177
-\c@pagewiselinenumber=\count178
-\c@LN@truepage=\count179
-\c@internallinenumber=\count180
-\c@internallinenumbers=\count181
-\quotelinenumbersep=\dimen288
-\bframerule=\dimen289
-\bframesep=\dimen290
+\linenopenalty=\count176
+\output=\toks56
+\linenoprevgraf=\count177
+\linenumbersep=\dimen287
+\linenumberwidth=\dimen288
+\c@linenumber=\count178
+\c@pagewiselinenumber=\count179
+\c@LN@truepage=\count180
+\c@internallinenumber=\count181
+\c@internallinenumbers=\count182
+\quotelinenumbersep=\dimen289
+\bframerule=\dimen290
+\bframesep=\dimen291
 \bframebox=\box74
 LaTeX Info: Redefining \\ on input line 3056.
 )
-\c@FV@TrueTabGroupLevel=\count182
-\c@FV@TrueTabCounter=\count183
+\c@FV@TrueTabGroupLevel=\count183
+\c@FV@TrueTabCounter=\count184
 \FV@TabBox@Group=\box75
 \FV@TmpLength=\skip81
-\c@FV@HighlightLinesStart=\count184
-\c@FV@HighlightLinesStop=\count185
-\FV@LoopCount=\count186
+\c@FV@HighlightLinesStart=\count185
+\c@FV@HighlightLinesStop=\count186
+\FV@LoopCount=\count187
 \FV@NCharsBox=\box76
-\FV@BreakIndent=\dimen291
-\FV@BreakIndentNChars=\count187
-\FV@BreakSymbolSepLeft=\dimen292
-\FV@BreakSymbolSepLeftNChars=\count188
-\FV@BreakSymbolSepRight=\dimen293
-\FV@BreakSymbolSepRightNChars=\count189
-\FV@BreakSymbolIndentLeft=\dimen294
-\FV@BreakSymbolIndentLeftNChars=\count190
-\FV@BreakSymbolIndentRight=\dimen295
-\FV@BreakSymbolIndentRightNChars=\count191
-\c@FancyVerbLineBreakLast=\count192
+\FV@BreakIndent=\dimen292
+\FV@BreakIndentNChars=\count188
+\FV@BreakSymbolSepLeft=\dimen293
+\FV@BreakSymbolSepLeftNChars=\count189
+\FV@BreakSymbolSepRight=\dimen294
+\FV@BreakSymbolSepRightNChars=\count190
+\FV@BreakSymbolIndentLeft=\dimen295
+\FV@BreakSymbolIndentLeftNChars=\count191
+\FV@BreakSymbolIndentRight=\dimen296
+\FV@BreakSymbolIndentRightNChars=\count192
+\c@FancyVerbLineBreakLast=\count193
 \FV@LineBox=\box77
 \FV@LineIndentBox=\box78
-\FV@LineWidth=\dimen296
+\FV@LineWidth=\dimen297
 )
 (D:\Miktex\tex\latex\tools\shellesc.sty
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
@@ -1200,35 +1206,35 @@ Package: catchfile 2016/05/16 v1.7 Catch the contents of a file (HO)
 (D:\Miktex\tex\latex\framed\framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip82
-\fb@frw=\dimen297
-\fb@frh=\dimen298
-\FrameRule=\dimen299
-\FrameSep=\dimen300
+\fb@frw=\dimen298
+\fb@frh=\dimen299
+\FrameRule=\dimen300
+\FrameSep=\dimen301
 )
 \minted@appexistsfile=\read3
 \minted@bgbox=\box79
 \minted@code=\write5
-\c@minted@FancyVerbLineTemp=\count193
-\c@minted@pygmentizecounter=\count194
-\@float@every@listing=\toks56
-\c@listing=\count195
+\c@minted@FancyVerbLineTemp=\count194
+\c@minted@pygmentizecounter=\count195
+\@float@every@listing=\toks57
+\c@listing=\count196
 )
 runsystem(if not exist _minted-Finalreport mkdir _minted-Finalreport)...execute
 d.
 
-\c@definition=\count196
-\c@theoreme=\count197
-\c@remarque=\count198
-\c@propriete=\count199
-\c@exemple=\count266
+\c@definition=\count197
+\c@theoreme=\count198
+\c@remarque=\count199
+\c@propriete=\count266
+\c@exemple=\count267
 
 (D:\Miktex\tex\latex\enumitem\enumitem.sty
 Package: enumitem 2018/11/30 v3.6 Customized lists
 \labelindent=\skip83
-\enit@outerparindent=\dimen301
-\enit@toks=\toks57
+\enit@outerparindent=\dimen302
+\enit@toks=\toks58
 \enit@inbox=\box80
-\enitdp@description=\count267
+\enitdp@description=\count268
 )
 (D:\Miktex\tex\latex\psnfss\pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
@@ -1262,7 +1268,7 @@ Package: zref-xr 2016/05/21 v2.26 Module xr for zref (HO)
 Package zref Info: New property: url on input line 55.
 Package zref Info: New property: urluse on input line 56.
 Package zref Info: New property: externaldocument on input line 57.
-\ZREF@xr@URL=\count268
+\ZREF@xr@URL=\count269
 )
 (D:\Miktex\tex\latex\hyperref\xr-hyper.sty
 Package: xr-hyper 2000/03/22 v6.00beta4 eXternal References (DPC)
@@ -1284,16 +1290,16 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
 (D:\Miktex\tex\generic\xkeyval\xkeyval.tex
 (D:\Miktex\tex\generic\xkeyval\xkvutils.tex
-\XKV@toks=\toks58
-\XKV@tempa@toks=\toks59
+\XKV@toks=\toks59
+\XKV@tempa@toks=\toks60
 )
-\XKV@depth=\count269
+\XKV@depth=\count270
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 (D:\Miktex\tex\latex\mfirstuc\mfirstuc.sty
 Package: mfirstuc 2017/11/14 v2.06 (NLCT)
-\@glsmfirst=\toks60
-\@glsmrest=\toks61
+\@glsmfirst=\toks61
+\@glsmrest=\toks62
 )
 (D:\Miktex\tex\latex\textcase\textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
@@ -1304,7 +1310,7 @@ Package: datatool-base 2018/12/07 v2.31 (NLCT)
 
 (D:\Miktex\tex\latex\substr\substr.sty
 Package: substr 2009/10/20 v1.2 Handle substrings
-\c@su@anzahl=\count270
+\c@su@anzahl=\count271
 )
 (D:\Miktex\tex\latex\datatool\datatool-fp.sty
 Package: datatool-fp 2018/12/07 v2.31 (NLCT)
@@ -1314,18 +1320,18 @@ Package: fp 1995/04/02
 `Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
 (D:\Miktex\tex\latex\fp\defpattern.sty
 Package: defpattern 1994/10/12
-\actioncount=\count271
+\actioncount=\count272
 ) (D:\Miktex\tex\latex\fp\fp-basic.sty
 Package: fp-basic 1996/05/13
-\FP@xs=\count272
-\FP@xia=\count273
-\FP@xib=\count274
-\FP@xfa=\count275
-\FP@xfb=\count276
-\FP@rega=\count277
-\FP@regb=\count278
-\FP@regs=\count279
-\FP@times=\count280
+\FP@xs=\count273
+\FP@xia=\count274
+\FP@xib=\count275
+\FP@xfa=\count276
+\FP@xfb=\count277
+\FP@rega=\count278
+\FP@regb=\count279
+\FP@regs=\count280
+\FP@times=\count281
 )
 (D:\Miktex\tex\latex\fp\fp-addons.sty
 Package: fp-addons 1995/03/15
@@ -1341,7 +1347,7 @@ Package: fp-trigo 1995/04/14
 Package: fp-pas 1994/08/29
 ) (D:\Miktex\tex\latex\fp\fp-random.sty
 Package: fp-random 1995/02/23
-\FPseed=\count281
+\FPseed=\count282
 )
 (D:\Miktex\tex\latex\fp\fp-eqn.sty
 Package: fp-eqn 1995/04/03
@@ -1351,15 +1357,15 @@ Package: fp-upn 1996/10/21
 (D:\Miktex\tex\latex\fp\fp-eval.sty
 Package: fp-eval 1995/04/03
 )))
-\@dtl@toks=\toks62
-\@dtl@tmpcount=\count282
+\@dtl@toks=\toks63
+\@dtl@tmpcount=\count283
 \dtl@tmplength=\skip84
-\dtl@sortresult=\count283
-\@dtl@numgrpsepcount=\count284
-\@dtl@datatype=\count285
-\dtl@codeA=\count286
-\dtl@codeB=\count287
-\@dtl@foreach@level=\count288
+\dtl@sortresult=\count284
+\@dtl@numgrpsepcount=\count285
+\@dtl@datatype=\count286
+\dtl@codeA=\count287
+\dtl@codeB=\count288
+\@dtl@foreach@level=\count289
 )
 (D:\Miktex\tex\latex\glossaries\base\glossaries-compatible-307.sty
 Package: glossaries-compatible-307 2019/01/06 v4.42 (NLCT)
@@ -1374,13 +1380,13 @@ Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
 (D:\Miktex\tex\latex\glossaries-english\glossaries-english.ldf
 File: glossaries-english.ldf 2014/11/23 v1.0
 )
-\gls@level=\count289
-\@gls@tmpb=\toks63
+\gls@level=\count290
+\@gls@tmpb=\toks64
 \gls@tmplen=\skip85
-\glskeylisttok=\toks64
-\glslabeltok=\toks65
-\glsshorttok=\toks66
-\glslongtok=\toks67
+\glskeylisttok=\toks65
+\glslabeltok=\toks66
+\glsshorttok=\toks67
+\glslongtok=\toks68
 
 (D:\Miktex\tex\latex\glossaries\styles\glossary-hypernav.sty
 Package: glossary-hypernav 2019/01/06 v4.42 (NLCT)
@@ -1415,34 +1421,34 @@ Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
 Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
 \collectedbox=\box81
 )
-\tc@llx=\dimen302
-\tc@lly=\dimen303
-\tc@urx=\dimen304
-\tc@ury=\dimen305
+\tc@llx=\dimen303
+\tc@lly=\dimen304
+\tc@urx=\dimen305
+\tc@ury=\dimen306
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
 (D:\Miktex\tex\latex\adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen306
-\adjbox@Height=\dimen307
-\adjbox@Depth=\dimen308
-\adjbox@Totalheight=\dimen309
-\adjbox@pwidth=\dimen310
-\adjbox@pheight=\dimen311
-\adjbox@pdepth=\dimen312
-\adjbox@ptotalheight=\dimen313
+\adjbox@Width=\dimen307
+\adjbox@Height=\dimen308
+\adjbox@Depth=\dimen309
+\adjbox@Totalheight=\dimen310
+\adjbox@pwidth=\dimen311
+\adjbox@pheight=\dimen312
+\adjbox@pdepth=\dimen313
+\adjbox@ptotalheight=\dimen314
 
 (D:\Miktex\tex\latex\ifoddpage\ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count290
+\c@checkoddpage=\count291
 )
 (D:\Miktex\tex\latex\varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box82
-\sift@deathcycles=\count291
-\@vwid@loff=\dimen314
-\@vwid@roff=\dimen315
+\sift@deathcycles=\count292
+\@vwid@loff=\dimen315
+\@vwid@roff=\dimen316
 ))
 \glswrite=\write7
 \glo@main@file=\write8
@@ -1532,17 +1538,17 @@ LaTeX Font Info:    ... okay on input line 193.
 
 (D:\Miktex\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen316
+\scratchcounter=\count293
+\scratchdimen=\dimen317
 \scratchbox=\box83
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen317
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks69
+\nofMPsegments=\count294
+\nofMParguments=\count295
+\everyMPshowfont=\toks69
+\MPscratchCnt=\count296
+\MPscratchDim=\dimen318
+\MPnumerator=\count297
+\makeMPintoPDFobject=\count298
+\everyMPtoPDFconversion=\toks70
 ) (D:\Miktex\tex\latex\oberdiek\epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1581,7 +1587,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (D:\Miktex\tex\generic\oberdiek\gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count298
+\c@section@level=\count299
 )
 LaTeX Info: Redefining \ref on input line 193.
 LaTeX Info: Redefining \pageref on input line 193.
@@ -1594,12 +1600,12 @@ LaTeX Info: Redefining \nameref on input line 193.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 193.
-<logohsb.png, id=222, 200.75pt x 93.34875pt>
+<logohsb.png, id=238, 200.75pt x 93.34875pt>
 File: logohsb.png Graphic file (type png)
 <use logohsb.png>
 Package pdftex.def Info: logohsb.png  used on input line 203.
 (pdftex.def)             Requested size: 230.36061pt x 107.12515pt.
-<greder.png, id=224, 188.50426pt x 131.89275pt>
+<greder.png, id=240, 188.50426pt x 131.89275pt>
 File: greder.png Graphic file (type png)
 <use greder.png>
 Package pdftex.def Info: greder.png  used on input line 215.
@@ -1704,7 +1710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<initialschedule.png, id=316, 505.89pt x 205.2468pt>
+<initialschedule.png, id=336, 505.89pt x 205.2468pt>
 File: initialschedule.png Graphic file (type png)
 <use initialschedule.png>
 Package pdftex.def Info: initialschedule.png  used on input line 21.
@@ -1715,7 +1721,7 @@ Overfull \hbox (23.77138pt too wide) in paragraph at lines 25--25
  
  []
 
-<finalschedule.png, id=319, 505.89pt x 204.765pt>
+<finalschedule.png, id=339, 505.89pt x 204.765pt>
 File: finalschedule.png Graphic file (type png)
 <use finalschedule.png>
 Package pdftex.def Info: finalschedule.png  used on input line 30.
@@ -1742,16 +1748,44 @@ Overfull \hbox (33.05412pt too wide) in paragraph at lines 5--57
 
  (launch.tex
 Chapter 3.
-) [7
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--10
+
+ []
+
+[7
 
 
 
 ]
+<enveloppe.png, id=370, 730.52925pt x 395.076pt>
+File: enveloppe.png Graphic file (type png)
+<use enveloppe.png>
+Package pdftex.def Info: enveloppe.png  used on input line 19.
+(pdftex.def)             Requested size: 460.72124pt x 249.17047pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+) [8
+
+ <./enveloppe.png>]
 \openout2 = `mission.aux'.
 
  (mission.tex
 Chapter 4.
-) [8
+) [9
 
 
 
@@ -1761,51 +1795,51 @@ Chapter 4.
  (catch.tex
 Chapter 5.
 
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
 
-Overfull \hbox (40.69472pt too wide) in paragraph at lines 16--29
+Overfull \hbox (40.69472pt too wide) in paragraph at lines 17--30
  [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--35
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-[9
+[10
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<magnetCAD.png, id=372, 490.2315pt x 276.43275pt>
+<magnetCAD.png, id=400, 490.2315pt x 276.43275pt>
 File: magnetCAD.png Graphic file (type png)
 <use magnetCAD.png>
-Package pdftex.def Info: magnetCAD.png  used on input line 67.
+Package pdftex.def Info: magnetCAD.png  used on input line 68.
 (pdftex.def)             Requested size: 460.72124pt x 259.79619pt.
-[11 <./magnetCAD.png>]
-<catching.png, id=381, 767.2665pt x 273.4215pt>
+[12 <./magnetCAD.png>]
+<catching.png, id=409, 767.2665pt x 273.4215pt>
 File: catching.png Graphic file (type png)
 <use catching.png>
-Package pdftex.def Info: catching.png  used on input line 88.
+Package pdftex.def Info: catching.png  used on input line 89.
 (pdftex.def)             Requested size: 460.72124pt x 164.18349pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
 
-[12 <./catching.png>]
+[13 <./catching.png>]
 \openout4 = `Finalreport.pyg'.
 
  (_minted-Finalreport/default-pyg-prefix.pygstyle)
@@ -1823,7 +1857,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 
 
 (_minted-Finalreport/C8BE0004FB84CEA275E6266E38CDB8C2F8C1700CD029DD70258A628F48
-755E37.pygtex)) [13]
+755E37.pygtex)) [14]
 \openout2 = `heatshield.aux'.
 
  (heatshield.tex
@@ -1839,67 +1873,86 @@ Underfull \hbox (badness 10000) in paragraph at lines 4--5
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2088) has occurred while \output is active []
 
- [14
+ [15
 
 
 
 ]
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 49--51
+Underfull \hbox (badness 10000) in paragraph at lines 16--43
 
  []
 
-<shapedrag.png, id=417, 356.0502pt x 266.4354pt>
-File: shapedrag.png Graphic file (type png)
-<use shapedrag.png>
-Package pdftex.def Info: shapedrag.png  used on input line 54.
-(pdftex.def)             Requested size: 322.50345pt x 241.34264pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
-
- []
-
-[17 <./shapedrag.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--72
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 73--74
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
+[17]
+<shapedrag.png, id=472, 356.0502pt x 266.4354pt>
+File: shapedrag.png Graphic file (type png)
+<use shapedrag.png>
+Package pdftex.def Info: shapedrag.png  used on input line 79.
+(pdftex.def)             Requested size: 322.50345pt x 241.34264pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
- [18]
-<grederviews.png, id=447, 433.62pt x 259.2084pt>
+ []
+
+[18 <./shapedrag.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
+
+ []
+
+<shadowgraph.png, id=488, 433.62pt x 335.3328pt>
+File: shadowgraph.png Graphic file (type png)
+<use shadowgraph.png>
+Package pdftex.def Info: shadowgraph.png  used on input line 109.
+(pdftex.def)             Requested size: 460.72124pt x 356.31068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--111
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+[20 <./shadowgraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 117--118
+
+ []
+
+<grederviews.png, id=509, 433.62pt x 259.2084pt>
 File: grederviews.png Graphic file (type png)
 <use grederviews.png>
-Package pdftex.def Info: grederviews.png  used on input line 84.
+Package pdftex.def Info: grederviews.png  used on input line 126.
 (pdftex.def)             Requested size: 460.72124pt x 275.42404pt.
 )
-[19 <./grederviews.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+[22 <./grederviews.png>]
 \openout2 = `propellantselection.aux'.
 
  (propellantselection.tex
@@ -1909,7 +1962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
-[20
+[23
 
 
 
@@ -1938,12 +1991,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<propcombination.png, id=463, 410.13225pt x 308.352pt>
+<propcombination.png, id=531, 410.13225pt x 308.352pt>
 File: propcombination.png Graphic file (type png)
 <use propcombination.png>
 Package pdftex.def Info: propcombination.png  used on input line 33.
 (pdftex.def)             Requested size: 460.72124pt x 346.3917pt.
-[21]
+[24]
 Overfull \hbox (54.59581pt too wide) in paragraph at lines 38--38
 []\T1/cmr/bx/n/17.28 Detailed com-par-i-son be-tween MON/MMH and H2O2/RP-
  []
@@ -1958,7 +2011,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
 
-[22 <./propcombination.png>]
+[25 <./propcombination.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1978,24 +2031,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-<detailedcompprop.png, id=479, 409.53pt x 389.0535pt>
+<detailedcompprop.png, id=546, 409.53pt x 389.0535pt>
 File: detailedcompprop.png Graphic file (type png)
 <use detailedcompprop.png>
 Package pdftex.def Info: detailedcompprop.png  used on input line 63.
 (pdftex.def)             Requested size: 460.72124pt x 437.71378pt.
-[23] [24 <./detailedcompprop.png>]
-<histflightprop.png, id=492, 410.13225pt x 284.86424pt>
+[26] [27 <./detailedcompprop.png>]
+<histflightprop.png, id=559, 410.13225pt x 284.86424pt>
 File: histflightprop.png Graphic file (type png)
 <use histflightprop.png>
 Package pdftex.def Info: histflightprop.png  used on input line 77.
 (pdftex.def)             Requested size: 460.72124pt x 320.00638pt.
-) [25 <./histflightprop.png>] [26]
+) [28 <./histflightprop.png>] [29]
 \openout2 = `vehicledesign.aux'.
 
 
 (vehicledesign.tex
 Chapter 8.
-) [27
+) [30
 
 
 
@@ -2028,14 +2081,14 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 38.
 
-[28
+[31
 
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29]
+ [32]
 Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
@@ -2043,21 +2096,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-[31]
+ [33]
+[34]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32]
-[33] [34] [35]
+ [35]
+[36] [37] [38]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37]) [38]
+ [39]
+[40]) [41]
 \openout2 = `prop.aux'.
 
  (prop.tex
 Chapter 10.
-<pressurizationsystem.png, id=601, 264.99pt x 357.4956pt>
+<pressurizationsystem.png, id=668, 264.99pt x 357.4956pt>
 File: pressurizationsystem.png Graphic file (type png)
 <use pressurizationsystem.png>
 Package pdftex.def Info: pressurizationsystem.png  used on input line 5.
@@ -2065,12 +2118,12 @@ Package pdftex.def Info: pressurizationsystem.png  used on input line 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39
+ [42
 
 
 
 ]
-<flowenginesection.png, id=610, 301.6068pt x 342.5598pt>
+<flowenginesection.png, id=677, 301.6068pt x 342.5598pt>
 File: flowenginesection.png Graphic file (type png)
 <use flowenginesection.png>
 Package pdftex.def Info: flowenginesection.png  used on input line 12.
@@ -2078,127 +2131,163 @@ Package pdftex.def Info: flowenginesection.png  used on input line 12.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40 <./pressurizationsystem.png>]
+ [43 <./pressurizationsystem.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41 <./flowenginesection.png>]
-<H2O2.png, id=627, 225.2415pt x 105.996pt>
+ [44 <./flowenginesection.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--25
+
+ []
+
+<shiprcs.png, id=693, 670.75594pt x 400.49625pt>
+File: shiprcs.png Graphic file (type png)
+<use shiprcs.png>
+Package pdftex.def Info: shiprcs.png  used on input line 30.
+(pdftex.def)             Requested size: 460.72124pt x 275.08994pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+[45 <./shiprcs.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
+
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
+
+ []
+
+[47
+
+]
+<H2O2.png, id=712, 225.2415pt x 105.996pt>
 File: H2O2.png Graphic file (type png)
 <use H2O2.png>
-Package pdftex.def Info: H2O2.png  used on input line 27.
+Package pdftex.def Info: H2O2.png  used on input line 103.
 (pdftex.def)             Requested size: 225.24094pt x 105.99573pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--32
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
-<catalyst.png, id=628, 274.626pt x 102.98476pt>
+<catalyst.png, id=713, 274.626pt x 102.98476pt>
 File: catalyst.png Graphic file (type png)
 <use catalyst.png>
-Package pdftex.def Info: catalyst.png  used on input line 40.
+Package pdftex.def Info: catalyst.png  used on input line 116.
 (pdftex.def)             Requested size: 274.62532pt x 102.98448pt.
 
-Underfull \vbox (badness 2941) has occurred while \output is active []
-
- [42 <./H2O2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
+[48
 
-Underfull \hbox (badness 10000) in paragraph at lines 52--53
+ <./H2O2.png> <./catalyst.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
-<pressuredrop.png, id=636, 1194.71344pt x 644.4075pt>
+<pressuredrop.png, id=723, 1194.71344pt x 644.4075pt>
 File: pressuredrop.png Graphic file (type png)
 <use pressuredrop.png>
-Package pdftex.def Info: pressuredrop.png  used on input line 58.
+Package pdftex.def Info: pressuredrop.png  used on input line 134.
 (pdftex.def)             Requested size: 460.72124pt x 248.50572pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+[49 <./pressuredrop.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+<pertecharge.png, id=730, 192.11775pt x 247.52475pt>
+File: pertecharge.png Graphic file (type png)
+<use pertecharge.png>
+Package pdftex.def Info: pertecharge.png  used on input line 155.
+(pdftex.def)             Requested size: 265.02896pt x 341.43306pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43 <./catalyst.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 62--63
+ [50]
+Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
 
  []
 
-<pertecharge.png, id=644, 192.11775pt x 247.52475pt>
-File: pertecharge.png Graphic file (type png)
-<use pertecharge.png>
-Package pdftex.def Info: pertecharge.png  used on input line 79.
-(pdftex.def)             Requested size: 265.02896pt x 341.43306pt.
-[44 <./pressuredrop.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 82--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-<feeding.png, id=651, 110.814pt x 218.0145pt>
+<feeding.png, id=736, 110.814pt x 218.0145pt>
 File: feeding.png Graphic file (type png)
 <use feeding.png>
-Package pdftex.def Info: feeding.png  used on input line 89.
+Package pdftex.def Info: feeding.png  used on input line 165.
 (pdftex.def)             Requested size: 144.62967pt x 284.52756pt.
-<feedingzoom.png, id=652, 348.70274pt x 291.489pt>
+<feedingzoom.png, id=737, 348.70274pt x 291.489pt>
 File: feedingzoom.png Graphic file (type png)
 <use feedingzoom.png>
-Package pdftex.def Info: feedingzoom.png  used on input line 94.
+Package pdftex.def Info: feedingzoom.png  used on input line 170.
 (pdftex.def)             Requested size: 272.30095pt x 227.62204pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45 <./pertecharge.png>]
+ [51 <./pertecharge.png>]
 Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [46 <./feeding.png> <./feedingzoom.png>] [47]
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+ [52 <./feeding.png> <./feedingzoom.png>] [53]
+Underfull \hbox (badness 10000) in paragraph at lines 232--233
 
  []
 
-[48]
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
-[49] [50]
-<fuelchart.png, id=717, 487.22025pt x 235.47975pt>
+[55] [56]
+<fuelchart.png, id=802, 487.22025pt x 235.47975pt>
 File: fuelchart.png Graphic file (type png)
 <use fuelchart.png>
-Package pdftex.def Info: fuelchart.png  used on input line 286.
+Package pdftex.def Info: fuelchart.png  used on input line 362.
 (pdftex.def)             Requested size: 460.72124pt x 222.66966pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [51]
-<oxchart.png, id=731, 482.40225pt x 210.18526pt>
+ [57]
+<oxchart.png, id=816, 482.40225pt x 210.18526pt>
 File: oxchart.png Graphic file (type png)
 <use oxchart.png>
-Package pdftex.def Info: oxchart.png  used on input line 333.
+Package pdftex.def Info: oxchart.png  used on input line 409.
 (pdftex.def)             Requested size: 460.72124pt x 200.74925pt.
 
-[52 <./fuelchart.png>])
+[58 <./fuelchart.png>])
 Underfull \vbox (badness 5622) has occurred while \output is active []
 
- [53 <./oxchart.png>] [54]
+ [59 <./oxchart.png>] [60]
 \openout2 = `Simulation.aux'.
 
  (Simulation.tex
 Chapter 11.
-<thrusttime.png, id=759, 421.575pt x 316.0608pt>
+<thrusttime.png, id=840, 421.575pt x 316.0608pt>
 File: thrusttime.png Graphic file (type png)
 <use thrusttime.png>
 Package pdftex.def Info: thrusttime.png  used on input line 22.
@@ -2206,12 +2295,12 @@ Package pdftex.def Info: thrusttime.png  used on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55
+ [61
 
 
 
 ]
-<accdeltav.png, id=768, 421.575pt x 316.0608pt>
+<accdeltav.png, id=848, 421.575pt x 316.0608pt>
 File: accdeltav.png Graphic file (type png)
 <use accdeltav.png>
 Package pdftex.def Info: accdeltav.png  used on input line 28.
@@ -2219,8 +2308,8 @@ Package pdftex.def Info: accdeltav.png  used on input line 28.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./thrusttime.png>]
-<propmasstime.png, id=777, 421.575pt x 316.0608pt>
+ [62 <./thrusttime.png>]
+<propmasstime.png, id=856, 421.575pt x 316.0608pt>
 File: propmasstime.png Graphic file (type png)
 <use propmasstime.png>
 Package pdftex.def Info: propmasstime.png  used on input line 36.
@@ -2228,21 +2317,21 @@ Package pdftex.def Info: propmasstime.png  used on input line 36.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57 <./accdeltav.png>]
+ [63 <./accdeltav.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./propmasstime.png>]
+ [64 <./propmasstime.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[59]
-<coolingchannelwidth.png, id=800, 421.575pt x 316.0608pt>
+[65]
+<coolingchannelwidth.png, id=877, 421.575pt x 316.0608pt>
 File: coolingchannelwidth.png Graphic file (type png)
 <use coolingchannelwidth.png>
 Package pdftex.def Info: coolingchannelwidth.png  used on input line 61.
 (pdftex.def)             Requested size: 414.6463pt x 310.8708pt.
-<relevanttemps.png, id=802, 421.575pt x 316.0608pt>
+<relevanttemps.png, id=879, 421.575pt x 316.0608pt>
 File: relevanttemps.png Graphic file (type png)
 <use relevanttemps.png>
 Package pdftex.def Info: relevanttemps.png  used on input line 68.
@@ -2250,8 +2339,8 @@ Package pdftex.def Info: relevanttemps.png  used on input line 68.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [60 <./coolingchannelwidth.png>] [61 <./relevanttemps.png>]
-<feasibility.png, id=820, 371.58826pt x 302.93175pt>
+ [66 <./coolingchannelwidth.png>] [67 <./relevanttemps.png>]
+<feasibility.png, id=897, 371.58826pt x 302.93175pt>
 File: feasibility.png Graphic file (type png)
 <use feasibility.png>
 Package pdftex.def Info: feasibility.png  used on input line 86.
@@ -2259,24 +2348,24 @@ Package pdftex.def Info: feasibility.png  used on input line 86.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [62])
-[63 <./feasibility.png>]
+ [68])
+[69 <./feasibility.png>]
 \openout2 = `lessons.aux'.
 
  (lessons.tex
 Chapter 12.
-) [64
+) [70
 
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (Conclusion.tex) [65
+ (Conclusion.tex) [71
 
 
 
-] [66
+] [72
 
 ]
 \openout2 = `lexique_an_fr.aux'.
@@ -2287,7 +2376,7 @@ No file lexique_an_fr.tex.
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [67
+ [73
 
 
 
@@ -2295,7 +2384,7 @@ No file lexique_an_fr.tex.
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [68
+ [74
 
 ]
 \openout2 = `annexes.aux'.
@@ -2304,7 +2393,7 @@ No file lexique_an_fr.tex.
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=886, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=970, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf>
 Package pdftex.def Info: Gantt.pdf  used on input line 3.
@@ -2325,7 +2414,7 @@ on <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=889, page=1, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=973, page=1, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
@@ -2334,7 +2423,7 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[69
+[75
 
 
 ]
@@ -2350,11 +2439,11 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
- [70 <./Gantt.pdf, page is rotated 90 degrees>]
+ [76 <./Gantt.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1132, page=2, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1217, page=2, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 2>
 Package pdftex.def Info: Gantt.pdf , page2 used on input line 3.
@@ -2367,11 +2456,11 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 2>
 Package pdftex.def Info: Gantt.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[71 <./Gantt.pdf, page is rotated 90 degrees>]
+[77 <./Gantt.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1207, page=3, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1292, page=3, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 3>
 Package pdftex.def Info: Gantt.pdf , page3 used on input line 3.
@@ -2384,16 +2473,23 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 3>
 Package pdftex.def Info: Gantt.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[72 <./Gantt.pdf, page is rotated 90 degrees>])
+[78 <./Gantt.pdf, page is rotated 90 degrees>])
 Overfull \hbox (27.12483pt too wide) in paragraph at lines 327--329
 []\T1/cmr/m/n/10 https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-85
 1-satellite-engineering-fall-2003/le cture-
  []
 
 
+Overfull \hbox (159.17592pt too wide) in paragraph at lines 336--337
+[]\T1/cmr/m/n/10 An In-ter-net Book on Fluid Dy-nam-ics - The Flat Plate Air-fo
+il :http://brennen.caltech.edu/fluidbook/externalflows/lift/flatplateairfoil.pd
+f 
+ []
+
+
 AED: lastpage setting LastPage
-[73
-\newlabel{Gantt}{{12.2}{73}{Annex I - Gantt Diagramm}{section*.48}{}}
+[79
+\newlabel{Gantt}{{12.2}{79}{Annex I - Gantt Diagramm}{section*.51}{}}
 
 
 ]
@@ -2402,73 +2498,78 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 338.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 338.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
 (Finalreport.aux (introduction.aux) (schedule.aux) (requirements.aux)
 (launch.aux) (mission.aux) (catch.aux) (heatshield.aux)
 (propellantselection.aux) (vehicledesign.aux) (massmodel.aux) (prop.aux)
 (Simulation.aux) (lessons.aux) (Conclusion.aux) (lexique_an_fr.aux)
 (annexes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 338.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 338.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 342.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 342.
+Package rerunfilecheck Info: File `Finalreport.out' has not changed.
+(rerunfilecheck)             Checksum: 93616E98BF2A1E47DD32B0671D82EE7D;4114.
 
-
-Package rerunfilecheck Warning: File `Finalreport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Finalreport.out':
-(rerunfilecheck)             Before: 5DDAEE7E77E5DFD995C2E7C39CFB1C8A;3860
-(rerunfilecheck)             After:  A33D81531F998B791F242DCE9A6B084B;4191.
 
 LaTeX Warning: There were multiply-defined labels.
 
 runsystem(del Finalreport.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 338.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 342.
  ) 
 Here is how much of TeX's memory you used:
- 43520 strings out of 492970
- 960047 string characters out of 3143823
- 1286555 words of memory out of 3000000
- 46065 multiletter control sequences out of 15000+200000
- 30918 words of font info for 92 fonts, out of 3000000 for 9000
+ 43720 strings out of 492970
+ 962189 string characters out of 3143823
+ 1289795 words of memory out of 3000000
+ 46237 multiletter control sequences out of 15000+200000
+ 33625 words of font info for 101 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,18n,136p,2001b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{figure.caption.36} has been referenced but does n
-ot exist, replaced by a fixed one
+ 78i,19n,136p,2001b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
+st, replaced by a fixed one
 
-pdfTeX warning (dest): name{figure.caption.34} has been referenced but does not
- exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
 
- <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ec
-rm1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
-\dpi600\tcrm0800.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
-knappen\ec\dpi600\ecbi1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\p
-k\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2
-.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\Users\Huynh\AppData\Loca
-l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk> <C:\Users\Huynh\Ap
-pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk> <C:\User
-s\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\e
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+ <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\tc
+rm0800.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec
+\dpi600\ecbi1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\j
+knappen\ec\dpi600\ecrm0700.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\p
+k\ljfour\jknappen\ec\dpi600\ecrm0800.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2
+.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1000.pk> <C:\Users\Huynh\AppData\Loca
+l\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1000.pk> <C:\Users\Huynh\Ap
+pData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm0600.pk> <C:\User
+s\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\t
 crm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\e
-c\dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
-jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\
-pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\
-2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Users\Huynh\AppData\Loc
-al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.pk> <C:\Users\Huynh\A
-ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx2488.pk><D:/Mikt
-ex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Mik
-tex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Mikte
-x/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Miktex/fonts/type1/public/amsfont
-s/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/f
-onts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfonts/
-cm/cmsy8.pfb>
-Output written on Finalreport.pdf (76 pages, 2699801 bytes).
+c\dpi600\ecbx1728.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\
+jknappen\ec\dpi600\ecrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\
+pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\
+2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecbi1440.pk> <C:\Users\Huynh\AppData\Loc
+al\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk> <C:\Users\Huynh\A
+ppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1440.pk> <C:\Use
+rs\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2488.p
+k> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\
+ecbx2488.pk><D:/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Miktex/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Miktex/fonts/type1/public/amsfonts/c
+m/cmmi12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmmi6.pfb><D:/Miktex/fon
+ts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Miktex/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/c
+mr6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Miktex/fonts/typ
+e1/public/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1
+/public/amsfonts/cm/cmsy7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on Finalreport.pdf (82 pages, 3240514 bytes).
 PDF statistics:
- 1928 PDF objects out of 2073 (max. 8388607)
- 289 named destinations out of 1000 (max. 500000)
- 610 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2053 PDF objects out of 2073 (max. 8388607)
+ 303 named destinations out of 1000 (max. 500000)
+ 657 words of extra memory for PDF output out of 10000 (max. 10000000)
 
