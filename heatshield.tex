@@ -1,15 +1,21 @@
 \chapter{Heat shield}
+\section{Thermal protection system}
 \qquad A complete deorbiting mission from LEO to GEO and returning to LEO has a very high delta-V requirement of  roughly $8.5$ km/s. To reduce this delta-V the GREDER spacecraft will use atmospheric drag in the upper atmosphere at an altitude of $70-120$ km to reduce its relative velocity when returning from GEO to LEO. This kind of maneuver is called an aerobrake and has the potential to save a significant amount of fuel and total spacecraft mass. Aerobrakes are commonly used for reentry vehicles. However, these experience very high thermal loads since the kinetic energy is converted to heat through friction with the atmosphere in a single reentry trajectory. Thus, a high mass for a heat shield is necessary. For a reusable spacecraft ablative heat shields are not useful. Instead, a passively cooled thermal protection system (TPS) was chosen. This allows to radiate the heat away. When the velocity is reduced into small increments the spacecraft can radiate the heat away in the time between the aerobrakes. The advantage is, that fuel is only required for trimming maneuvers to set the targeted perigee radius and not for the decelleration itself. A high number of aerobrakes can be performed with relatively small heat loads if extended mission time is not of a large concern.\\
 
-Since the GREDER spacecraft is unmanned and does not utilize cryogenic fuels the extended mission time is not as critical. A heat shield needs to be developed for the spacecraft to protect it at the areas with the highest heat loads.\\
+Since the GREDER spacecraft is unmanned and does not utilize cryogenic fuels the extended mission time is not as critical. A heat shield needs to be developed for the spacecraft to protect it at the areas with the highest heat loads.
 
-For first rough calculations the total velocity reduced by the aerobrakes was determined as $2.4$ km/s. This is the difference in velocity between the perigee velocity of the transfer orbit from GEO to aerobraking altitude and the velocity of the perigee of the transfer orbit from the last aerobrake to LEO. The mass of the spacecraft after deorbiting was estimated at $3500$ kg. This results in a kinetic energy of:
+\section{First estimation}
+
+\qquad For first rough calculations the total velocity reduced by the aerobrakes was determined as $2.4$ km/s. This is the difference in velocity between the perigee velocity of the transfer orbit from GEO to aerobraking altitude and the velocity of the perigee of the transfer orbit from the last aerobrake to LEO. The mass of the spacecraft after deorbiting was estimated at $3500$ kg. This results in a kinetic energy of:
 
 \begin{equation}
 	E_{kinetic} = \frac{m_{sc}\Delta v^2}{2} = 10.04\ GJ
 \end{equation}
 
 For a number of $15$ aerobrakes this kinetic energy needs to be divided by $15$ assuming the temperature at the beginning of each aerobrake will be the same.  This kinetic energy was then assumed to be completely converted to thermal energy and distributed evenly over the mass of a heat shield. With the maximum allowable temperature of the chosen material a rough required heat shield mass could be estimated.
+
+\section{Material choice}
+
 \begin{align}
 	E_{kinetic} &= \frac{mv^2}{2}\\
 	m_{shield} &=\frac{E_{kinetic}}{c\times dT}
@@ -55,7 +61,9 @@ With :
 	\item $T_0$ : Temperature at beginning of aerobrakes
 \end{itemize}
 
-An aerobrake can also be used to change the inclination of the orbital plane. To achieve this the spacecraft needs to be a lifting body. To increase the lift wings can be attached to increase the projeted area of the spacecraft. This area affects both the lift and drag of the spacecraft.
+\section{Lift and drag}
+
+\qquad An aerobrake can also be used to change the inclination of the orbital plane. To achieve this the spacecraft needs to be a lifting body. To increase the lift wings can be attached to increase the projeted area of the spacecraft. This area affects both the lift and drag of the spacecraft.
 \begin{align}
 	F_l &= C_l\times\frac \rho 2 \times v_1^2 \times A_h\\
 	\Rightarrow F_l &= 13.9\ kN\\
@@ -100,27 +108,78 @@ To compute the angle of attack these formulas need to be equated and the formula
 	\alpha = \arcsin(\frac{\Delta v_{inc2_p}}{\Delta v_5}\times \frac{C_D}{2\pi})
 \end{equation}
 
-For an angle of attack of $11^\circ$ the angle of the resulting vector of lift and drag is $76^\circ$. This results in a balance of both forces during each aerobrake.\\
+For an angle of attack of $11^\circ$ the angle of the resulting vector of lift and drag is $76^\circ$. This results in a balance of both forces during each aerobrake.
 
-To estimate the altitude of the aerobrakes, the Matlab function atmoscoesa was used. Here the density of the atmosphere is calculated by altitude between $0$ and roughly $84000$ m. The values for higher altitudes are extrapolated. A higher altitude results in a longer necessary time in the atmosphere. This has the benefit of a slower heating up of the spacecraft and low values for lift and drag forces. However this could require a higher number of aerobrakes. Weighing these parameters against each other an altitude of $82$ km was chosen for the aerobrakes. At this altitude the total aerobraking time is $30.4$ minutes. At a number of $20$ aerobrakes each would take roughly 91 seconds. During the first aerobrake the distance traveled would be roughly $937$ km and during the last roughly $730$ km. The forces acted upon the spacecraft are $13.9$ kN for lift and $3.5$ kN for drag. At a remaining scpacecraft mass of $3000$ kg this adds up to an acceleration of $4.8$ km/s$^2$ so roughly $0.5$ Gs. These values seemed reasonable since this would keep the mechanical stress relatively low allowing for reusability of the GREDER spacecraft.\\
+\section{Aerobraking altitude}
 
-Regarding the thermal loads on the spacecraft the heat shield needs a little more detail. Modeling the heat flux and conductance within the heat shield is simplified due to complexity. Since the even distribution of the heat over the shield is inaccurate several conservative assumptions shall leave a margin for this. CFRC retains its mechanical properties up to $2400^\circ$ C\footnote{\url{https://www.makeitfrom.com/material-properties/Carbon-Carbon}}. The maximum allowable temperature used for the heat shield modeling is 2000 Kelvin. Also, the assumed temperature at the beginning of the aerorakes is $400$ Kelvin. Furthermore It is assumed that the entire kinetic energy is converted to thermal energy and this is completely distributed onto the spacecraft. In reality however not only the spacecraft but also the atmosphere would be heated through friction. This is highly dependent on the geometry of the body. Most reentry vehicles use blunt front faces to "push" a protective shock wave heat shield in front of them. This keeps the highest heat loads away from the surface. This affect can be seen in \autoref{figtim1} below. \\
+\qquad To estimate the altitude of the aerobrakes, the Matlab function atmoscoesa was used. Here the density of the atmosphere is calculated by altitude between $0$ and roughly $84000$ m. The values for higher altitudes are extrapolated. A higher altitude results in a longer necessary time in the atmosphere. This has the benefit of a slower heating up of the spacecraft and low values for lift and drag forces. However this could require a higher number of aerobrakes. Weighing these parameters against each other an altitude of $82$ km was chosen for the aerobrakes. At this altitude the total aerobraking time is $30.4$ minutes. At a number of $20$ aerobrakes each would take roughly 91 seconds. During the first aerobrake the distance traveled would be roughly $937$ km and during the last roughly $730$ km. The forces acted upon the spacecraft are $13.9$ kN for lift and $3.5$ kN for drag. At a remaining scpacecraft mass of $3000$ kg this adds up to an acceleration of $4.8$ km/s$^2$ so roughly $0.5$ Gs. These values seemed reasonable since this would keep the mechanical stress relatively low allowing for reusability of the GREDER spacecraft.
+
+\section{Simplifications}
+\qquad Regarding the thermal loads on the spacecraft the heat shield needs a little more detail. Modeling the heat flux and conductance within the heat shield is simplified due to complexity. Since the even distribution of the heat over the shield is inaccurate several conservative assumptions shall leave a margin for this. CFRC retains its mechanical properties up to $2400^\circ$ C\footnote{\url{https://www.makeitfrom.com/material-properties/Carbon-Carbon}}. The maximum allowable temperature used for the heat shield modeling is 2000 Kelvin. Also, the assumed temperature at the beginning of the aerorakes is $400$ Kelvin. Furthermore It is assumed that the entire kinetic energy is converted to thermal energy and this is completely distributed onto the spacecraft. In reality however not only the spacecraft but also the atmosphere would be heated through friction. This is highly dependent on the geometry of the body. Most reentry vehicles use blunt front faces to "push" a protective shock wave heat shield in front of them. This keeps the highest heat loads away from the surface. This affect can be seen in \autoref{figtim1} below. \\
 \begin{figure}[H]
 	\centering\includegraphics[width=\linewidth]{shadowgraph}
 	\caption{Shadowgraph images of Reentry vehicles}\label{figtim1}
 \end{figure}
 
-As a further simplification, heat transfer is considered solely through convection during the aerobrake maneuver and solely through radiation during the completion of each orbit. The short duration of the aerobrakes is not very significant compared to the duration of a completed orbit ($90$ s vs. roughly $90$ minutes). Furthermore the heat capacity of CFRC increases with increasing temperature. At $750$ Kelvin the specific heat capacity is roughly double the value compared to ambient temperature (Specific Heat of Carbon/Carbon Composites \footnote{\url{https://apps.dtic.mil/dtic/tr/fulltext/u2/a106709.pdf }}) This leaves an increased margin during the peak heat loads of the atmospheric breaking.\\
+As a further simplification, heat transfer is considered solely through convection during the aerobrake maneuver and solely through radiation during the completion of each orbit. The short duration of the aerobrakes is not very significant compared to the duration of a completed orbit ($90$ s vs. roughly $90$ minutes). Furthermore the heat capacity of CFRC increases with increasing temperature. At $750$ Kelvin the specific heat capacity is roughly double the value compared to ambient temperature (Specific Heat of Carbon/Carbon Composites \footnote{\url{https://apps.dtic.mil/dtic/tr/fulltext/u2/a106709.pdf }}) This leaves an increased margin during the peak heat loads of the atmospheric breaking.
 
-To avoid mechanical failure of the spacecraft hull beneath the heat shield a aerogel layer is introduced due to its excellent isolating properties and very low density. Here a $10$ mm layer of silica aerogel blankets at a density of roughly $20$0 kg/m$^3$ is utilized. \\
+\section{Heat shield interface}
 
-The thermal loads are expected to be highest on the leading edges of the spacecraft's wings and the nose of the spacecraft. In these areas the heat shield shall have the largest thickness. \autoref{figtim1} shows the areas where the heat shield will be applied. roughly half of the GREDER spacecraft will be covered by the heat shield. This includes the lower faces and leading faces. The upper side and rear of the spacecraft is not expected to endure high thermal loads during the aerobraking maneuvers since the nose will be tilted upwards exposing the lower side.\\
+\qquad To avoid mechanical failure of the spaceraft's hull beneath the heat shield an insulating blanket will be applied underneath the CFRC heat shield. Herefore, the flight proven AFRSI Blanket was chosen due
+to its excellent isolating properties and very low density. Here a 10 mm layer of the silica blanket at a density of $\rho_AF = 9.6$ kg/m$^3$ and an additive aereal weight of $m_add = 1$ kg/m$^2$ is utilized.\footnote{\url{https://tpsx.arc.nasa.gov/material.html?matid=12}}
 
-\textbf{Final heat shield mass} : 
+The thermal loads are expected to be highest on the leading edges of the spacecraft's wings and the nose of the spacecraft. In these areas the heat shield shall have the largest thickness. \autoref{figtim1} shows the areas where the heat shield will be applied. roughly half of the GREDER spacecraft will be covered by the heat shield. This includes the lower faces and leading faces. The upper side and rear of the spacecraft is not expected to endure high thermal loads during the aerobraking maneuvers since the nose will be tilted upwards exposing the lower side.
+
+\section{Radiative cooling}
+\qquad To verify that the radiative cooling of the CFRC shield is sufficient, an interactive model of the radiated heat was created. To calculate the Power radiated by a gray body in space the following formula was used:
+\begin{equation}
+	P = Aj^* = A\varepsilon\sigma T^4
+\end{equation}
+
+The emissivity of CFRC is $\varepsilon = 0.78$ and $\sigma$ is the Stefan-Boltzmann constant. \footnote{\url{https://tpsx.arc.nasa.gov/material.html?matid=24\&units=si}}As a starting
+temperature the maximum allowable temperature of $1982$ K was used and for the simulation time the
+period of the shortest and last orbit with a period of roughly $80$ minutes or $4800$ seconds. The surface area of the heat shield is half of the total spacecraft surface area.\\
+
+Calculating the emitted energy could be transferred into a temperature delta for each second of the
+simulation. after $4800$ iterations the temperature is plotted. The last value of $233$ K is lower than the assumed $400$ K and thus leaves some safety margin.
+
+\begin{minted}[fontsize=\footnotesize, linenos, autogobble, breaklines]{matlab}
+sigma=5.6703E-8 %W/m2K4 stefan boltzmann constant
+eps_cc=0.78;
+T1=zeros(1,4800); %K
+T1(1)=1982; %K
+for k=1:1:length(T1)-1
+T_rad=sigma*T1(k)^4*eps_cc*A_sc_tot/2/c_cc/m_tps_cc;
+T1(k+1)=T1(k)-T_rad;
+end
+plot(T1);
+\end{minted}
+\begin{figure}[H]
+	\centering\includegraphics[width=0.9\linewidth]{radcooling}
+	\caption{Radiative cooling of the heat shield}
+\end{figure}
+
+\section{Final heat shield mass}
+
+\qquad For the final mass of the TPS a specific heat capacity for CFRC of $c_{cc} = 840$ kJ/kg-K was assumed. Moreover :
+
+\begin{itemize}
+	\item $\Delta v_5=2.396$ km/s
+	\item Spacecraft mass $m_{sc}=3000$ kg
+	\item Number of aerobrakes $n_{ab}=20$
+	\item Maximum allowable temperature $T_{Max_{cc}} = 1982$ K
+	\item Starting temperature $T_0=400$ K
+\end{itemize}
+At a surface area of the total spacecraft of $A_{sc_{tot}} = 67.4$ m$^2$ and half of the
+surface covered with the TPS also the AFRSI blanket mass can be calculated.
+
 \begin{align}
-	m_{shield_cc} &= \frac{m_{sc} \times (\Delta v_5\times 1000)^2}{40\times c_{cc}(T_{max_{cc}}-T_0)} = 344.9\ kg\\
-	m_{aerogel} &= A_v\times 0.01\times 200 = 17.3kg\\
-	m_{shield_{total}} &= 362.2 kg
+	m_{tps_{cc}} = \frac{(\Delta v_5\times 1000)^2m_{sc}}{2n_{ab}c_{cc}(T_{max_{cc}} - T_0)} = 323.9\ kg\\
+	m_{blanket}=\frac{\rho_{AF}A_{sc_{tot}}}{2*0.01} + \frac{A_{sc_{tot}}}{m_{add}} = 37\ kg\\
+	m_{tps} = m_{blanket} + m_{tps_{cc}} = 360.9\ kg
+	%m_{shield_cc} &= \frac{m_{sc} \times (\Delta v_5\times 1000)^2}{40\times c_{cc}(T_{max_{cc}}-T_0)} = 344.9\ kg\\
+	%m_{aerogel} &= A_v\times 0.01\times 200 = 17.3kg\\
+	%m_{shield_{total}} &= 362.2 kg
 \end{align}
 \begin{figure}[H]
 	\centering\includegraphics[width=\linewidth]{grederviews}

@@ -1,0 +1,11 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{n}{sigma}\PYG{p}{=}\PYG{l+m+mf}{5.6703E\PYGZhy{}8} \PYG{c}{\PYGZpc{}W/m2K4 stefan boltzmann constant}
+\PYG{n}{eps\PYGZus{}cc}\PYG{p}{=}\PYG{l+m+mf}{0.78}\PYG{p}{;}
+\PYG{n}{T1}\PYG{p}{=}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{4800}\PYG{p}{);} \PYG{c}{\PYGZpc{}K}
+\PYG{n}{T1}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{)=}\PYG{l+m+mi}{1982}\PYG{p}{;} \PYG{c}{\PYGZpc{}K}
+\PYG{k}{for} \PYG{n}{k}\PYG{p}{=}\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{l+m+mi}{1}\PYG{p}{:}\PYG{n+nb}{length}\PYG{p}{(}\PYG{n}{T1}\PYG{p}{)}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}
+\PYG{n}{T\PYGZus{}rad}\PYG{p}{=}\PYG{n}{sigma}\PYG{o}{*}\PYG{n}{T1}\PYG{p}{(}\PYG{n}{k}\PYG{p}{)}\PYGZca{}\PYG{l+m+mi}{4}\PYG{o}{*}\PYG{n}{eps\PYGZus{}cc}\PYG{o}{*}\PYG{n}{A\PYGZus{}sc\PYGZus{}tot}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{o}{/}\PYG{n}{c\PYGZus{}cc}\PYG{o}{/}\PYG{n}{m\PYGZus{}tps\PYGZus{}cc}\PYG{p}{;}
+\PYG{n}{T1}\PYG{p}{(}\PYG{n}{k}\PYG{o}{+}\PYG{l+m+mi}{1}\PYG{p}{)=}\PYG{n}{T1}\PYG{p}{(}\PYG{n}{k}\PYG{p}{)}\PYG{o}{\PYGZhy{}}\PYG{n}{T\PYGZus{}rad}\PYG{p}{;}
+\PYG{k}{end}
+\PYG{n}{plot}\PYG{p}{(}\PYG{n}{T1}\PYG{p}{);}
+\end{Verbatim}
