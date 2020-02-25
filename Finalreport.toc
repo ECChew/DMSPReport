@@ -11,59 +11,59 @@
 \contentsline {subsection}{\numberline {5.2.1}Assumptions}{10}{subsection.5.2.1}
 \contentsline {section}{\numberline {5.3}Sketching and Calculations}{10}{section.5.3}
 \contentsline {chapter}{\numberline {6}Heat shield}{14}{chapter.6}
-\contentsline {chapter}{\numberline {7}Propellant selection}{19}{chapter.7}
-\contentsline {section}{\numberline {7.1}Options overview}{20}{section.7.1}
-\contentsline {section}{\numberline {7.2}Detailed comparison between MON/MMH and H2O2/RP-1}{21}{section.7.2}
-\contentsline {section}{\numberline {7.3}H2O2/RP-1 feasibility check}{24}{section.7.3}
-\contentsline {section}{\numberline {7.4}Summary}{25}{section.7.4}
-\contentsline {chapter}{\numberline {8}Vehicle design}{26}{chapter.8}
-\contentsline {chapter}{\numberline {9}Mass model}{27}{chapter.9}
-\contentsline {section}{\numberline {9.1}Mass Budget - First Iteration}{27}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Coefficients \& Masses after steps}{27}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{27}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}First iteration of mass budget}{28}{subsection.9.1.3}
-\contentsline {subsubsection}{Sub systems}{28}{section*.13}
-\contentsline {subsubsection}{Payload}{29}{section*.14}
-\contentsline {subsubsection}{Structure}{29}{section*.15}
-\contentsline {subsubsection}{Others}{29}{section*.16}
-\contentsline {subsubsection}{Results}{30}{section*.17}
-\contentsline {section}{\numberline {9.2}Mass Budget - Second iteration}{31}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Coefficients \& Masses after steps}{31}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{31}{subsection.9.2.2}
-\contentsline {subsection}{\numberline {9.2.3}Second iteration of mass budget}{32}{subsection.9.2.3}
-\contentsline {section}{\numberline {9.3}Frozen information}{34}{section.9.3}
-\contentsline {subsection}{\numberline {9.3.1}Frozen points}{34}{subsection.9.3.1}
-\contentsline {section}{\numberline {9.4}Mass Budget - Final iteration}{35}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Coefficients \& Masses after steps}{35}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{35}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Detailed contributors}{36}{subsection.9.4.3}
-\contentsline {subsubsection}{Structure}{36}{section*.20}
-\contentsline {subsubsection}{Electrical systems}{36}{section*.21}
-\contentsline {subsubsection}{Attitude control}{36}{section*.22}
-\contentsline {subsubsection}{Propulsion}{37}{section*.23}
-\contentsline {subsection}{\numberline {9.4.4}Final mass budget}{37}{subsection.9.4.4}
-\contentsline {chapter}{\numberline {10}Propulsion system}{38}{chapter.10}
-\contentsline {section}{\numberline {10.1}Engine cycle}{38}{section.10.1}
-\contentsline {section}{\numberline {10.2}RCS / ACS}{41}{section.10.2}
-\contentsline {section}{\numberline {10.3}Multi-usage of hydrogen peroxide}{41}{section.10.3}
-\contentsline {section}{\numberline {10.4}Propellant tanks}{41}{section.10.4}
-\contentsline {section}{\numberline {10.5}Pressurization system}{41}{section.10.5}
-\contentsline {section}{\numberline {10.6}Catalyzer}{41}{section.10.6}
-\contentsline {section}{\numberline {10.7}Injectors}{43}{section.10.7}
-\contentsline {section}{\numberline {10.8}Feeding system}{43}{section.10.8}
-\contentsline {subsection}{\numberline {10.8.1}Line diameters}{46}{subsection.10.8.1}
-\contentsline {subsection}{\numberline {10.8.2}Fuel feeding system}{46}{subsection.10.8.2}
-\contentsline {subsection}{\numberline {10.8.3}Oxidizer feeding system}{47}{subsection.10.8.3}
-\contentsline {section}{\numberline {10.9}Turbo pumps}{48}{section.10.9}
-\contentsline {section}{\numberline {10.10}Pressure evolution summary}{49}{section.10.10}
-\contentsline {subsection}{\numberline {10.10.1}Fuel side}{49}{subsection.10.10.1}
-\contentsline {subsection}{\numberline {10.10.2}Oxidizer side}{50}{subsection.10.10.2}
-\contentsline {section}{\numberline {10.11}Engine}{51}{section.10.11}
-\contentsline {section}{\numberline {10.12}Nozzle}{51}{section.10.12}
-\contentsline {chapter}{\numberline {11}Simulations}{52}{chapter.11}
-\contentsline {section}{\numberline {11.1}Engine performance simulation}{52}{section.11.1}
-\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{56}{section.11.2}
-\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{58}{section.11.3}
-\contentsline {chapter}{\numberline {12}Evaluation}{61}{chapter.12}
-\contentsline {section}{\numberline {12.1}Requirement verification}{61}{section.12.1}
-\contentsline {section}{\numberline {12.2}Lessons learnt}{61}{section.12.2}
+\contentsline {chapter}{\numberline {7}Propellant selection}{20}{chapter.7}
+\contentsline {section}{\numberline {7.1}Options overview}{21}{section.7.1}
+\contentsline {section}{\numberline {7.2}Detailed comparison between MON/MMH and H2O2/RP-1}{22}{section.7.2}
+\contentsline {section}{\numberline {7.3}H2O2/RP-1 feasibility check}{25}{section.7.3}
+\contentsline {section}{\numberline {7.4}Summary}{26}{section.7.4}
+\contentsline {chapter}{\numberline {8}Vehicle design}{27}{chapter.8}
+\contentsline {chapter}{\numberline {9}Mass model}{28}{chapter.9}
+\contentsline {section}{\numberline {9.1}Mass Budget - First Iteration}{28}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Coefficients \& Masses after steps}{28}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{28}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}First iteration of mass budget}{29}{subsection.9.1.3}
+\contentsline {subsubsection}{Sub systems}{29}{section*.14}
+\contentsline {subsubsection}{Payload}{30}{section*.15}
+\contentsline {subsubsection}{Structure}{30}{section*.16}
+\contentsline {subsubsection}{Others}{30}{section*.17}
+\contentsline {subsubsection}{Results}{31}{section*.18}
+\contentsline {section}{\numberline {9.2}Mass Budget - Second iteration}{32}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Coefficients \& Masses after steps}{32}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{32}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Second iteration of mass budget}{33}{subsection.9.2.3}
+\contentsline {section}{\numberline {9.3}Frozen information}{35}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Frozen points}{35}{subsection.9.3.1}
+\contentsline {section}{\numberline {9.4}Mass Budget - Final iteration}{36}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Coefficients \& Masses after steps}{36}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Global equation between \(m_{UP}\) and \(m_{initial}\)}{36}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Detailed contributors}{37}{subsection.9.4.3}
+\contentsline {subsubsection}{Structure}{37}{section*.21}
+\contentsline {subsubsection}{Electrical systems}{37}{section*.22}
+\contentsline {subsubsection}{Attitude control}{37}{section*.23}
+\contentsline {subsubsection}{Propulsion}{38}{section*.24}
+\contentsline {subsection}{\numberline {9.4.4}Final mass budget}{38}{subsection.9.4.4}
+\contentsline {chapter}{\numberline {10}Propulsion system}{39}{chapter.10}
+\contentsline {section}{\numberline {10.1}Engine cycle}{39}{section.10.1}
+\contentsline {section}{\numberline {10.2}RCS / ACS}{42}{section.10.2}
+\contentsline {section}{\numberline {10.3}Multi-usage of hydrogen peroxide}{42}{section.10.3}
+\contentsline {section}{\numberline {10.4}Propellant tanks}{42}{section.10.4}
+\contentsline {section}{\numberline {10.5}Pressurization system}{42}{section.10.5}
+\contentsline {section}{\numberline {10.6}Catalyzer}{42}{section.10.6}
+\contentsline {section}{\numberline {10.7}Injectors}{44}{section.10.7}
+\contentsline {section}{\numberline {10.8}Feeding system}{44}{section.10.8}
+\contentsline {subsection}{\numberline {10.8.1}Line diameters}{47}{subsection.10.8.1}
+\contentsline {subsection}{\numberline {10.8.2}Fuel feeding system}{47}{subsection.10.8.2}
+\contentsline {subsection}{\numberline {10.8.3}Oxidizer feeding system}{48}{subsection.10.8.3}
+\contentsline {section}{\numberline {10.9}Turbo pumps}{49}{section.10.9}
+\contentsline {section}{\numberline {10.10}Pressure evolution summary}{52}{section.10.10}
+\contentsline {subsection}{\numberline {10.10.1}Fuel side}{52}{subsection.10.10.1}
+\contentsline {subsection}{\numberline {10.10.2}Oxidizer side}{53}{subsection.10.10.2}
+\contentsline {section}{\numberline {10.11}Engine}{54}{section.10.11}
+\contentsline {section}{\numberline {10.12}Nozzle}{54}{section.10.12}
+\contentsline {chapter}{\numberline {11}Simulations}{55}{chapter.11}
+\contentsline {section}{\numberline {11.1}Engine performance simulation}{55}{section.11.1}
+\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{59}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{61}{section.11.3}
+\contentsline {chapter}{\numberline {12}Evaluation}{64}{chapter.12}
+\contentsline {section}{\numberline {12.1}Requirement verification}{64}{section.12.1}
+\contentsline {section}{\numberline {12.2}Lessons learnt}{64}{section.12.2}

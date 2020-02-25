@@ -193,6 +193,51 @@ Thus,
 \Delta P_{T_f} &= 54.395\ \text{bars}\\
 \Delta P_{T_o} &= 102.28\ \text{bars}
 \end{align}
+Considering an efficiency of $0.9\times 0.75$, with $0.9$ for the electrical part and $0.75$ for the mechanical part, we get the following powers :
+\begin{align}
+	Power_{fuelpump} &=\dot{m_f}\frac{P_{T_f}}{\rho_F \eta} = 13\ 461\ W\\
+	Power_{Oxpump} &= \dot{m_o}\frac{P_{T_o}}{\rho_o \eta} = 96\ 030\ W
+\end{align}
+Considering a maximum continuous burn time of $900$ seconds, we get the following energy with a 40\% margin as we are still unsure about the performance of such turbopump :\\
+\begin{equation}
+	E_{kWh} = \frac{(Power_{fuelpump} + Power_{Oxpump})\times 900}{3.6\times 10^6} = 38.322\ kWh
+\end{equation}
+
+We also know the following vapor pressures :
+\begin{itemize}
+	\item $H_2O_2$ : $666.612$ Pa at $30^\circ$ C
+	\item $RP-1$ : $700$ Pa between $20^\circ$C and $25^\circ$ C
+\end{itemize}
+With the information we have, we can calculate the pump head rise and the NPSH.
+\begin{align}
+	H_{p_{Fuel}} &= \frac{\Delta p_{p_{Fuel}}}{g_0 \rho_{Fuel}} = 747.474\ m\\
+	H_{p_{Ox}} &= \frac{\Delta p_{p_{Ox}}}{g_0 \rho_{Ox}} = 754.192\ m\\
+	NPSH_{Fuel} &= \frac{p_{i_{Fuel}} - p_{v_{Fuel}}}{g_0 \rho_{Fuel}} = 6.569\ m\\
+	NPSH_{Ox} &= \frac{p_{i_{Ox}} - p_{v_{Ox}}}{g_0 \rho_{Ox}} = 7.0465\ m
+\end{align}
+We can then get the number of stages :
+\begin{equation}
+	n= 1 +floor(\frac{\Delta p_p}{\Delta p_{ps}})
+\end{equation}
+Thus, using $\Delta p_{ps} = 47\times 10^6\ Pa$,
+\begin{align}
+	n_{Fuel} &= 126\ 373
+	n_{Ox} &= 228\ 256
+\end{align}
+We can also get the rotation speeds :
+\begin{align}
+	N_{Fuel} &= 1.636\ rad/s = 15.623\ RPM\\
+	N_{Ox} &= 0.532\ rad/s = 5.079\ RPM
+\end{align}
+Then
+\begin{align}
+	u_{t_{Fuel}} &= \sqrt{\frac{gH_{p_{Fuel}}}{n\psi}}=0.325\ m/s\\
+	u_{t_{Ox}} &= \sqrt{\frac{gH_{p_{Ox}}}{n\psi}} =0.243\ m/s\\
+	D_{2t_{Fuel}} &=\frac{u_{t_{Fuel}}}{N_{r_{Fuel}}}= 0.199\ m\\
+	D_{2t_{Ox}} &= \frac{u_{t_{Ox}}}{N_{r_{Ox}}} 0.457\ m\\
+	D_{1t_{Fuel}} &= \sqrt[3]{\frac{\frac{4}{\pi}Q_{Fuel}}{\phi N_{r_{Fuel}}(1-L^2)}} = 2.197\ m\\
+	D_{1t_{Fuel}} &=\sqrt[3]{\frac{\frac{4}{\pi}Q_{Ox}}{\phi N_{r_{Ox}}(1-L^2)}} = 6.131\ m
+\end{align}
 \section{Pressure evolution summary}
 \subsection{Fuel side}
 \begin{table}[H]
@@ -244,7 +289,6 @@ Thus,
 \subsection{Oxidizer side}
 \begin{table}[H]
 	\centering
-
 \begin{tabular}[H]{|c|c|c|}
 	\hline
 	\cellcolor{gray!50}Contributor& \cellcolor{gray!50}Pressure Drop (bars) & \cellcolor{gray!50}Pressure at the end of this part (bars)\\

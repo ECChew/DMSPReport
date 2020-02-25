@@ -1,24 +1,25 @@
 \chapter{Heat shield}
-\qquad A complete deorbiting mission from LEO to GEO and returning to LEO has a very high delta-V requirement of XXX km/s. To reduce this delta-V the GREDER spacecraft will use atmospheric drag in the upper atmosphere at an altitude of 70-120 km to reduce its relative velocity when returning from GEO to LEO. This kind of maneuver is called an aerobrake and has the potential to save a significant amount of fuel and total spacecraft mass. Aerobrakes are commonly used for reentry vehicles. However, these experience very high thermal loads since the kinetic energy is converted to heat. Thus, a high mass for a heat shield is necessary. When the velocity is reduced in small increments the spacecraft can radiate the heat away in between the aerobrakes. The advantage is that fuel is only required for trimming maneuvers to set the targeted perigee radius and not for the deceleration itself. A high number of aerobrakes can be performed with relatively small heat loads if extended mission time is not of a large concern.\\
+\qquad A complete deorbiting mission from LEO to GEO and returning to LEO has a very high delta-V requirement of roughly $8.5$ km/s. To reduce this delta-V the GREDER spacecraft will use atmospheric drag in the upper atmosphere at an altitude of 70-120 km to reduce its relative velocity when returning from GEO to LEO. This kind of maneuver is called an aerobrake and has the potential to save a significant amount of fuel and total spacecraft mass. Aerobrakes are commonly used for reentry vehicles. However, these experience very high thermal loads since the kinetic energy is converted to heat. Thus, a high mass for a heat shield is necessary. When the velocity is reduced in small increments the spacecraft can radiate the heat away in between the aerobrakes. The advantage is that fuel is only required for trimming maneuvers to set the targeted perigee radius and not for the deceleration itself. A high number of aerobrakes can be performed with relatively small heat loads if extended mission time is not of a large concern.\\
 
 Since the GREDER spacecraft is unmanned and does not utilize cryogenic fuels the extended mission time is not as critical. A heat shield needs to be developed for the spacecraft to protect it at the areas with the highest heat loads.\\
 
-For first rough calculations the total velocity reduced by the aerobrakes was determined as xxx km/s. The mass of the spacecraft after the deorbiting was estimated at 3500 kg. This results in a kinetic energy of:
+For first rough calculations the total velocity reduced by the aerobrakes was determined as $2.4$ km/s. This is the difference in velocity between the perigee velocity of the transfer orbit from GEO to aerobraking altitude and the velocity of the perigee of the transfer orbit from the last aerobrake to LEO.
 
 \begin{equation}
-	E_{kinetic}
+	E_{kinetic} = \frac{m_{sc}\Delta v^2}{2} = 10.04\ GJ
 \end{equation}
 
 This kinetic energy was then assumed to be completely converted to thermal energy and distributed evenly over the mass of a heat shield. With the maximum allowable temperature of the chosen material a rough required heat shield mass could be estimated.
-$$
-\text{formula thermal energy, heat capacity, heat shield mass}
-$$
+\begin{align}
+	E_{kinetic} &= \frac{mv^2}{2}\\
+	m_{shield} &=\frac{E_{kinetic}}{c\times dT}
+\end{align}
 \begin{table}
 	
 	\caption{Comparison of materials for heat shield}
 \end{table}
 
-Applying the specific heat capacity of several different flight proven materials carbon fibre reinforce carbon (CFRC) quickly proved as the material of choice for a low heat shield mass. Several metals were also taken into account since the manufacturing and integration into the spacecraft struture would be easier. But the low mass for a CFRC heat shield in combnation with the low thermall conductivity made this the material of choice. CFRC was utilised in the space shuttle heat shield and was found to be the cause of the columbia catastrophe since it is quite brittle and thus sensitive to impact []. But since the GREDER spacecraft will be launched inside a rocket launcher fairing no high velocity impacts are to be expected. The capturing of the satellite on the nose cone will be done at very low relative velocities since the force applied by the magnets is controllable with the applied current and can be carefully adjusted.
+Applying the specific heat capacity of several different flight proven materials carbon fibre reinforce carbon (CFRC) quickly proved as the material of choice for a low heat shield mass. Several metals were also taken into account since the manufacturing and integration into the spacecraft structure would be easier. But the low mass for a CFRC heat shield in combination with the low thermal conductivity made this the material of choice. CFRC was utilized in the space shuttle heat shield and was found to be the cause of the Columbia catastrophe since it is quite brittle and thus sensitive to impact []. But since the GREDER spacecraft will be launched inside a rocket launcher fairing no high velocity impacts are to be expected. The capturing of the satellite on the nose cone will be done at very low relative velocities since the force applied by the magnets is controllable with the applied current and can be carefully adjusted.
 \begin{equation}
 	m_{shield_{cc}}= \frac{m_{sc} \times (\Delta v_5\times 1000)^2}{2n_{ab}c_{cc}(T_{max_{cc}}-T_0)}
 \end{equation}
@@ -76,5 +77,10 @@ The thermal loads are expected to be highest on the leading edges of the spacecr
 Final mass :
 \begin{align}
 	m_{shield_cc} &= \frac{m_{sc} \times (\Delta v_5\times 1000)^2}{40\times c_{cc}(T_{max_{cc}}-T_0)} = 344.9\ kg\\
-	m_{aerogel} &= A_v\times 0.01\times 200 = 17.3kg
+	m_{aerogel} &= A_v\times 0.01\times 200 = 17.3kg\\
+	m_{shield_{total}} &= 362.2 kg
 \end{align}
+\begin{figure}[H]
+	\centering\includegraphics[width=\linewidth]{grederviews}
+	\caption{GREDER Spacecraft (various views) - Heat shield sown in gray}
+\end{figure}
