@@ -13,14 +13,90 @@ As the figure shows, only the RP-1 tank is pressurized by pressurization gas, us
 	\caption{Flow Schematic - Engine section}\label{fig2}
 \end{figure}
 The fueling ports for RP-1 as well as hydrogen peroxide extend to the left- and right-hand-side of the top of the figure. Check valves are situated at these points to only allow propellant flowing in. A second main valve for both propellants is installed just before the turbopumps, which are closed during refueling. While the RP-1 is then funneled through cooling channels in the regenerative cooling system, the oxidizer runs into a catalyzer, where a rapid decomposition reaction splits the hydrogen peroxide into its reactive products for combustion. A second oxidizer strain is guided towards a pressure regulation valve, behind which it continues into a buffer tank of hydrogen peroxide for monopropellant use in the ACS. The catalyzers for ACS thrusters are located in close proximity to their respective combustion chambers. The ACS is not depicted as a flow schematic.
+
 \section{RCS / ACS}
+
+In the previous section we mention that we are going to use hydrogen peroxide as a monopropellant for our Reaction Control System. Indeed, hydrogen peroxide can be used as a quite good RCS propellant. \\
+
+At the moment, the biggest part of the monopropellant thruster using $H_2O_2$ are test bench engine. This is because of the difficulty to characterize the engine and its parameters. \\
+
+Hydrogen peroxide is usable as a monopropellant because of its natural decomposition. As we are going to see on the Catalyzer part further on the report $H_2O_2$ can be decomposed in $H_2$ and $H_2O$. That's this decomposition we are going to use inside our thruster. \\
+When hydrogen peroxide goes through a catalyser it decomposes and generates a great amount of heat, up to $1000K$. This two factors create steam at a very high temperature and pressure; it's this steam that creates our thrust.\\
+
+Before designing the engine and its characteristics we need to choose the positioning of the thrusters. In order to do that, we based our design on the American Space Shuttle which use cluster of small thrusters all around the spacecraft to allow a good maneuverability.  
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\linewidth]{shiprcs}
+    \caption{RCS thruster repartition}
+\end{figure}
+
+We are going to use 6 different clusters spread over the craft, each cluster is composed of 2 thrusters for a total of 12. This disposition allow to manipulate every axis. \\
+
+Now we need to compute the characteristic of the thruster, to do so we used RPA (a NASA software to compute the parameters of a thruster based on the propellant and several other characteristics) and some papers of recent studies about hydrogen peroxide thruster. \\
+
+We assumed a chamber pressure of $10bars$ and a thrust of $100N$, then we use RPA to get the other parameters.
+
+\begin{itemize}
+    \item Combustion temperature: $1223K$
+    \vspace{-0.4cm}
+    \item Ejection temperature: $424K$
+    \vspace{-0.4cm}
+    \item Ejection pressure : $0.094bars$
+    \vspace{-0.4cm}
+    \item $\gamma = 1.335$
+    \vspace{-0.4cm}
+    \item $R = 368.6$
+    \vspace{-0.4cm}
+    \item $ISP = 140s$
+\end{itemize}
+
+With these parameters we can then compute every other parameters we want for the thruster and especially the mass flow rate which is necessary to have a correct mass budget. 
+
+$$c^* = \sqrt{\frac{R T_c}{\gamma}}\times \frac{\gamma + 1}{2}^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
+
+Throat characteristics:
+$$T_t = T_c \left(\frac{2}{\gamma + 1}\right) \hspace{20pt}
+P_t = P_c \left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma}{\gamma - 1}} \hspace{20pt}
+\rho = \frac{P_t}{R T_t} \hspace{20pt}   u_t = \sqrt{\gamma R T_t}$$
+
+Exhaust characteristics:
+$$M_e = \sqrt{\frac{2}{\gamma - 1}\left[\left(\frac{P_c}{P_e}\right)^\frac{\gamma - 1 }{\gamma} - 1 \right]} \hspace{20pt} T_e = \frac{T_c}{1 + \frac{\gamma - 1}{2}M_e^2}  \hspace{20pt} \rho_e = \frac{P_e}{R T_e}$$
+
+\clearpage
+
+Thus we can compute the area ratio and the thrust coefficient:
+
+$$\frac{A_e}{A_t}= \frac{1}{M_e}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma - 1}{2} M_e^2 \right)\right]^{\frac{\gamma + 1}{2(\gamma - 1)}}$$
+
+$$ C_F = \gamma \sqrt{\left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma + 1}{\gamma - 1}}\frac{2}{\gamma - 1} \left[ 1 - \left(\frac{P_e}{P_c}\right)^{\frac{\gamma - 1}{\gamma}}\right]} + \frac{P_e - P_a}{P_c}\frac{A_e}{A_t} $$ 
+
+\vspace{1cm}
+
+Finally we can compute the exhaust velocity, throat area and the mass flow: 
+
+$$c = C_F c^* \hspace{20pt} A_t = \frac{F}{C_F P_c} \hspace{20pt} \dot m = \frac{P_c A_t}{c^*}$$
+
+From our assumptions and the results of RPA we finally have:
+
+\begin{itemize}
+    \item Exhaust velocity: $c=617.38m/s$
+    \vspace{-0.4cm}
+    \item Mass flow rate: $\dot m = 0.105 kg/s$
+\end{itemize}
+
+The most important value for us is the mass flow rate as it allows us to compute the propellant mas needed to perform our maneuvers. \\
+
+In addition of the thrusters we also need another system which is the Reaction Wheels. This systems which is separated in 3 different wheel, one for each axis, and allow to rotate the entire craft on the 3 axis with the the reaction motion applied by the rotation of the wheel.
+\clearpage
+
 \section{Multi-usage of hydrogen peroxide}
 \label{sec:10-3}
 
 \section{Propellant tanks}
 \section{Pressurization system}
 \section{Catalyzer}
-Besides the advantages of $H_2O_2$ there is one major drawback that we have to take into account. This drawback is that $H_2O_2$ needs to be decomposed in $O_2$ and $H_2O$ in order to react with RP-1. 
+Besides the advantages of $H_2O_2$ there is one major drawback that we have to take into account. This drawback is that $H_2O_2$ needs to be decomposed in $H_2$ and $H_2O$ in order to react with RP-1. 
 
 \begin{figure}[H]
 	\centering
