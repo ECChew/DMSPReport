@@ -94,6 +94,28 @@ In addition of the thrusters we also need another system which is the Reaction W
 \label{sec:10-3}
 
 \section{Propellant tanks}
+The vehicle must use propellant tanks in order to carry the oxidizer and fuel, in this case H2O2 and RP-1, during the mission. The required total useable propellant was already found in the final mass budget calculation. 
+This chapter describes the tank design beginning with the requirements and tank specification, afterwards the analysis of compatible materials following by the design including different options, expulsion principle, stresses, MAIT and final design. The Liner tanks are also addressed in the last part of this chapter.\\
+
+\subsection{Requirements and specification}
+Several parameters have to be set in prior to the propellant tank design in order to ensure that all top level vehicle and propulsion system requirements are met. Additionally it must be ensured that the propellant tank assemblies sustain launch and flight loads during all phases of the mission.
+\subsubsection{Propellant Tank masses and volumes}
+
+\autoref{tab:propmass} shows the calculated values of the final propellant mass and final volumes of both oxidizer and fuel. The basis of this calculation is the final mass budget that provided the useable propellant masses. Starting at this value and calculating 1\% additional propellant for ignition, 2\% for shutdown, 2\% performance reserve and 2\% residuals, the masses add up to 24t for H2O2 and 3.4t for RP-1. H2O2 needs a greater ullage volume than RP-1 due to the decomposition, with 20\% ullage a total tank volume of $\geq$ 18.62 m$^3$ is necessary. For RP-1 a total tank volume of ≥ $3.99$ m$^3$ needs to be accomplished.
+\begin{table}[H]
+    \centering
+    \includegraphics[width = 0.7\linewidth]{propmassvol}
+    \caption{Propellant masses and volumes}
+    \label{tab:propmass}
+\end{table}{}
+\subsubsection{Driving requirements}
+The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP is taken according to \autoref{chap:2}
+\begin{table}[H]
+    \centering
+    \includegraphics[width = 0.7\linewidth]{ptareq}
+    \caption{PTA driving requirements}
+    \label{tab:PTAreq}
+\end{table}{}
 
 \section{Catalyzer}
 Besides the advantages of $H_2O_2$ there is one major drawback that we have to take into account. This drawback is that $H_2O_2$ needs to be decomposed in $H_2$ and $H_2O$ in order to react with RP-1. 
@@ -141,8 +163,12 @@ This geometry allows the catalyser to provide a sufficient decomposition rate, a
 
 \section{Injectors}
 
-To design our injectors we made some research and went through the literature about injector for hypergolic injector. We found interesting results in this paper\footnote{The design and main performance of a hydrogen peroxide/kerosene coaxial-swirl injector in a lab-scale rocket engine (2017)}. Their goal was to design a small attitude control system hydrogen peroxide/RP-1 thruster, to do so they compared different kind of injectors.
+To design our injectors we made some research and went through the literature about injector for hypergolic injector. We found interesting results in this paper\footnote{The design and main performance of a hydrogen peroxide/kerosene coaxial-swirl injector in a lab-scale rocket engine (2017)}. Their goal was to design a small attitude control system hydrogen peroxide/RP-1 thruster, to do so they compared two main different kind of injectors; the coaxial shear injector and the coaxial-swirl injector. \\
 
+After simulation the results were that coaxial shear causes the combustion chamber to be divided into three different zones, these zones are: rapid high-temperature pyrolysis, oxidization and equilibrium flow. This kind of separation can cause serious bad behaviors during the combustion process and creates issues like flame-out, explosion or very poor efficiency. \\
+In order to avoid these kind of behaviors the use of swirl-coaxial injectors is the best choice to make. \\
+
+The concept of the swirl injector is pretty simple. Indeed, it's based on a coaxial injection but 
 
 \begin{figure}[H]
     \centering

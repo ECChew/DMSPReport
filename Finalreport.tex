@@ -102,7 +102,9 @@ urlcolor=black}
 \newcommand*{\DPR}[2]  {\ensuremath{\left \langle #1,#2 \right \rangle}}
 \newcommand*{\calbf}[1]  {\ensuremath{\boldsymbol{\mathcal{#1}}}}
 \newcommand*{\shift}[1]  {\ensuremath{\boldsymbol{#1}}}
-
+\addto\extrasenglish{%
+  \renewcommand{\chapterautorefname}{Chapter}%
+}
 \newcommand{\eqdef}{\stackrel{\mathrm{def}}{=}}
 \newcommand{\argmax}{\operatornamewithlimits{argmax}}
 \newcommand{\argmin}{\operatornamewithlimits{argmin}}
