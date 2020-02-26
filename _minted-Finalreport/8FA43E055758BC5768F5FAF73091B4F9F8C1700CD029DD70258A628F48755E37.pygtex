@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }a\PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{dVi(i, v) \PYGZpc{} delta\PYGZhy{}V required for inclination change of i }\PYG{p}{(}deg\PYG{p}{)}\PYG{+w}{ }\PYG{n}{and} \PYG{n}{velocity} \PYG{n}{v}
+\PYG{n}{a}\PYG{p}{=} \PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{v}\PYG{o}{*}\PYG{n+nb}{sin}\PYG{p}{(}\PYG{n}{deg2rad}\PYG{p}{(}\PYG{n+nb}{i}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{);}
+\PYG{k}{end}
+\end{Verbatim}

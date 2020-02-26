@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }a \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{cosl}\PYG{p}{(}v1, v2, i\PYG{p}{)}\PYG{+w}{ }\PYG{c}{\PYGZpc{} combined maneuver of velocity change v1 \PYGZhy{}\PYGZgt{} v2 and inclination i change}
+\PYG{n}{a} \PYG{p}{=} \PYG{n+nb}{sqrt}\PYG{p}{(}\PYG{n}{v1}\PYGZca{}\PYG{l+m+mi}{2}\PYG{o}{+}\PYG{n}{v2}\PYGZca{}\PYG{l+m+mi}{2}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{v1}\PYG{o}{*}\PYG{n}{v2}\PYG{o}{*}\PYG{n+nb}{cos}\PYG{p}{(}\PYG{n}{deg2rad}\PYG{p}{(}\PYG{n+nb}{i}\PYG{p}{)));}
+\PYG{k}{end}
+\end{Verbatim}

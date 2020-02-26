@@ -1,0 +1,7 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }a \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{vp}\PYG{p}{(}r, R\PYG{p}{)}\PYG{+w}{ }\PYG{c}{\PYGZpc{} perigee velocity of elliptical orbit with perigee r and apogee R}
+\PYG{k}{if} \PYG{n}{r}\PYG{o}{\PYGZlt{}}\PYG{n}{R} \PYG{c}{\PYGZpc{}if clause to prevent mistaken input}
+\PYG{n}{a} \PYG{p}{=} \PYG{n+nb}{sqrt}\PYG{p}{(}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{mu}\PYG{o}{/}\PYG{n}{r}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{o}{*}\PYG{n}{mu}\PYG{o}{/}\PYG{p}{(}\PYG{n}{r}\PYG{o}{+}\PYG{n}{R}\PYG{p}{));}
+\PYG{k}{end}
+\PYG{k}{end}
+\end{Verbatim}

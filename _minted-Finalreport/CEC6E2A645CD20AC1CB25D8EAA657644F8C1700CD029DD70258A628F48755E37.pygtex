@@ -1,0 +1,5 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }a \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{v}\PYG{p}{(}r\PYG{p}{)}\PYG{+w}{ }\PYG{c}{\PYGZpc{} velocity of a circular orbit with Radius r}
+\PYG{n}{a} \PYG{p}{=} \PYG{n+nb}{sqrt}\PYG{p}{(}\PYG{n}{mu}\PYG{o}{/}\PYG{n}{r}\PYG{p}{);}
+\PYG{k}{end}
+\end{Verbatim}
