@@ -6,7 +6,7 @@
 \BOOKMARK [0][-]{chapter.4}{Mission analysis and v calculation}{}% 6
 \BOOKMARK [1][-]{section.4.1}{Mission Summary}{chapter.4}% 7
 \BOOKMARK [1][-]{section.4.2}{v reduction}{chapter.4}% 8
-\BOOKMARK [0][-]{chapter.5}{Satellite catching process}{}% 9
+\BOOKMARK [0][-]{chapter.5}{Satellite capturing process}{}% 9
 \BOOKMARK [1][-]{section.5.1}{Choice of the process}{chapter.5}% 10
 \BOOKMARK [1][-]{section.5.2}{Magnetic solution}{chapter.5}% 11
 \BOOKMARK [2][-]{subsection.5.2.1}{Assumptions}{section.5.2}% 12
@@ -27,7 +27,7 @@
 \BOOKMARK [1][-]{section.7.3}{H2O2/RP-1 feasibility check}{chapter.7}% 27
 \BOOKMARK [1][-]{section.7.4}{Summary}{chapter.7}% 28
 \BOOKMARK [0][-]{chapter.8}{Vehicle design}{}% 29
-\BOOKMARK [0][-]{chapter.9}{Mass model}{}% 30
+\BOOKMARK [0][-]{chapter.9}{Mass model and burning times}{}% 30
 \BOOKMARK [1][-]{section.9.1}{Mass Budget - First Iteration}{chapter.9}% 31
 \BOOKMARK [2][-]{subsection.9.1.1}{Coefficients \046 Masses after steps}{section.9.1}% 32
 \BOOKMARK [2][-]{subsection.9.1.2}{Global equation between mUP and minitial}{section.9.1}% 33
@@ -43,27 +43,28 @@
 \BOOKMARK [2][-]{subsection.9.4.2}{Global equation between m\137\173UP\175 and m\137\173initial\175}{section.9.4}% 43
 \BOOKMARK [2][-]{subsection.9.4.3}{Detailed contributors}{section.9.4}% 44
 \BOOKMARK [2][-]{subsection.9.4.4}{Final mass budget}{section.9.4}% 45
-\BOOKMARK [0][-]{chapter.10}{Propulsion system}{}% 46
-\BOOKMARK [1][-]{section.10.1}{Engine cycle}{chapter.10}% 47
-\BOOKMARK [1][-]{section.10.2}{RCS / ACS}{chapter.10}% 48
-\BOOKMARK [1][-]{section.10.3}{Multi-usage of hydrogen peroxide}{chapter.10}% 49
-\BOOKMARK [1][-]{section.10.4}{Propellant tanks}{chapter.10}% 50
-\BOOKMARK [1][-]{section.10.5}{Catalyzer}{chapter.10}% 51
-\BOOKMARK [1][-]{section.10.6}{Injectors}{chapter.10}% 52
-\BOOKMARK [1][-]{section.10.7}{Feeding system}{chapter.10}% 53
-\BOOKMARK [2][-]{subsection.10.7.1}{Line diameters}{section.10.7}% 54
-\BOOKMARK [2][-]{subsection.10.7.2}{Fuel feeding system}{section.10.7}% 55
-\BOOKMARK [2][-]{subsection.10.7.3}{Oxidizer feeding system}{section.10.7}% 56
-\BOOKMARK [1][-]{section.10.8}{Turbo pumps}{chapter.10}% 57
-\BOOKMARK [1][-]{section.10.9}{Pressure evolution summary}{chapter.10}% 58
-\BOOKMARK [2][-]{subsection.10.9.1}{Fuel side}{section.10.9}% 59
-\BOOKMARK [2][-]{subsection.10.9.2}{Oxidizer side}{section.10.9}% 60
-\BOOKMARK [1][-]{section.10.10}{Engine}{chapter.10}% 61
-\BOOKMARK [1][-]{section.10.11}{Nozzle}{chapter.10}% 62
-\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 63
-\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 64
-\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 65
-\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 66
-\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 67
-\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 68
-\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 69
+\BOOKMARK [1][-]{section.9.5}{Burn times}{chapter.9}% 46
+\BOOKMARK [0][-]{chapter.10}{Propulsion system}{}% 47
+\BOOKMARK [1][-]{section.10.1}{Engine cycle}{chapter.10}% 48
+\BOOKMARK [1][-]{section.10.2}{RCS / ACS}{chapter.10}% 49
+\BOOKMARK [1][-]{section.10.3}{Multi-usage of hydrogen peroxide}{chapter.10}% 50
+\BOOKMARK [1][-]{section.10.4}{Propellant tanks}{chapter.10}% 51
+\BOOKMARK [1][-]{section.10.5}{Catalyzer}{chapter.10}% 52
+\BOOKMARK [1][-]{section.10.6}{Injectors}{chapter.10}% 53
+\BOOKMARK [1][-]{section.10.7}{Feeding system}{chapter.10}% 54
+\BOOKMARK [2][-]{subsection.10.7.1}{Line diameters}{section.10.7}% 55
+\BOOKMARK [2][-]{subsection.10.7.2}{Fuel feeding system}{section.10.7}% 56
+\BOOKMARK [2][-]{subsection.10.7.3}{Oxidizer feeding system}{section.10.7}% 57
+\BOOKMARK [1][-]{section.10.8}{Turbo pumps}{chapter.10}% 58
+\BOOKMARK [1][-]{section.10.9}{Pressure evolution summary}{chapter.10}% 59
+\BOOKMARK [2][-]{subsection.10.9.1}{Fuel side}{section.10.9}% 60
+\BOOKMARK [2][-]{subsection.10.9.2}{Oxidizer side}{section.10.9}% 61
+\BOOKMARK [1][-]{section.10.10}{Engine}{chapter.10}% 62
+\BOOKMARK [1][-]{section.10.11}{Nozzle}{chapter.10}% 63
+\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 64
+\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 65
+\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 66
+\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 67
+\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 68
+\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 69
+\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 70

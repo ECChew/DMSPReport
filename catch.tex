@@ -1,8 +1,8 @@
-\chapter{Satellite catching process}
+\chapter{Satellite capturing process}
 \label{sec:5}
 \section{Choice of the process}
 
-\qquad In order to catch and de-orbit a satellite in GEO, we considered the following usable tools :
+\qquad In order to capture and de-orbit a satellite in GEO, we considered the following usable tools :
 \begin{itemize}
 	\item Net
 	\item Harpoon
@@ -29,14 +29,14 @@ We then took a closer look at the feasibility of each solution and compared the 
 	\end{tabular}
 \end{center}
 
-As the main focus of our mission is reliability and re-usability, we made the choice of using magnets to catch and hold the satellite we would like to de-orbit.
+As the main focus of our mission is reliability and re-usability, we made the choice of using magnets to capture and hold the satellite we would like to de-orbit.
 
 \section{Magnetic solution}
 \qquad Even though we decided that we would use magnets, we needed to make sure it was feasible and to lower the drawbacks related to this solution as much as possible. The first precision we need to make is that we will be using electromagnets in order to regulate the intensity of the current in the coil of it, thus, modulating the attraction force so the contact between our spacecraft and the satellite will not be made at high velocity, avoiding damages and space debris creation. \\
 
-Even though it is still at the state of research, we believe that using electromagnets as our catching solution is realistic as both ESA (with ISAE SupAero) and the NASA have been considering and studying this solution since 2017.\\
+Even though it is still at the state of research, we believe that using electromagnets as our capturing solution is realistic as both ESA (with ISAE SupAero) and the NASA have been considering and studying this solution since 2017.\\
 
-However, as a matter of complexity, we will have to make assumptions in order to simplify the problem. The objective in this part is to prove that, with assumptions, this solution can be applied to our mission and to find the required energy to both catch and hold the satellite until its release.
+However, as a matter of complexity, we will have to make assumptions in order to simplify the problem. The objective in this part is to prove that, with assumptions, this solution can be applied to our mission and to find the required energy to both capture and hold the satellite until its release.
 \subsection{Assumptions}
 In our calculations, we assumed that :
 \begin{enumerate}
@@ -66,7 +66,7 @@ In terms of magnet design, we chose to use a squared cross section of $5cm\times
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{magnetCAD}
-	\caption{CAD of a catching magnet}
+	\caption{CAD of a capturing magnet}
 \end{figure}
 
 
@@ -82,12 +82,12 @@ With those design choices we get the following parameters while taking into cons
 	\item $\rho_{coil} = \rho_{copper} = 8.96\ g/cm^3$
 \end{itemize}
 
-We then need to find the length $L$ of the mean magnetic circuit. In order to do so, we decided to start the catching sequence at $10\ m$ from the satellite and that the target has an exploitable nozzle of $40\ cm$ of diameters which is realistic for spacecrafts in the mass range of $3\ 500\ kg$. We could then sketch the catching sequence as so (not to scale) :
+We then need to find the length $L$ of the mean magnetic circuit. In order to do so, we decided to start the capturing sequence at $10\ m$ from the satellite and that the target has an exploitable nozzle of $40\ cm$ of diameters which is realistic for spacecrafts in the mass range of $3\ 500\ kg$. We could then sketch the capturing sequence as so (not to scale) :
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{catching}
-	\caption{Catching sequence (not to scale)}
+	\caption{Capturing sequence (not to scale)}
 \end{figure}
 We can then have the length $L$ as a function of the distance between the tip of our spacecraft and the nozzle of our target. As a result we can proceed to find the feasibility of our solution with this magnet design by finding the time it would require at this state to attract the target. However, in this case, the current modulation when the target is close has not been modeled due to its complexity.\\
 
@@ -99,7 +99,7 @@ Considering that the force will be on one axis only and $m = 0.001\times m_{targ
 \frac{(\mu NI)^2 A}{2\mu_0 [0.4823 + 2x(t)]^2} &= m \ddot x(t)
 \end{align}
 
-The catching time can then be found using $ode45$ on Matlab :
+The capturing time can then be found using $ode45$ on Matlab :
 \begin{minted}[fontsize=\footnotesize, linenos, autogobble, breaklines]{matlab}
 clearvars; clc;
 catchtime = 1;
@@ -123,4 +123,4 @@ Fmag = (mu * N * I) ^2 * A / (2 * mu0 *(2 * norm(X(1:2)) + 0.4823) ^ 2 );
 Xdot = [vx; vy;  0.001 * Fmag / m; 0]; 
 end
 \end{minted}
-We then get a catching time of $812$ seconds. As a result, we can determine the energy required to operate the magnets aswell as their masses and volumes. We are considering a holding time for approximately half an hour and we also need to verify that the magnets will be able to hold the target while we are de-orbiting.
+We then get a capture time of $812$ seconds. As a result, we can determine the energy required to operate the magnets aswell as their masses and volumes. We are considering a holding time for approximately half an hour and we also need to verify that the magnets will be able to hold the target while we are de-orbiting.

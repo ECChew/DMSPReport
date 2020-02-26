@@ -1,4 +1,4 @@
-\chapter{Mass model}
+\chapter{Mass model and burning times}
 \section{Mass Budget - First Iteration}
 
 \qquad Before actually going into our mass budget, we wanted to get a reference
@@ -418,12 +418,13 @@ step\tabularnewline
 1 & 2802.4 & 0.574 & 0.426 \(m_{initial}\)\tabularnewline
 2 & 1342.2 & 0.335 & 0.283\(m_{initial}\)\tabularnewline
 3 & 522.9 & 0.148 & 0.241\(m_{initial}\)\tabularnewline
-Satellite caught & NA & NA & 0.221\(m_{initial}\) + 3500\tabularnewline
+Satellite caught & NA & NA & 0.241\(m_{initial}\) + 3500\tabularnewline
 4 & 1487.8 & 0.364 & 0.153\(m_{initial}\) + 2226\tabularnewline
 Satellite release & NA & NA & 0.153\(m_{initial}\) -1274\tabularnewline
 5 & 5.3 & 0.0016 & 0.1528\(m_{initial}\) - 1271.96\tabularnewline
-6 & 72.4 & 0.0218 &\tabularnewline
+6 & 72.4 & 0.0218 & (0.1495$m_{initial}$ - 1244.23)\tabularnewline
 \bottomrule
+\caption{Coefficients and masses after steps}
 \end{longtable}
 
 
@@ -453,6 +454,8 @@ m_{UsablePropellant} = \frac 1{0.1495}[0.8505m_{rest}+1244.232]
 $$
 \subsection{Detailed contributors}
 \subsubsection{Structure}
+\begin{table}
+
 \begin{center}
 \begin{tabular}[H]{|c|c|}
 	\hline
@@ -476,7 +479,11 @@ $$
 	\hline
 \end{tabular}
 \end{center}
+\label{Mass budget - Structure}	
+\end{table}
 \subsubsection{Electrical systems}
+\begin{table}
+	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
 	\hline
@@ -506,8 +513,12 @@ $$
 	\hline
 \end{tabular}
 \end{center}
+\caption{Mass budget - Electrical systems}
+\end{table}
 The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{ED_{Lithium}}$ with a considered energy density of $100Wh/kg$
 \subsubsection{Attitude control}
+\begin{table}
+	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
 	\hline
@@ -524,7 +535,11 @@ The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{E
 	\hline
 \end{tabular}
 \end{center}
+\caption{Mass Budget - Attitude Control}
+\end{table}
 \subsubsection{Propulsion}
+\begin{table}
+	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
 	\hline
@@ -542,6 +557,9 @@ The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{E
 	\hline
 \end{tabular}
 \end{center}
+\caption{Mass Budget - Propulsion}
+
+\end{table}
 \subsection{Final mass budget}
 
 \begin{table}[H]
@@ -572,4 +590,60 @@ The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{E
 	\hline
 \end{tabular}
 \caption{Final mass budget}
+\end{table}
+\section{Burn times}
+\qquad From the tables of $\Delta v$ and related mass-ratios (from the Tsiolkovsky Equation), we can get the burn times as, for each step, the burn time is defined by : 
+\begin{equation}
+	t_{burn} = \frac{\Delta m_{step}}{\dot{m}}
+\end{equation}
+With $\dot{m}$ being the general mass flow of $10$ kg/s. We separate our first step into two different burns. 
+\begin{equation}
+	\Delta m_j  = m_{j-1}
+\end{equation}
+\begin{table}
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Step & Mass after step (kg)\\
+		\hline
+		1 & 12 056.652\\
+		\hline
+		2 & 8 009.466\\
+		\hline
+		3 & 6 820.782\\
+		\hline
+		Catch & 9 754.742\\
+		\hline
+		4 & 6 556.206\\
+		\hline
+		Release & 3 056.206\\
+		\hline
+		5 & 3 052.586\\
+		\hline
+		6 & 2 986.039\\
+		\hline
+	\end{tabular}
+	\caption{Masses after step} \label{tabmass}
+\end{table}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		Step & $\Delta v_{step}(m/s)$ &  $\Delta m_{step} (kg)$ & $t_{burn} (s)$\\
+		\hline
+		1 & 2802.4 &  16 245.35 & 1 624.535 (separate into two burns)\\
+		\hline
+		2 & 1342.2 & 4 047.19 & 404.719\\
+		\hline
+		3 & 522.9 & 1 188.684 & 118.868\\
+		\hline
+		4 & 1487.8 & 3 198.536 & 319.854\\
+		\hline
+		5 & 5.3 & 3.62 & 0.362\\
+		\hline
+		6 & 72.4 & 66.817 & 6.682\\
+		\hline
+		TOTAL & 6 233 &  & 2 475.02\\
+		\hline
+	\end{tabular}
 \end{table}
