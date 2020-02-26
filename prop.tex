@@ -101,10 +101,10 @@ This chapter describes the tank design beginning with the requirements and tank 
 Several parameters have to be set in prior to the propellant tank design in order to ensure that all top level vehicle and propulsion system requirements are met. Additionally it must be ensured that the propellant tank assemblies sustain launch and flight loads during all phases of the mission.
 \subsubsection{Propellant Tank masses and volumes}
 
-\autoref{tab:propmass} shows the calculated values of the final propellant mass and final volumes of both oxidizer and fuel. The basis of this calculation is the final mass budget that provided the useable propellant masses. Starting at this value and calculating 1\% additional propellant for ignition, 2\% for shutdown, 2\% performance reserve and 2\% residuals, the masses add up to 24t for H2O2 and 3.4t for RP-1. H2O2 needs a greater ullage volume than RP-1 due to the decomposition, with 20\% ullage a total tank volume of $\geq$ 18.62 m$^3$ is necessary. For RP-1 a total tank volume of ≥ $3.99$ m$^3$ needs to be accomplished.
+\autoref{tab:propmass} shows the calculated values of the final propellant mass and final volumes of both oxidizer and fuel. The basis of this calculation is the final mass budget that provided the useable propellant masses. Starting at this value and calculating 1\% additional propellant for ignition, 2\% for shutdown, 2\% performance reserve and 2\% residuals, the masses add up to 24t for H2O2 and 3.4t for RP-1. H2O2 needs a greater ullage volume than RP-1 due to the decomposition, with 20\% ullage a total tank volume of $\geq$ 18.62 m$^3$ is necessary. For RP-1 a total tank volume of  $\geq3.99$ m$^3$ needs to be accomplished.
 \begin{table}[H]
     \centering
-    \includegraphics[width = 0.7\linewidth]{propmassvol}
+    \includegraphics[width = \linewidth]{propmassvol}
     \caption{Propellant masses and volumes}
     \label{tab:propmass}
 \end{table}{}
@@ -112,11 +112,51 @@ Several parameters have to be set in prior to the propellant tank design in orde
 The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP is taken according to \autoref{chap:2}
 \begin{table}[H]
     \centering
-    \includegraphics[width = 0.7\linewidth]{ptareq}
+    \includegraphics[width = \linewidth]{ptareq}
     \caption{PTA driving requirements}
     \label{tab:PTAreq}
 \end{table}{}
+\subsubsection{Pressure loads}
+The ECSS requires a safety factor of 1.25 on proof pressure and 1.5 on burst pressure according to \autoref{chap:2}. Therefore the pressure levels including safety factors are listed in \autoref{tab:ptapress}.
+\begin{table}[H]
+	\centering
+	\includegraphics[width = \linewidth]{ptapress}
+	\caption{PTA pressure loads}
+	\label{tab:ptapress}
+\end{table}{}
+The number of pressure cycles after delivery is shown in \autoref{tab:ptacycle}. This number of pressure cycles applies for both the oxidizer and fuel tank.
+\begin{table}[H]
+	\centering
+	\includegraphics[width = 0.6\linewidth]{ptapress}
+	\caption{PTA pressure cycles}
+	\label{tab:ptacycle}
+\end{table}{}
+\pagebreak
+\subsection{Materials}
+The intended materials for the propellant tanks are listed in \autoref{tab:tankmat}. For the fuel tank and liner tanks a common titanium alloy can be used with high strength and good ductility. The titanium alloy shall be heat treated to .7 status (solution treated and aged) in order to achieve the below mentioned material characteristics and to stress relieve. The liner tanks can also be winded or wrapped with CFK in order to be further strengthened and to reduce the wall thickness of the titanium.\\
 
+The oxidizer tank shall be manufactured of aluminum 5254 which is long term compatible and corrosion resistant against H2O2. Unfortunately the aluminum alloy shows a low strength which has to be taken into account in the mechanical calculations. A higher strength option of this alloy is currently in development acc. to NASA paper.
+\begin{table}[H]
+	\centering
+	\includegraphics[width = \linewidth]{tankmat}
+	\caption{Propellant tank materials}
+	\label{tab:tankmat}
+\end{table}{}
+\pagebreak
+\subsection{Concepts and options}
+During the process of finding the optimum propellant tank concept for the GREDER vehicle, our mission and application, several possible design option have been taken into account. \autoref{fig:tankdesign} shows the three most promising options.\\
+
+The first option is an integrated concept with the fuel tank placed within the oxidizer tank. Integrated designs are in theory the most lightweight design option for propellant tanks because the basic idea is to reduce the wall thickness of the inner tank due to theoretically no pressure delta between fuel and oxidizer tank pressure. The downside of this option is the manufacturing. Also the use of spacecraft volume is quite attractive with this design. Manufacturing of one tank inside of another tank and then welding it is a tough task. Additionally the fuel tank also needs to be compatible with both propellants because it is in contact with the oxidizer from the outside and the fuel from the inside. Therefore option 1 is not suitable for our application due to manufacturing complexity, material compatibility and our MDP of 1.3 bar is way too low to justify the advantage of wall thickness reduction.\\
+
+The second option is also an integrated option but this time with two separate tanks. This slightly increases the spacecraft volume but is still more spacecraft volume efficient than option 3. This option, especially the special shape of the oxidizer tank, is a complex geometry and therefore also complex to manufacture. The fuel tank manufacturing is simpler than in the first option due to the half sphere hemispheres and gimbal mounting. During first attempts of a detailed design of that option it was found that the vehicle diameter increased over the boundary requirement. For this reason and also due to the complex manufacturing and design this option was found to not be the most efficient design for our application.\\
+
+The third option is a rather simple “two-tanks-on-top-of-each-other” design. The main advantage is here the simple design and manufacturing and assembly of all parts, the possibility of load carrying structure of the outer tank walls as well as good options for tank expulsion principles. This design was found to be the optimum for our application and is therefore the baseline for all further calculations and detailed design.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{tankdesignoption}
+	\caption{Different propellant tank design options}\label{fig:tankdesign}
+\end{figure}
 \section{Catalyzer}
 Besides the advantages of $H_2O_2$ there is one major drawback that we have to take into account. This drawback is that $H_2O_2$ needs to be decomposed in $H_2$ and $H_2O$ in order to react with RP-1. 
 

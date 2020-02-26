@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  26 FEB 2020 20:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  26 FEB 2020 20:35
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1455,7 +1455,7 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \openout8 = `Finalreport.glo'.
 
 Package glossaries Info: Writing glossary file Finalreport.glo on input line 18
-7.
+9.
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > Fi
 nalreport.aex <nul: /p x=^%~$PATH:i>> Finalreport.aex)...executed.
 
@@ -1479,28 +1479,28 @@ LaTeX Warning: Label `fig2' multiply defined.
 ) (lessons.aux) (Conclusion.aux) (lexique_an_fr.aux) (annexes.aux))
 \openout1 = `Finalreport.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 193.
-LaTeX Font Info:    ... okay on input line 193.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 193.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 193.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 195.
+LaTeX Font Info:    ... okay on input line 195.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 195.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 195.
 
 
 (D:\Miktex\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 193.
+LaTeX Font Info:    ... okay on input line 195.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1580,7 +1580,7 @@ Package pgfplots notification 'compat/show suggested version=true': document ha
 s been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
 \AtBeginShipoutBox=\box84
-Package hyperref Info: Link coloring ON on input line 193.
+Package hyperref Info: Link coloring ON on input line 195.
 (D:\Miktex\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1589,9 +1589,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count299
 )
-LaTeX Info: Redefining \ref on input line 193.
-LaTeX Info: Redefining \pageref on input line 193.
-LaTeX Info: Redefining \nameref on input line 193.
+LaTeX Info: Redefining \ref on input line 195.
+LaTeX Info: Redefining \pageref on input line 195.
+LaTeX Info: Redefining \nameref on input line 195.
  (Finalreport.out)
 (Finalreport.out)
 \@outlinefile=\write9
@@ -1599,31 +1599,31 @@ LaTeX Info: Redefining \nameref on input line 193.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 193.
-<logohsb.png, id=286, 200.75pt x 93.34875pt>
+(lastpage)             ! on input line 195.
+<logohsb.png, id=298, 200.75pt x 93.34875pt>
 File: logohsb.png Graphic file (type png)
 <use logohsb.png>
-Package pdftex.def Info: logohsb.png  used on input line 203.
+Package pdftex.def Info: logohsb.png  used on input line 205.
 (pdftex.def)             Requested size: 230.36061pt x 107.12515pt.
-<greder.png, id=288, 188.50426pt x 131.89275pt>
+<greder.png, id=300, 188.50426pt x 131.89275pt>
 File: greder.png Graphic file (type png)
 <use greder.png>
-Package pdftex.def Info: greder.png  used on input line 215.
+Package pdftex.def Info: greder.png  used on input line 217.
 (pdftex.def)             Requested size: 243.99413pt x 170.71652pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 229.
+LaTeX Font Info:    Try loading font information for U+msa on input line 231.
  (D:\Miktex\tex\latex\amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 229.
+LaTeX Font Info:    Try loading font information for U+msb on input line 231.
 
 (D:\Miktex\tex\latex\amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 229.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 231.
  (D:\Miktex\tex\latex\wasysym\uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 229
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 231
 .
 
 (D:\Miktex\tex\latex\calrsfs\omsrsfs.fd) [1
@@ -1661,7 +1661,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.264 \include{introduction}
+l.266 \include{introduction}
                              [1
 
 
@@ -1710,7 +1710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-<initialschedule.png, id=402, 505.89pt x 205.2468pt>
+<initialschedule.png, id=417, 505.89pt x 205.2468pt>
 File: initialschedule.png Graphic file (type png)
 <use initialschedule.png>
 Package pdftex.def Info: initialschedule.png  used on input line 21.
@@ -1721,7 +1721,7 @@ Overfull \hbox (23.77138pt too wide) in paragraph at lines 25--25
  
  []
 
-<finalschedule.png, id=405, 505.89pt x 204.765pt>
+<finalschedule.png, id=420, 505.89pt x 204.765pt>
 File: finalschedule.png Graphic file (type png)
 <use finalschedule.png>
 Package pdftex.def Info: finalschedule.png  used on input line 30.
@@ -1735,7 +1735,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  (requirements.tex
 Chapter 2.
 
-Overfull \hbox (33.05412pt too wide) in paragraph at lines 5--57
+Overfull \hbox (33.05412pt too wide) in paragraph at lines 6--58
 [][] 
  []
 
@@ -1763,7 +1763,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
 
 ]
-<enveloppe.png, id=435, 730.52925pt x 395.076pt>
+<enveloppe.png, id=450, 730.52925pt x 395.076pt>
 File: enveloppe.png Graphic file (type png)
 <use enveloppe.png>
 Package pdftex.def Info: enveloppe.png  used on input line 19.
@@ -1820,7 +1820,7 @@ Overfull \hbox (13.31668pt too wide) in paragraph at lines 53--80
  []
 
 [10]
-<mission1.png, id=456, 351.11176pt x 287.8755pt>
+<mission1.png, id=471, 351.11176pt x 287.8755pt>
 File: mission1.png Graphic file (type png)
 <use mission1.png>
 Package pdftex.def Info: mission1.png  used on input line 95.
@@ -1833,7 +1833,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
-<mission2.png, id=466, 387.849pt x 359.54324pt>
+<mission2.png, id=481, 387.849pt x 359.54324pt>
 File: mission2.png Graphic file (type png)
 <use mission2.png>
 Package pdftex.def Info: mission2.png  used on input line 118.
@@ -1872,13 +1872,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
-<magnetCAD.png, id=498, 490.2315pt x 276.43275pt>
+<magnetCAD.png, id=513, 490.2315pt x 276.43275pt>
 File: magnetCAD.png Graphic file (type png)
 <use magnetCAD.png>
 Package pdftex.def Info: magnetCAD.png  used on input line 68.
 (pdftex.def)             Requested size: 460.72124pt x 259.79619pt.
 [16 <./magnetCAD.png>]
-<catching.png, id=506, 767.2665pt x 273.4215pt>
+<catching.png, id=521, 767.2665pt x 273.4215pt>
 File: catching.png Graphic file (type png)
 <use catching.png>
 Package pdftex.def Info: catching.png  used on input line 89.
@@ -1930,7 +1930,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<shapedrag.png, id=564, 356.0502pt x 266.4354pt>
+<shapedrag.png, id=579, 356.0502pt x 266.4354pt>
 File: shapedrag.png Graphic file (type png)
 <use shapedrag.png>
 Package pdftex.def Info: shapedrag.png  used on input line 87.
@@ -1946,7 +1946,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 105--106
  []
 
 [23]
-<shadowgraph.png, id=593, 433.62pt x 335.3328pt>
+<shadowgraph.png, id=608, 433.62pt x 335.3328pt>
 File: shadowgraph.png Graphic file (type png)
 <use shadowgraph.png>
 Package pdftex.def Info: shadowgraph.png  used on input line 120.
@@ -1970,13 +1970,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--142
 
 (_minted-Finalreport/27155FF195068C1F55EDB68F9CA9545DF8C1700CD029DD70258A628F48
 755E37.pygtex)
-<radcooling.png, id=614, 308.352pt x 249.93375pt>
+<radcooling.png, id=629, 308.352pt x 249.93375pt>
 File: radcooling.png Graphic file (type png)
 <use radcooling.png>
 Package pdftex.def Info: radcooling.png  used on input line 158.
 (pdftex.def)             Requested size: 414.6463pt x 336.09554pt.
  [26] [27 <./radcooling.png>]
-<grederviews.png, id=632, 433.62pt x 259.2084pt>
+<grederviews.png, id=647, 433.62pt x 259.2084pt>
 File: grederviews.png Graphic file (type png)
 <use grederviews.png>
 Package pdftex.def Info: grederviews.png  used on input line 185.
@@ -2021,7 +2021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
-<propcombination.png, id=648, 410.13225pt x 308.352pt>
+<propcombination.png, id=663, 410.13225pt x 308.352pt>
 File: propcombination.png Graphic file (type png)
 <use propcombination.png>
 Package pdftex.def Info: propcombination.png  used on input line 33.
@@ -2061,13 +2061,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-<detailedcompprop.png, id=663, 409.53pt x 389.0535pt>
+<detailedcompprop.png, id=678, 409.53pt x 389.0535pt>
 File: detailedcompprop.png Graphic file (type png)
 <use detailedcompprop.png>
 Package pdftex.def Info: detailedcompprop.png  used on input line 63.
 (pdftex.def)             Requested size: 460.72124pt x 437.71378pt.
 [32] [33 <./detailedcompprop.png>]
-<histflightprop.png, id=677, 410.13225pt x 284.86424pt>
+<histflightprop.png, id=692, 410.13225pt x 284.86424pt>
 File: histflightprop.png Graphic file (type png)
 <use histflightprop.png>
 Package pdftex.def Info: histflightprop.png  used on input line 77.
@@ -2146,7 +2146,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  (prop.tex
 Chapter 10.
-<pressurizationsystem.png, id=798, 264.99pt x 357.4956pt>
+<pressurizationsystem.png, id=813, 264.99pt x 357.4956pt>
 File: pressurizationsystem.png Graphic file (type png)
 <use pressurizationsystem.png>
 Package pdftex.def Info: pressurizationsystem.png  used on input line 5.
@@ -2159,7 +2159,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-<flowenginesection.png, id=807, 301.6068pt x 342.5598pt>
+<flowenginesection.png, id=822, 301.6068pt x 342.5598pt>
 File: flowenginesection.png Graphic file (type png)
 <use flowenginesection.png>
 Package pdftex.def Info: flowenginesection.png  used on input line 12.
@@ -2185,7 +2185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-<shiprcs.png, id=824, 670.75594pt x 400.49625pt>
+<shiprcs.png, id=839, 670.75594pt x 400.49625pt>
 File: shiprcs.png Graphic file (type png)
 <use shiprcs.png>
 Package pdftex.def Info: shiprcs.png  used on input line 30.
@@ -2208,123 +2208,205 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--89
 [54
 
 ]
-<H2O2.png, id=842, 225.2415pt x 105.996pt>
-File: H2O2.png Graphic file (type png)
-<use H2O2.png>
-Package pdftex.def Info: H2O2.png  used on input line 103.
-(pdftex.def)             Requested size: 225.24094pt x 105.99573pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 97--99
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
-
- []
-
-<catalyst.png, id=843, 274.626pt x 102.98476pt>
-File: catalyst.png Graphic file (type png)
-<use catalyst.png>
-Package pdftex.def Info: catalyst.png  used on input line 116.
-(pdftex.def)             Requested size: 274.62532pt x 102.98448pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
+<propmassvol.png, id=858, 509.5035pt x 167.4255pt>
+File: propmassvol.png Graphic file (type png)
+<use propmassvol.png>
+Package pdftex.def Info: propmassvol.png  used on input line 107.
+(pdftex.def)             Requested size: 460.72124pt x 151.3943pt.
+<ptareq.png, id=861, 410.7345pt x 158.39175pt>
+File: ptareq.png Graphic file (type png)
+<use ptareq.png>
+Package pdftex.def Info: ptareq.png  used on input line 115.
+(pdftex.def)             Requested size: 460.72124pt x 177.67307pt.
 [55
 
- <./H2O2.png> <./catalyst.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+ <./propmassvol.png>]
+<ptapress.png, id=872, 413.1435pt x 46.9755pt>
+File: ptapress.png Graphic file (type png)
+<use ptapress.png>
+Package pdftex.def Info: ptapress.png  used on input line 123.
+(pdftex.def)             Requested size: 460.72124pt x 52.38712pt.
+File: ptapress.png Graphic file (type png)
+<use ptapress.png>
+Package pdftex.def Info: ptapress.png  used on input line 130.
+(pdftex.def)             Requested size: 276.43555pt x 31.43256pt.
+ [56 <./ptareq.png> <./ptapress.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-<pressuredrop.png, id=853, 1194.71344pt x 644.4075pt>
-File: pressuredrop.png Graphic file (type png)
-<use pressuredrop.png>
-Package pdftex.def Info: pressuredrop.png  used on input line 134.
-(pdftex.def)             Requested size: 460.72124pt x 248.50572pt.
+<tankmat.png, id=887, 409.53pt x 160.1985pt>
+File: tankmat.png Graphic file (type png)
+<use tankmat.png>
+Package pdftex.def Info: tankmat.png  used on input line 141.
+(pdftex.def)             Requested size: 460.72124pt x 180.23508pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 138--139
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-[56 <./pressuredrop.png>]
-<swirl.png, id=861, 787.743pt x 419.76825pt>
-File: swirl.png Graphic file (type png)
-<use swirl.png>
-Package pdftex.def Info: swirl.png  used on input line 148.
-(pdftex.def)             Requested size: 460.72124pt x 245.50899pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
-
- []
-
-[57 <./swirl.png>]
-<pertecharge.png, id=871, 192.11775pt x 247.52475pt>
-File: pertecharge.png Graphic file (type png)
-<use pertecharge.png>
-Package pdftex.def Info: pertecharge.png  used on input line 164.
-(pdftex.def)             Requested size: 265.02896pt x 341.43306pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+ [57 <./tankmat.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--152
+
+ []
+
+<tankdesignoption.png, id=897, 409.53pt x 363.759pt>
+File: tankdesignoption.png Graphic file (type png)
+<use tankdesignoption.png>
+Package pdftex.def Info: tankdesignoption.png  used on input line 157.
+(pdftex.def)             Requested size: 460.72124pt x 409.25563pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [58]
+<H2O2.png, id=904, 225.2415pt x 105.996pt>
+File: H2O2.png Graphic file (type png)
+<use H2O2.png>
+Package pdftex.def Info: H2O2.png  used on input line 165.
+(pdftex.def)             Requested size: 225.24094pt x 105.99573pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [59 <./tankdesignoption.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
-<feeding.png, id=872, 110.814pt x 218.0145pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+ []
+
+<catalyst.png, id=911, 274.626pt x 102.98476pt>
+File: catalyst.png Graphic file (type png)
+<use catalyst.png>
+Package pdftex.def Info: catalyst.png  used on input line 178.
+(pdftex.def)             Requested size: 274.62532pt x 102.98448pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--183
+
+ []
+
+[60 <./H2O2.png> <./catalyst.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+<pressuredrop.png, id=921, 1194.71344pt x 644.4075pt>
+File: pressuredrop.png Graphic file (type png)
+<use pressuredrop.png>
+Package pdftex.def Info: pressuredrop.png  used on input line 196.
+(pdftex.def)             Requested size: 460.72124pt x 248.50572pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61 <./pressuredrop.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+<swirl.png, id=929, 787.743pt x 419.76825pt>
+File: swirl.png Graphic file (type png)
+<use swirl.png>
+Package pdftex.def Info: swirl.png  used on input line 215.
+(pdftex.def)             Requested size: 460.72124pt x 245.50899pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Underfull \vbox (badness 1931) has occurred while \output is active []
+
+ [62 <./swirl.png>]
+<pertecharge.png, id=938, 192.11775pt x 247.52475pt>
+File: pertecharge.png Graphic file (type png)
+<use pertecharge.png>
+Package pdftex.def Info: pertecharge.png  used on input line 231.
+(pdftex.def)             Requested size: 265.02896pt x 341.43306pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--235
+
+ []
+
+[63 <./pertecharge.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 236--237
+
+ []
+
+<feeding.png, id=947, 110.814pt x 218.0145pt>
 File: feeding.png Graphic file (type png)
 <use feeding.png>
-Package pdftex.def Info: feeding.png  used on input line 174.
+Package pdftex.def Info: feeding.png  used on input line 241.
 (pdftex.def)             Requested size: 144.62967pt x 284.52756pt.
-<feedingzoom.png, id=873, 348.70274pt x 291.489pt>
+<feedingzoom.png, id=948, 348.70274pt x 291.489pt>
 File: feedingzoom.png Graphic file (type png)
 <use feedingzoom.png>
-Package pdftex.def Info: feedingzoom.png  used on input line 179.
+Package pdftex.def Info: feedingzoom.png  used on input line 246.
 (pdftex.def)             Requested size: 272.30095pt x 227.62204pt.
-[58 <./pertecharge.png>]
-Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [59 <./feeding.png> <./feedingzoom.png>] [60]
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- []
-
-[61]
-Underfull \hbox (badness 10000) in paragraph at lines 269--270
+ [64 <./feeding.png>] [65 <./feedingzoom.png>] [66]
+Underfull \hbox (badness 10000) in paragraph at lines 308--309
 
  []
 
-[62] [63]
-<fuelchart.png, id=938, 487.22025pt x 235.47975pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 336--337
+
+ []
+
+[67]
+Underfull \vbox (badness 4254) has occurred while \output is active []
+
+ [68]
+<fuelchart.png, id=999, 487.22025pt x 235.47975pt>
 File: fuelchart.png Graphic file (type png)
 <use fuelchart.png>
-Package pdftex.def Info: fuelchart.png  used on input line 371.
+Package pdftex.def Info: fuelchart.png  used on input line 438.
 (pdftex.def)             Requested size: 460.72124pt x 222.66966pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [64]
-<oxchart.png, id=952, 482.40225pt x 210.18526pt>
+ [69]
+<oxchart.png, id=1020, 482.40225pt x 210.18526pt>
 File: oxchart.png Graphic file (type png)
 <use oxchart.png>
-Package pdftex.def Info: oxchart.png  used on input line 418.
+Package pdftex.def Info: oxchart.png  used on input line 485.
 (pdftex.def)             Requested size: 460.72124pt x 200.74925pt.
 
-[65 <./fuelchart.png>])
+[70 <./fuelchart.png>])
 Underfull \vbox (badness 5622) has occurred while \output is active []
 
- [66 <./oxchart.png>] [67]
+ [71 <./oxchart.png>] [72]
 \openout2 = `Simulation.aux'.
 
  (Simulation.tex
 Chapter 11.
-<thrusttime.png, id=975, 421.575pt x 316.0608pt>
+<thrusttime.png, id=1043, 421.575pt x 316.0608pt>
 File: thrusttime.png Graphic file (type png)
 <use thrusttime.png>
 Package pdftex.def Info: thrusttime.png  used on input line 22.
@@ -2332,12 +2414,12 @@ Package pdftex.def Info: thrusttime.png  used on input line 22.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68
+ [73
 
 
 
 ]
-<accdeltav.png, id=983, 421.575pt x 316.0608pt>
+<accdeltav.png, id=1051, 421.575pt x 316.0608pt>
 File: accdeltav.png Graphic file (type png)
 <use accdeltav.png>
 Package pdftex.def Info: accdeltav.png  used on input line 28.
@@ -2345,8 +2427,8 @@ Package pdftex.def Info: accdeltav.png  used on input line 28.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./thrusttime.png>]
-<propmasstime.png, id=992, 421.575pt x 316.0608pt>
+ [74 <./thrusttime.png>]
+<propmasstime.png, id=1059, 421.575pt x 316.0608pt>
 File: propmasstime.png Graphic file (type png)
 <use propmasstime.png>
 Package pdftex.def Info: propmasstime.png  used on input line 36.
@@ -2354,21 +2436,21 @@ Package pdftex.def Info: propmasstime.png  used on input line 36.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./accdeltav.png>]
+ [75 <./accdeltav.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [71 <./propmasstime.png>]
+ [76 <./propmasstime.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
-[72]
-<coolingchannelwidth.png, id=1012, 421.575pt x 316.0608pt>
+[77]
+<coolingchannelwidth.png, id=1080, 421.575pt x 316.0608pt>
 File: coolingchannelwidth.png Graphic file (type png)
 <use coolingchannelwidth.png>
 Package pdftex.def Info: coolingchannelwidth.png  used on input line 61.
 (pdftex.def)             Requested size: 414.6463pt x 310.8708pt.
-<relevanttemps.png, id=1014, 421.575pt x 316.0608pt>
+<relevanttemps.png, id=1082, 421.575pt x 316.0608pt>
 File: relevanttemps.png Graphic file (type png)
 <use relevanttemps.png>
 Package pdftex.def Info: relevanttemps.png  used on input line 68.
@@ -2376,8 +2458,8 @@ Package pdftex.def Info: relevanttemps.png  used on input line 68.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [73 <./coolingchannelwidth.png>] [74 <./relevanttemps.png>]
-<feasibility.png, id=1032, 371.58826pt x 302.93175pt>
+ [78 <./coolingchannelwidth.png>] [79 <./relevanttemps.png>]
+<feasibility.png, id=1100, 371.58826pt x 302.93175pt>
 File: feasibility.png Graphic file (type png)
 <use feasibility.png>
 Package pdftex.def Info: feasibility.png  used on input line 86.
@@ -2385,31 +2467,31 @@ Package pdftex.def Info: feasibility.png  used on input line 86.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75])
-[76 <./feasibility.png>]
+ [80])
+[81 <./feasibility.png>]
 \openout2 = `lessons.aux'.
 
  (lessons.tex
 Chapter 12.
-) [77
+) [82
 
 
 
 ]
 \openout2 = `Conclusion.aux'.
 
- (Conclusion.tex) [78
+ (Conclusion.tex) [83
 
 
 
-] [79
+] [84
 
 ]
 \openout2 = `lexique_an_fr.aux'.
 
 
 No file lexique_an_fr.tex.
-(Finalreport.lof [80
+(Finalreport.lof [85
 
 
 
@@ -2417,11 +2499,11 @@ No file lexique_an_fr.tex.
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [81] (Finalreport.lot)
+ [86] (Finalreport.lot)
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [82
+ [87
 
 ]
 \openout2 = `annexes.aux'.
@@ -2430,7 +2512,7 @@ No file lexique_an_fr.tex.
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1121, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1195, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf>
 Package pdftex.def Info: Gantt.pdf  used on input line 3.
@@ -2451,7 +2533,7 @@ on <1.6>, but at most version <1.5> allowed
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1124, page=1, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1198, page=1, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
@@ -2460,7 +2542,7 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[83
+[88
 
 
 ]
@@ -2476,11 +2558,11 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 1>
 Package pdftex.def Info: Gantt.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
- [84 <./Gantt.pdf, page is rotated 90 degrees>]
+ [89 <./Gantt.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1367, page=2, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1441, page=2, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 2>
 Package pdftex.def Info: Gantt.pdf , page2 used on input line 3.
@@ -2493,11 +2575,11 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 2>
 Package pdftex.def Info: Gantt.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[85 <./Gantt.pdf, page is rotated 90 degrees>]
+[90 <./Gantt.pdf, page is rotated 90 degrees>]
 
 pdfTeX warning: pdflatex.exe (file ./Gantt.pdf): PDF inclusion: found PDF versi
 on <1.6>, but at most version <1.5> allowed
-<Gantt.pdf, id=1442, page=3, 1195.46625pt x 845.1575pt>
+<Gantt.pdf, id=1516, page=3, 1195.46625pt x 845.1575pt>
 File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 3>
 Package pdftex.def Info: Gantt.pdf , page3 used on input line 3.
@@ -2510,14 +2592,14 @@ File: Gantt.pdf Graphic file (type pdf)
 <use Gantt.pdf, page 3>
 Package pdftex.def Info: Gantt.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.73166pt x 422.57771pt.
-[86 <./Gantt.pdf, page is rotated 90 degrees>])
-Overfull \hbox (27.12483pt too wide) in paragraph at lines 327--329
+[91 <./Gantt.pdf, page is rotated 90 degrees>])
+Overfull \hbox (27.12483pt too wide) in paragraph at lines 329--331
 []\T1/cmr/m/n/10 https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-85
 1-satellite-engineering-fall-2003/le cture-
  []
 
 
-Overfull \hbox (159.17592pt too wide) in paragraph at lines 336--337
+Overfull \hbox (159.17592pt too wide) in paragraph at lines 338--339
 []\T1/cmr/m/n/10 An In-ter-net Book on Fluid Dy-nam-ics - The Flat Plate Air-fo
 il :http://brennen.caltech.edu/fluidbook/externalflows/lift/flatplateairfoil.pd
 f 
@@ -2525,8 +2607,8 @@ f
 
 
 AED: lastpage setting LastPage
-[87
-\newlabel{Gantt}{{12.2}{87}{Annex I - Gantt Diagramm}{section*.62}{}}
+[92
+\newlabel{Gantt}{{12.2}{92}{Annex I - Gantt Diagramm}{section*.71}{}}
 
 
 ]
@@ -2535,36 +2617,30 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 342.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 342.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 344.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 344.
 (Finalreport.aux (introduction.aux) (schedule.aux) (requirements.aux)
 (launch.aux) (mission.aux) (catch.aux) (heatshield.aux)
 (propellantselection.aux) (vehicledesign.aux) (massmodel.aux) (prop.aux)
 (Simulation.aux) (lessons.aux) (Conclusion.aux) (lexique_an_fr.aux)
 (annexes.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 342.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 342.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 344.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 344.
+Package rerunfilecheck Info: File `Finalreport.out' has not changed.
+(rerunfilecheck)             Checksum: 0A5D366531D67CC5E808ED4CB0B2EF40;5157.
 
-
-Package rerunfilecheck Warning: File `Finalreport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Finalreport.out':
-(rerunfilecheck)             Before: 0C554EB1608F6C6EA61C98C441EBDBE5;4926
-(rerunfilecheck)             After:  058D86705A7976D8D5ED92E4D0072E9C;4927.
 
 LaTeX Warning: There were multiply-defined labels.
 
 runsystem(del Finalreport.pyg)...executed.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 342.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 344.
  ) 
 Here is how much of TeX's memory you used:
- 43836 strings out of 492970
- 964144 string characters out of 3143823
- 1291060 words of memory out of 3000000
- 46305 multiletter control sequences out of 15000+200000
+ 43888 strings out of 492970
+ 964943 string characters out of 3143823
+ 1292475 words of memory out of 3000000
+ 46335 multiletter control sequences out of 15000+200000
  43241 words of font info for 136 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,19n,136p,2001b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2621,9 +2697,9 @@ public/amsfonts/cm/cmr17.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb
 ic/amsfonts/cm/cmr8.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D
 :/Miktex/fonts/type1/public/amsfonts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (91 pages, 3907788 bytes).
+Output written on Finalreport.pdf (96 pages, 4023232 bytes).
 PDF statistics:
- 2262 PDF objects out of 2487 (max. 8388607)
- 341 named destinations out of 1000 (max. 500000)
- 773 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2340 PDF objects out of 2487 (max. 8388607)
+ 358 named destinations out of 1000 (max. 500000)
+ 822 words of extra memory for PDF output out of 10000 (max. 10000000)
 
