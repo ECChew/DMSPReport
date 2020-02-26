@@ -101,7 +101,7 @@ This chapter describes the tank design beginning with the requirements and tank 
 Several parameters have to be set in prior to the propellant tank design in order to ensure that all top level vehicle and propulsion system requirements are met. Additionally it must be ensured that the propellant tank assemblies sustain launch and flight loads during all phases of the mission.
 \subsubsection{Propellant Tank masses and volumes}
 
-\autoref{tab:propmass} shows the calculated values of the final propellant mass and final volumes of both oxidizer and fuel. The basis of this calculation is the final mass budget that provided the useable propellant masses. Starting at this value and calculating 1\% additional propellant for ignition, 2\% for shutdown, 2\% performance reserve and 2\% residuals, the masses add up to 24t for H2O2 and 3.4t for RP-1. H2O2 needs a greater ullage volume than RP-1 due to the decomposition, with 20\% ullage a total tank volume of $\geq$ 18.62 m$^3$ is necessary. For RP-1 a total tank volume of ≥ $3.99$ m$^3$ needs to be accomplished.
+\autoref{tab:propmass} shows the calculated values of the final propellant mass and final volumes of both oxidizer and fuel. The basis of this calculation is the final mass budget that provided the useable propellant masses. Starting at this value and calculating 1\% additional propellant for ignition, 2\% for shutdown, 2\% performance reserve and 2\% residuals, the masses add up to 24t for H2O2 and 3.4t for RP-1. H2O2 needs a greater ullage volume than RP-1 due to the decomposition, with 20\% ullage a total tank volume of $\geq$ 18.62 m$^3$ is necessary. For RP-1 a total tank volume of  $\geq3.99$ m$^3$ needs to be accomplished.
 \begin{table}[H]
     \centering
     \includegraphics[width = 0.7\linewidth]{propmassvol}
@@ -168,13 +168,17 @@ To design our injectors we made some research and went through the literature ab
 After simulation the results were that coaxial shear causes the combustion chamber to be divided into three different zones, these zones are: rapid high-temperature pyrolysis, oxidization and equilibrium flow. This kind of separation can cause serious bad behaviors during the combustion process and creates issues like flame-out, explosion or very poor efficiency. \\
 In order to avoid these kind of behaviors the use of swirl-coaxial injectors is the best choice to make. \\
 
-The concept of the swirl injector is pretty simple. Indeed, it's based on a coaxial injection but 
+The concept of the swirl injector is pretty simple. Indeed, it's based on a coaxial injection but instead of injecting the two propellant in the axis of the injector, here the two propellant are injected radially in what is called the vortex chamber. 
+The radial injection combine with the chamber allows to create a vortex of $H_2O_2$ and RP-1 which result in a generation of a plume of propellant at the exit of the injector. In addition, due to the geometry of such an injector, the reduction of diameter at the exit, the atomization is very easy.  
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{swirl}
     \caption{Cross section of a swirl injector}
 \end{figure}
+
+The schematic before shows how a swirl injector works. We see that there is only few parameters to take  into account to design this kind of injector. 
+
 
 \section{Feeding system}
 After having designed most of our propulsion system. We need to carefully link them by designing our feeding system. The biggest challenge is to create a system that will both fit in our spacecraft and deliver the right amount of propellant from the tanks to the engine through our different, required other subsystems.\\
