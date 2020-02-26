@@ -71,13 +71,41 @@ $$\frac{A_e}{A_t}= \frac{1}{M_e}\left[\frac{2}{\gamma + 1}\left(1 + \frac{\gamma
 
 $$ C_F = \gamma \sqrt{\left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma + 1}{\gamma - 1}}\frac{2}{\gamma - 1} \left[ 1 - \left(\frac{P_e}{P_c}\right)^{\frac{\gamma - 1}{\gamma}}\right]} + \frac{P_e - P_a}{P_c}\frac{A_e}{A_t} $$ 
 
-\vspace{1cm}
+\vspace{0.5cm}
 
 Finally we can compute the exhaust velocity, throat area and the mass flow: 
 
 $$c = C_F c^* \hspace{20pt} A_t = \frac{F}{C_F P_c} \hspace{20pt} \dot m = \frac{P_c A_t}{c^*}$$
 
-From our assumptions and the results of RPA we finally have:
+Thus we can write the following Matlab code to simulate:
+
+\begin{minted}[linenos, autogobble, breaklines]{matlab}
+Pc = 10; % Chamber pressure
+Pe = 0.094; % exhaust Presssure (given RPA)
+gamma = 1.335; % RPA
+R = 0.3686e3; % RPA
+Tc = 1223; % Combustion temperature given (RPA)
+
+c = sqrt( R * Tc / gamma) * ((gamma + 1)/2)^((gamma + 1)/2 * (gamma - 1));
+
+% Throat characterisctics
+Tt = Tc * (2/(gamma + 1));
+Pt = Pc * (2/(gamma + 1))^(gamma/(gamma -1));
+rho = Pt / R * Tt;
+Ut = sqrt(gamma * R * Tt);
+
+% Exhaust characteristics
+Me = sqrt((2/(gamma - 1))*((Pc/Pe)^((gamma - 1)/ gamma) -1));
+Tebis = Tc / (1 + ((gamma - 1) / 2) * Me^2);
+rho_e = Pe / R * Tebis;
+
+Exp_ratio = (1 / Me) * ((2 / (gamma + 1)) * (1 + ((gamma - 1) / 2) * Me^2))^((gamma + 1)/2*(gamma-1));
+Cf = gamma * sqrt((2/(gamma + 1))^((gamma + 1)/(gamma - 1)) * (2/(gamma - 1)) * (1 - (Pe/Pc)^((gamma - 1)/gamma))) + ((Pe - 1)/Pc) * Exp_ratio;
+
+c_e = Cf * c; At = 100 / (Cf * Pc); m_flow = (Pc * At)/c;
+\end{minted}
+
+From the simulation we finally have:
 
 \begin{itemize}
     \item Exhaust velocity: $c=617.38m/s$
@@ -87,8 +115,8 @@ From our assumptions and the results of RPA we finally have:
 
 The most important value for us is the mass flow rate as it allows us to compute the propellant mas needed to perform our maneuvers. \\
 
+
 In addition of the thrusters we also need another system which is the Reaction Wheels. This systems which is separated in 3 different wheel, one for each axis, and allow to rotate the entire craft on the 3 axis with the the reaction motion applied by the rotation of the wheel.
-\clearpage
 
 \section{Multi-usage of hydrogen peroxide}
 \label{sec:10-3}
@@ -109,15 +137,15 @@ Several parameters have to be set in prior to the propellant tank design in orde
     \label{tab:propmass}
 \end{table}{}
 \subsubsection{Driving requirements}
-The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP is taken according to \autoref{chap:2}
+The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP is taken according to ECSS\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control}
 \begin{table}[H]
     \centering
     \includegraphics[width = \linewidth]{ptareq}
     \caption{PTA driving requirements}
     \label{tab:PTAreq}
-\end{table}{}
+\end{table}{}\pagebreak
 \subsubsection{Pressure loads}
-The ECSS requires a safety factor of 1.25 on proof pressure and 1.5 on burst pressure according to \autoref{chap:2}. Therefore the pressure levels including safety factors are listed in \autoref{tab:ptapress}.
+The ECSS\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control} requires a safety factor of 1.25 on proof pressure and 1.5 on burst pressure. Therefore the pressure levels including safety factors are listed in \autoref{tab:ptapress}.
 \begin{table}[H]
 	\centering
 	\includegraphics[width = \linewidth]{ptapress}
@@ -157,6 +185,116 @@ The third option is a rather simple “two-tanks-on-top-of-each-other” design.
 	\includegraphics[width=\linewidth]{tankdesignoption}
 	\caption{Different propellant tank design options}\label{fig:tankdesign}
 \end{figure}
+\subsection{Final design}
+The final design is therefore an option with a stacked structure, as already mentioned in the previous chapter. \autoref{fig:detail} shows a detailed view on the final design with the major parts shown. The Oxidizer tank consists of two cassini shaped hemispheres and one large cylinder (or several smaller cylinders if easier to manufacture). The fuel tank is built with the same cassini hemispheres, but without a cylinder. This usage of the same hemispheres for both oxidizer and fuel tanks reduces costs for jigs and tools and also for development. Each tank has an inlet at the top of the tank and an outlet at the bottom. It has to be mentioned that the upper port of the oxidizer tank is used to extract the H2O2 decomposition products and not to pressurize the tank since the tank is self-pressurizing.
+
+Both propellant tanks make use of start baskets, the function is explained in the subsequent chapter.\\
+
+The propellant tanks are the carrying structure of the spacecraft and they are connected by interface connector rings. In the interface connector ring there are also the adapters for refueling planned.\\
+
+At the bottom of the spacecraft near the engine are the liners located. There is one helium liner tank for Fuel tank pressurization and one hydrogen liner tank for the fuel cell operation.
+\autoref{fig:designfull} shows a full view on the final design of the propellant tanks.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{tankdetail}
+	\caption{Final propellant tank design detailed view}\label{fig:detauk}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.4\linewidth]{tankfull}
+	\caption{Final propellant tank design full view}\label{fig:designfull}
+\end{figure}
+\subsection{Expulsion principle}
+The refillable start basket is a structure within the propellant tanks located at the outlet of the tank that is designed to ensure that there is always propellant at the outlet in zero gravity condition – at least until the spacecraft acceleration again forces the propellant towards the outlet. If the thrusting duration is sufficient to settle the liquid each time, the start basket, is the best light weight and simple propellant management device. The start basked volume for each of the tanks must be big enough (with margin) to supply propellant to the engine until acceleration settles the liquid again. Another important aspect is that the start basket must be refillable to allow several ignitions of the engine. This principle is shown in \autoref{fig:startbasket}.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.3\linewidth]{startbasket}
+	\caption{Final propellant tank design full view}\label{fig:startbasket}
+\end{figure}
+\subsubsection{Start basket design}
+For the start basket design, the maximum acceleration has to be defined. As already listed in the propellant tank requirements, the maximum acceleration is:
+\begin{align}
+    g_x &= 4\times g_0\\
+    g_z &= 2\times g_0\\
+    g_0 &= 9.81 m/s
+\end{align}{}
+
+The first step for the start basket design is the calculation of settling acceleration, the acceleration with which the propellant moves towards the outlet
+\begin{equation}
+    a_{set} = \frac{F}{m_{spacecraft}} = \frac{32860N}{28302kg} = 1.16m/s^2
+\end{equation}{}
+With this acceleration the time the propellant needs to reach the ground can be calculated
+\begin{align}
+    t_{fall_{Oxidizer}} &= \sqrt{\frac{h_{Ox}}{\frac{1.16}{2}}} = \sqrt{\frac{4.74}{\frac{a_{set}}{2}}} =2.54s\\
+    t_{fall_{Fuel}} &= \sqrt{\frac{1.2}{\frac{1.16}{2}}} = 2.54s
+\end{align}{}
+
+Since the time that the oxidizer and fuel need to reach the outlet is now known, the settling time can be calculated. The settling time is the falling time multiplied by four. This is a heritage value
+\begin{align}
+    t_{set_{Oxidizer}} &= 4\times t_{fall_{Oxidizer}} = 10.16s\\
+    t_{set_{Fuel}} &= 4\times t_{fall_{Fuel}} = 5.76s
+\end{align}
+With this information, the necessary start basket volume can be calculated by calculating what propellant volumes are needed to cover the settling time while still providing the requested flow rates to the engine.
+\begin{align}
+    V_{basket_{Oxidizer}} &= \frac{t_{set_{Oxidizer}} \times \dot{m_{Oxidizer}}}{\rho_{Oxidizer}} = 0.0618m^3\\
+    V_{basket_{Fuel}} &= \frac{t_{set_{Fuel}} \times \dot{m_{Fuel}}}{\rho_{Fuel}} = 0.0079m^3
+\end{align}{}
+It is now possible to roughly calculate size of the start basket by assuming it to be a cylinder with $d=h$
+\begin{align}
+    d_{Oxidizer} &= h_{Oxidizer} = \bigg(\frac{V_{basket_{Oxidizer}}}{\frac{4}{\pi}}\bigg)^{\frac{1}{3}} = 0.36m\\
+    d_{Fuel} &= h_{Fuel} = \bigg(\frac{V_{basket_{Fuel}}}{\frac{4}{\pi}}\bigg)^{\frac{1}{3}} = 0.18m
+\end{align}{}
+
+Afterwards the screens and screen drillings have to be dimensioned in such a way that the screens are capable to hold the propellant inside of the start basked by propellant surface tension. The if the pressure on the grids due to hydrostatic pressure by $g_x$ (the highest acceleration) exceeds the bubble point pressure, the liquid will break through and is not captured inside the start basket anymore
+
+\begin{align}
+    p_{BubblePoint_{Oxidizer}} = \rho_{Oxidizer}\times g_x \times h_{Oxidizer} = 206mbar\\
+    p_{BubblePoint_{Fuel}} = \rho_{Fuel}\times g_x \times h_{Fuel} = 65mbar\\
+\end{align}{}
+In the last step the screen drillings are dimensioned in that way that the bubble point is not exceeded by the acceleration taking the surface tension into account
+\begin{align}
+    Stens_{Oxidizer} &= 0.08 N/m\\
+    Stens_{Fuel} &= 0.028 N/m\\
+    d_{drillings_{Oxidizer}} &= \frac{4\times Stens_{Oxidizer}}{p_{BubblePoint_{Oxidizer}}} = 0.0155mm\\
+    d_{drillings_{Fuel}} &= \frac{4\times Stens_{Fuel}}{p_{BubblePoint_{Fuel}}} = 0.0172mm\\
+\end{align}{}
+Therefore it has to be a very fine mesh. 
+\subsection{Stresses}
+For the preliminary calculation of stresses and wall thicknesses several loads on the propellant tank have been identified:
+\begin{itemize}
+    \item   Internal tank pressure
+    \item	Hydrostatic pressure on tank walls due to accelerated propellant
+    \item	Tension and compression stress due to empty mass and propellant mass
+\end{itemize}{}
+General rules : 
+\begin{enumerate}
+    \item No rupture at burst pressure
+    \item No yield at proof pressure
+\end{enumerate}{}
+
+The results of these calculations are listed in \autoref{tab:tankstress}. The calculations are based on the maximum possible wall thickness that still complies with the tank mass requirement. On basis of the results the wall thickness can be further optimized.
+\begin{table}[H]
+    \centering
+    \includegraphics[width = 0.95\linewidth]{tankstress}
+    \caption{Preliminary tank stresses calculation}\label{tab:tankstress}
+\end{table}{}
+\subsection{Liner tanks}
+\subsubsection{Helium liner tank}
+
+Only the fuel tank is pressurized by Helium and only needs a tank pressure of 1.3bar. The H2O2 tank is self-pressurizing due to the decomposing characteristics of H2O2. The specification of the helium liner tank is shown in \autoref{tab:helium}
+\begin{table}[H]
+    \centering
+    \includegraphics[width = \linewidth]{heliumliner}
+    \caption{Helium liner tank specification}\label{tab:helium}
+\end{table}{}
+\subsubsection{$H_2$ liner tank}
+The H2 is needed for the fuel cell. The specification of the h2 liner tank is shown in \autoref{tab:h2liner}.
+\begin{table}[H]
+    \centering
+    \includegraphics[width = \linewidth]{h2liner}
+    \caption{Helium liner tank specification}\label{tab:h2liner}
+\end{table}{}
+
 \section{Catalyzer}
 Besides the advantages of $H_2O_2$ there is one major drawback that we have to take into account. This drawback is that $H_2O_2$ needs to be decomposed in $H_2$ and $H_2O$ in order to react with RP-1. 
 
@@ -209,7 +347,7 @@ After simulation the results were that coaxial shear causes the combustion chamb
 In order to avoid these kind of behaviors the use of swirl-coaxial injectors is the best choice to make. \\
 
 The concept of the swirl injector is pretty simple. Indeed, it's based on a coaxial injection but instead of injecting the two propellant in the axis of the injector, here the two propellant are injected radially in what is called the vortex chamber. 
-The radial injection combine with the chamber allows to create a vortex of $H_2O_2$ and RP-1 which result in a generation of a plume of propellant at the exit of the injector. In addition, due to the geometry of such an injector, the reduction of diameter at the exit, the atomization is very easy.  
+The radial injection combine with the chamber allows to create a vortex of $H_2O_2$ and RP-1 which result in a generation of a plume of propellant at the exit of the injector. In addition, due to the geometry of such an injector, the reduction of diameter at the exit, the atomization is very easy.
 
 \begin{figure}[H]
     \centering
@@ -217,7 +355,11 @@ The radial injection combine with the chamber allows to create a vortex of $H_2O
     \caption{Cross section of a swirl injector}
 \end{figure}
 
-The schematic before shows how a swirl injector works. We see that there is only few parameters to take  into account to design this kind of injector. 
+The schematic before shows how a swirl injector works. We see that there is only few parameters to take into account to design this kind of injector. These different parameters will be explain later on. \\
+
+Our injection will be a liquid-gas injection but this characteristic is not really a problem for a swirl injector as the two propellant will behave the same way as a liquid or a gas.\\
+
+in addition of these advantages the swirl injector offers an other non-negligible advantages that it allow us to improve our efficiency. Indeed, the study show that a swirl injector increases the combustion stability and efficiency up to 10$\%$ which result in a better fuel consumption during the operating time of the spacecraft. 
 
 
 \section{Feeding system}
