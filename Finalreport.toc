@@ -75,11 +75,14 @@
 \contentsline {subsubsection}{$H_2$ liner tank}{74}{section*.61}
 \contentsline {section}{\numberline {10.5}Catalyzer}{74}{section.10.5}
 \contentsline {section}{\numberline {10.6}Injectors}{77}{section.10.6}
+\contentsline {subsection}{\numberline {10.6.1}Choice of injector type}{77}{subsection.10.6.1}
+\contentsline {subsection}{\numberline {10.6.2}Swirl injector functionnality}{77}{subsection.10.6.2}
+\contentsline {subsection}{\numberline {10.6.3}Injection system concept}{78}{subsection.10.6.3}
 \contentsline {section}{\numberline {10.7}Feeding system}{78}{section.10.7}
 \contentsline {subsection}{\numberline {10.7.1}Line diameters}{81}{subsection.10.7.1}
-\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{81}{subsection.10.7.2}
-\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{82}{subsection.10.7.3}
-\contentsline {section}{\numberline {10.8}Turbo pumps}{83}{section.10.8}
+\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{82}{subsection.10.7.2}
+\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{83}{subsection.10.7.3}
+\contentsline {section}{\numberline {10.8}Turbo pumps}{84}{section.10.8}
 \contentsline {section}{\numberline {10.9}Pressure evolution summary}{86}{section.10.9}
 \contentsline {subsection}{\numberline {10.9.1}Fuel side}{86}{subsection.10.9.1}
 \contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{87}{subsection.10.9.2}
