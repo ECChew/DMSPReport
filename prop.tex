@@ -437,10 +437,75 @@ The schematic\footnote{\url{https://www.sciencedirect.com/science/article/abs/pi
 Our injection will be a liquid-gas injection but this characteristic is not really a problem for a swirl injector as the two propellant will behave the same way as a liquid or a gas.\\
 
 in addition of these advantages the swirl injector offers an other non-negligible advantages that it allow us to improve our efficiency. Indeed, the study show that a swirl injector increases the combustion stability and efficiency up to 10$\%$ which result in a better fuel consumption during the operating time of the spacecraft. 
+\pagebreak
+\subsection{Injector design calculations}
+Based on historical data, we assumed types of injectors to calculate the injection velocity at the limit between the combustion chamber ($P_{chamber} = 40\ bars$) and the injector. Then, with 
+
+\begin{itemize}
+	\itemsep0em 
+	\item $ P = P_{chamber} = 40$ bars
+	\item $\rho_{Ox} = 1450$ kg/m$^3$
+	\item $\rho_{Fuel} = 810$ kg/m$^3$
+	\item $\dot{m} = 10$ kg/s
+	\item $\dot{m}_{Ox} = 1.239$ kg/s
+	\item $\dot{m}_{Fuel} = 8.761$ kg/s
+	\item $C_D = 0.9$ (short tube with conical entrance of $1$ mm)
+	\item $k_{Drop} = $ from $0.05$ to $0.15$ depending on the type of injector
+\end{itemize}
+\begin{align}
+\Delta P &= k_{Drop}\times P\\
+w_{inj_{F,O}} &= C_D \sqrt{2\frac{\Delta P}{\rho_{F,O}}} \\
+\dot{V_{F,O}} &= \frac{\dot{m}_{F, O}}{\rho_{F,O}}\\
+A_{F, O} &= \frac{\dot{V_{F,O}}}{w_{inj_{F,O}}}
+\end{align}
+Thus, while taking the average over multiple examples, we get :
+\begin{align}
+A_O & = 2.75\times 10^{-4} m^2\\
+A_{F} &= 5.21\times 10^{-5} m^2
+\end{align}
+After this, we can compute our velocities
+\begin{align}
+w_{inj_{O}} &= \frac{\dot{V_O}}{A_O} = 21.9707 m/s\\
+w_{inj_{F}} &= \frac{\dot{V_F}}{A_F} = 29.3632 m/s
+\end{align} 
+We can also get our pressure drop at injection which will be needed in \autoref{sec:10-7}. We choose a sharp edged orifice for $d>2.5$ mm for the fuel and a short time with conical entrance for the oxidizer.
+\begin{align}
+C_{D_{Ox}} &= 0.84\\
+C_{D_F} &= 0.61\\
+\Delta P_{Oxidizer\ injection} &= \bigg(\frac{w_{inj_{Ox}}}{C_{D_{Ox}}}\bigg)^2 \times \frac{\rho_{Ox}}{2} = 4.9599\ bars\\
+\Delta P_{Fuel\ injection} &= \bigg(\frac{w_{inj_F}}{C_{D_F}}\bigg)^2 \times \frac{\rho_F}{2} = 9.3843\ bars 
+\end{align}
 
 \subsection{Injection system concept}
+The injection system is based on the mass flow and the pressure drop in the injector. The injection area was calculated previous and is :
+\begin{align}
+A_O & = 2.75\times 10^{-4} m^2\\
+A_{F} &= 5.21\times 10^{-5} m^2
+\end{align}
 
+Since a single injector in the middle of the injection head would not distribute the fuel/oxidizer mixture well throughout the diameter of the relatively large combustion chamber it makes sense to distribute several injectors over the area of the injection head. A high number of injectors would result in tiny injectors though, since the diameter of a single injector is relatively small compared to the injection head. To reach a well distribution it was decided to use 7 injectors. One in the center of the injection head and the other 6 circling the central one. This results in a constant distance between all neighboring injectors. \autoref{fig:injhead} shows the arrangement of injectors in the injection head. The section is oriented against the direction of the mass flow.
+
+\begin{figure}[H]
+	\centering\includegraphics[width=0.8\linewidth]{injhead}
+	\caption{Injector head}\label{fig:injhead}
+\end{figure}
+
+The swirl injector used, swirls fuel and oxidizer separately. To ensure the separation of fuel and oxidizer before the chamber both are channeled in separate layers. The swirls are then injected in 4 tangential inlets. The following figures show how the injection head geometry is foreseen. The fuel channels are highlighted in orange and the oxidizer channels in blue.
+
+\begin{figure}[H]
+	\centering\includegraphics[width=0.8\linewidth]{sectioncc}
+	\caption{Section of the combustion chamber}
+\end{figure}
+\begin{figure}[H]
+	\centering\includegraphics[width=0.5\linewidth]{isoview}
+	\caption{Iso view of (transparent) injection head}
+\end{figure}
+\begin{figure}[H]
+	\centering\includegraphics[width=0.5\linewidth]{headsection}
+	\caption{Section of injection head}
+\end{figure}
 \section{Feeding system}
+\label{sec:10-7}
 After having designed most of our propulsion system. We need to carefully link them by designing our feeding system. The biggest challenge is to create a system that will both fit in our spacecraft and deliver the right amount of propellant from the tanks to the engine through our different, required other subsystems.\\
 
 The general pressure loss in a system is given by :

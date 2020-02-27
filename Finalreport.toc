@@ -77,21 +77,22 @@
 \contentsline {section}{\numberline {10.6}Injectors}{77}{section.10.6}
 \contentsline {subsection}{\numberline {10.6.1}Choice of injector type}{77}{subsection.10.6.1}
 \contentsline {subsection}{\numberline {10.6.2}Swirl injector functionnality}{77}{subsection.10.6.2}
-\contentsline {subsection}{\numberline {10.6.3}Injection system concept}{78}{subsection.10.6.3}
-\contentsline {section}{\numberline {10.7}Feeding system}{78}{section.10.7}
-\contentsline {subsection}{\numberline {10.7.1}Line diameters}{81}{subsection.10.7.1}
-\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{82}{subsection.10.7.2}
-\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{83}{subsection.10.7.3}
-\contentsline {section}{\numberline {10.8}Turbo pumps}{84}{section.10.8}
-\contentsline {section}{\numberline {10.9}Pressure evolution summary}{86}{section.10.9}
-\contentsline {subsection}{\numberline {10.9.1}Fuel side}{86}{subsection.10.9.1}
-\contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{87}{subsection.10.9.2}
-\contentsline {section}{\numberline {10.10}Engine}{88}{section.10.10}
-\contentsline {section}{\numberline {10.11}Nozzle}{88}{section.10.11}
-\contentsline {chapter}{\numberline {11}Simulations}{89}{chapter.11}
-\contentsline {section}{\numberline {11.1}Engine performance simulation}{89}{section.11.1}
-\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{93}{section.11.2}
-\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{95}{section.11.3}
-\contentsline {chapter}{\numberline {12}Evaluation}{98}{chapter.12}
-\contentsline {section}{\numberline {12.1}Requirement verification}{98}{section.12.1}
-\contentsline {section}{\numberline {12.2}Lessons learnt}{99}{section.12.2}
+\contentsline {subsection}{\numberline {10.6.3}Injector design calculations}{79}{subsection.10.6.3}
+\contentsline {subsection}{\numberline {10.6.4}Injection system concept}{80}{subsection.10.6.4}
+\contentsline {section}{\numberline {10.7}Feeding system}{82}{section.10.7}
+\contentsline {subsection}{\numberline {10.7.1}Line diameters}{85}{subsection.10.7.1}
+\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{85}{subsection.10.7.2}
+\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{86}{subsection.10.7.3}
+\contentsline {section}{\numberline {10.8}Turbo pumps}{87}{section.10.8}
+\contentsline {section}{\numberline {10.9}Pressure evolution summary}{90}{section.10.9}
+\contentsline {subsection}{\numberline {10.9.1}Fuel side}{90}{subsection.10.9.1}
+\contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{91}{subsection.10.9.2}
+\contentsline {section}{\numberline {10.10}Engine}{92}{section.10.10}
+\contentsline {section}{\numberline {10.11}Nozzle}{92}{section.10.11}
+\contentsline {chapter}{\numberline {11}Simulations}{93}{chapter.11}
+\contentsline {section}{\numberline {11.1}Engine performance simulation}{93}{section.11.1}
+\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{97}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{99}{section.11.3}
+\contentsline {chapter}{\numberline {12}Evaluation}{102}{chapter.12}
+\contentsline {section}{\numberline {12.1}Requirement verification}{102}{section.12.1}
+\contentsline {section}{\numberline {12.2}Lessons learnt}{103}{section.12.2}

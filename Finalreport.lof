@@ -34,19 +34,23 @@
 \contentsline {figure}{\numberline {10.10}{\ignorespaces Example of catalyst bed\relax }}{75}{figure.caption.64}
 \contentsline {figure}{\numberline {10.11}{\ignorespaces Pressure drop depending on the size of the catalyst bed\relax }}{76}{figure.caption.65}
 \contentsline {figure}{\numberline {10.12}{\ignorespaces Cross section of a swirl injector\relax }}{78}{figure.caption.66}
-\contentsline {figure}{\numberline {10.13}{\ignorespaces $K$ values for geometry changes\relax }}{79}{figure.caption.67}
-\contentsline {figure}{\numberline {10.14}{\ignorespaces Feeding system layout (To scale)\relax }}{80}{figure.caption.68}
-\contentsline {figure}{\numberline {10.15}{\ignorespaces Feeding system layout - Zoomed (To scale)\relax }}{81}{figure.caption.69}
-\contentsline {figure}{\numberline {10.16}{\ignorespaces Pressure evolution on fuel side (bars)\relax }}{86}{figure.caption.71}
-\contentsline {figure}{\numberline {10.17}{\ignorespaces Pressure evolution on oxidizer side (bars)\relax }}{87}{figure.caption.73}
+\contentsline {figure}{\numberline {10.13}{\ignorespaces Injector head\relax }}{81}{figure.caption.67}
+\contentsline {figure}{\numberline {10.14}{\ignorespaces Section of the combustion chamber\relax }}{81}{figure.caption.68}
+\contentsline {figure}{\numberline {10.15}{\ignorespaces Iso view of (transparent) injection head\relax }}{82}{figure.caption.69}
+\contentsline {figure}{\numberline {10.16}{\ignorespaces Section of injection head\relax }}{82}{figure.caption.70}
+\contentsline {figure}{\numberline {10.17}{\ignorespaces $K$ values for geometry changes\relax }}{83}{figure.caption.71}
+\contentsline {figure}{\numberline {10.18}{\ignorespaces Feeding system layout (To scale)\relax }}{84}{figure.caption.72}
+\contentsline {figure}{\numberline {10.19}{\ignorespaces Feeding system layout - Zoomed (To scale)\relax }}{84}{figure.caption.73}
+\contentsline {figure}{\numberline {10.20}{\ignorespaces Pressure evolution on fuel side (bars)\relax }}{90}{figure.caption.75}
+\contentsline {figure}{\numberline {10.21}{\ignorespaces Pressure evolution on oxidizer side (bars)\relax }}{91}{figure.caption.77}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{90}{figure.caption.74}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{91}{figure.caption.75}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{92}{figure.caption.76}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{94}{figure.caption.77}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{95}{figure.caption.78}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{97}{figure.caption.79}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{94}{figure.caption.78}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{95}{figure.caption.79}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{96}{figure.caption.80}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{98}{figure.caption.81}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{99}{figure.caption.82}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{101}{figure.caption.83}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Requirements for the vehicle\relax }}{98}{figure.caption.80}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Lessons learnt\relax }}{99}{figure.caption.81}
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Gantt Schedule\relax }}{104}{figure.caption.87}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Requirements for the vehicle\relax }}{102}{figure.caption.84}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Lessons learnt\relax }}{103}{figure.caption.85}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Gantt Schedule\relax }}{108}{figure.caption.91}
