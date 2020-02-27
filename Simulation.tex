@@ -1,4 +1,5 @@
 \chapter{Simulations}
+\label{chap:11}
 \section{Engine performance simulation}
 \qquad In order to simulate the engine performance, the largest single burn was simulated. As the initial burn for entering a Geostationary Transfer Orbit would require more than $900$ s of engine burn time due to the large starting mass of the spacecraft, roughly half of this initial burn was simulated. An immediate result of the requirement to limit engine burn time to $900$ s is therefore, that the first burn needs to be split into two burns. The engine simulation aims to determine thrust, acceleration, $\Delta v$ and propellant masses over time. A combined MATLAB$^{\mbox{\scriptsize{\textregistered}}}$  / Simulink$^{\mbox{\scriptsize{\textregistered}}}$  was used, calculating thrust based on following equation:
 \begin{equation}
@@ -71,6 +72,7 @@ The final cooling channel system is a compromise between the copper wall tempera
 
 The highest temperatures can be observed in the combustion chamber section, as low flow speeds cause less convective heat transfer to take place, reducing the overall heat flux. The gas-side wall temperature then drops in the beginning of the throat area, before rising again towards the throat. After passing the throat, the gas-side wall temperature drops sharply and then rises again towards the nozzle exit.
 \section{Hydrogen peroxide decomposition simulation}
+\label{sec:11-3}
 \qquad As mentioned in \autoref{sec:10-3}, the decomposition of hydrogen peroxide is used for self-pressurization of the oxidizer tank as well as power generation in a fuel cell in combination with hydrogen. As hydrogen peroxide is not only decomposing, but the decomposition is also an exothermal process, the thermal control system needs to be well under control in order to avoid critical behavior of the hydrogen peroxide if $150^\circ$ C are exceeded. Therefore, a detailed simulation has been performed, taking wall thicknesses, materials, radiative and absorbing coefficients as input parameters. The simulation is structured like a control system, calculating the temperature of the hydrogen peroxide inside the tank, the cold and hot wall temperatures. Upon reaching the specified target temperature, the control loop rotates the spacecraft to a neutral degree for constant hydrogen peroxide temperature. Before discussing the results, an overview of the simplifications taken for facilitation of the simulation follows:
 \begin{itemize}
 	\itemsep0em 

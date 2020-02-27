@@ -1,4 +1,5 @@
 \chapter{Propulsion system}
+\label{chap:10}
 \section{Engine cycle}
 \qquad The spacecraft uses electrically-driven turbo pumps to feed the oxidizer as well as the fuel to the engine. The propellant and oxidizer are each driven out of their tanks at low pressure, where after a turbo pump in each propellant line strain raises their pressures. As the oxidizer strain has a higher mass flow rate and faces a large pressure drop in the catalyzer, the respective pump is also more powerful as a result. The turbo pumps are driven electrically by electric motors which use large batteries for their power intake. These batteries offer enough charge for one maximum burn time of 900 seconds, after which they are re-powered by a fuel cell which runs on hydrogen and the hydrogen peroxide decomposition product oxygen. This will be explained further in \autoref{sec:10-3}. In order to demonstrate how exactly the engine cycle is made up, a flow schematic is shown in the following. Firstly, the pressurization system is shown in \autoref{fig1}.
 \begin{figure}[H]
@@ -120,7 +121,82 @@ In addition of the thrusters we also need another system which is the Reaction W
 
 \section{Multi-usage of hydrogen peroxide}
 \label{sec:10-3}
+Hydrogen Peroxide as the main engines oxidizer is the main dictator of all sub-system and system design decisions. GREDER uses it for following applications:
+\begin{enumerate}
+	\item	Main engine oxidizer
+	\item	ACS mono-propellant
+	\item	Fuel cell power generation in combination with stored hydrogen
+	\item	Oxidizer tank pressurization
+\end{enumerate}
 
+Hydrogen peroxide’s decomposition behavior is the reason for its multi-purpose usability, but also its major risk. If the pressure or temperature in the tank go unregulated and exceed certain boundaries, the propellant can enter critical status and endanger the tank’s integrity. Therefore, extensive design and simulation was conducted to determine a tank design which allows thermal regulation based on the rotational angle of space craft, as indicated in \autoref{fig:tempreg}. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{tempreg}
+	\caption{Lessons learnt}\label{fig:tempreg}
+\end{figure}
+
+The absorbing side of the space craft is painted in a way which causes a high absorption coefficient and a low emissivity, while the radiative side is coated vice-versa. The tank materials are chosen to deliver high heat transfer while being compatible with hydrogen peroxide. Thereby, a rotation of the space craft will cause a change in the heat flux, while every hydrogen peroxide temperature can be assigned a rotational angle for neutral heat flux at which no temperature change happens. This design was simulated with some simplifications and its technological feasibility could be verified. This is detailed in \autoref{sec:11-3}. \\
+
+The usage of hydrogen peroxide is the sole reason for GREDER using electrically-driven turbo pumps, as the ease in electricity production makes this the most efficient method. The relatively low combustion chamber pressure and thrust are not a major issue, as a long mission duration is necessary anyways for electricity production in between burns. In addition, the low complexity of the electric turbo pump cycle compensates for the higher complexity of the challenge of storing hydrogen peroxide for long durations, as it is a highly reactive chemical which poses extreme risks, especially due to its decomposition behavior, which GREDER uses as an advantage. \\
+
+As batteries have a low energy density compared to chemical fuels, electric cycles for main engines usually come with a mass disadvantage due to the necessity of carrying large battery masses. While GREDER needs a total main engine burn time of around 2500 seconds per mission, the battery only needs to power the turbo pumps and electrical equipment for 900 seconds at a time, because the hydrogen peroxide decomposition product oxygen powers a fuel cell in combination with hydrogen between main engine burns for additional power generation. The main trade-off to consider at this point is between bringing a fuel cell, a hydrogen tank and the additional equipment for separation of the decomposition products and dimensioning the battery large enough for powering the entire mission. As the other applications of the hydrogen peroxide are discussed in other chapters, this chapter will detail the power generation usage and detail a trade-off with respect to using a larger battery. The detailed description of how the power generation and tank pressure control work can be found in chapter 12 and the simulation model in the annex. This chapter will use analytical terms to compare the two approaches, while the simulation can be seen as a proof of concept.\\
+
+In order to determine the necessary masses for the additional components for fuel cell usage, the energy output of the fuel cell was calculated using the reaction energy multiplied with an assumed efficiency coefficient supported by literature. Following assumption for the efficiency was made:
+
+\begin{equation}
+	\eta_{Fuel_{cell}} = 0.6
+\end{equation}
+With the theoretical reaction energy being :
+\begin{equation}
+	P_{Fuel\ cell_{th}} = 286\ 000 \ J/mole
+\end{equation}
+For the reaction :
+\begin{center}
+	$2H_2\ +\ O_2\ =\ 2H_2O$
+\end{center}
+
+Taking the mole masses into account and assuming complete reaction, for every kilogram of hydrogen the fuel cell uses $7.937$ kg of oxygen. The resulting energy per kilogram of hydrogen can then be calculated as follows:
+\begin{equation}
+	E_{Fuel\ cell_{real}} = 286\ 000\ J/mole \times 0.6\times\frac{1kg}{0.01\ kg/mole} = 47.29\ kWh
+\end{equation}
+In order to perform a trade-off calculation between using a fuel cell for battery re-charging or installing a larger battery directly, the total masses for both systems will be compared at this point. The current mass budget for the fuel cell system is as follows:
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		Component & Mass (kg)\\
+		\hline
+		Battery & $388.66$\\
+		\hline
+		Fuel cell & $202$\\
+		\hline
+		$H_2$ tank & $5$\\
+		\hline
+		Other equipement & $10$\\
+		\hline
+		\cellcolor{gray!50}Total & \cellcolor{gray!50}$605.66$
+	\end{tabular}
+\end{table}
+
+Now, as the fuel cell allows GREDER to only be designed for a $900$ s duration of not being re-powered, the battery mass can remain relatively low at a conservative battery energy density of $100$  Wh/kg. During the burn duration, around $98.6$\% of electrical energy is used to power the turbo pumps. Therefore, as a first estimate, the necessary battery mass for powering the turbo pumps during all mission burn times, which amount to $2475.2$ seconds, is calculated:
+\begin{equation}
+	m_{Bat,\ only bat} = \frac{P_{TP}\times 2475.2s}{100\ Wh/kg} = 1\ 053.9\ kg
+\end{equation}
+
+This results in a \textbf{mass difference of 448.2kg in favour of the fuel-cell architecture}. Now, two possible problems can be brought up with this estimation:
+\begin{enumerate}
+	\item	The energy density estimate is at the lower end of current lithium battery technology and a higher density would result in a shift towards the advantages of using only a battery.
+	\item	The fuel-cell architecture is not technologically proven in combination with hydrogen peroxide decomposition and constitutes larger technical complexity.
+\end{enumerate}
+
+While these points are valid arguments for using only a battery, the trade-off analysis clearly pointed out using a fuel-cell would result in a mass reduction, the higher level of technical complexity of which is justifiable. The above-mentioned arguments can be answered as follows:
+\begin{enumerate}
+	\item	While lithium batteries of higher energy densities have been flight-proven, the mission itself has never been performed in a similar way. Refuelling and frequent satellite capturing are completely new territory and therefore, conservative estimates in key design criteria offer a way of compensating for the additional mission challenges.
+	\item	Fuel cells are very well researched and very common technology in on-earth use. Therefore, the implementation of a decomposition-product recycling system, while posing some new design problems, is not comparable to the difficulty of challenges like designing a new engine. Additionally, as this mass estimate only takes turbo pump power into account, the battery-only architecture would need to either have even greater battery mass or be fitted with solar power generators to cover the system power requirements between burns. This again adds up to system complexity and poses large problems during re-entry.
+	
+\end{enumerate}
 \section{Propellant tanks}
 The vehicle must use propellant tanks in order to carry the oxidizer and fuel, in this case H2O2 and RP-1, during the mission. The required total useable propellant was already found in the final mass budget calculation. 
 This chapter describes the tank design beginning with the requirements and tank specification, afterwards the analysis of compatible materials following by the design including different options, expulsion principle, stresses, MAIT and final design. The Liner tanks are also addressed in the last part of this chapter.\\
