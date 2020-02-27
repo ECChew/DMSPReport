@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {1.2}Final schedule \IeC {\textendash } comparison as planned and as achieved}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}Requirements}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}Launcher requirements and launch envelope}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Mission analysis and $\Delta v$ calculation}{9}{chapter.4}
+\contentsline {chapter}{\numberline {4}Mission analysis }{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Mission Summary}{9}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Phase 1}{9}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Phase 2 }{11}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}$\Delta v$ reduction}{11}{section.4.2}
+\contentsline {section}{\numberline {4.2}Delta-V reduction}{11}{section.4.2}
 \contentsline {chapter}{\numberline {5}Satellite capturing process}{16}{chapter.5}
 \contentsline {section}{\numberline {5.1}Choice of the process}{16}{section.5.1}
 \contentsline {section}{\numberline {5.2}Magnetic solution}{17}{section.5.2}
