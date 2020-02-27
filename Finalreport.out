@@ -13,67 +13,66 @@
 \BOOKMARK [1][-]{section.5.2}{Magnetic solution}{chapter.5}% 13
 \BOOKMARK [2][-]{subsection.5.2.1}{Assumptions}{section.5.2}% 14
 \BOOKMARK [1][-]{section.5.3}{Sketching and Calculations}{chapter.5}% 15
-\BOOKMARK [0][-]{chapter.6}{Heat shield}{}% 16
-\BOOKMARK [1][-]{section.6.1}{Thermal protection system}{chapter.6}% 17
-\BOOKMARK [1][-]{section.6.2}{First estimation}{chapter.6}% 18
-\BOOKMARK [1][-]{section.6.3}{Material choice}{chapter.6}% 19
-\BOOKMARK [1][-]{section.6.4}{Lift and drag}{chapter.6}% 20
-\BOOKMARK [1][-]{section.6.5}{Aerobraking altitude}{chapter.6}% 21
-\BOOKMARK [1][-]{section.6.6}{Simplifications}{chapter.6}% 22
-\BOOKMARK [1][-]{section.6.7}{Heat shield interface}{chapter.6}% 23
-\BOOKMARK [1][-]{section.6.8}{Radiative cooling}{chapter.6}% 24
-\BOOKMARK [1][-]{section.6.9}{Final heat shield mass}{chapter.6}% 25
-\BOOKMARK [0][-]{chapter.7}{Propellant selection}{}% 26
-\BOOKMARK [1][-]{section.7.1}{Options overview}{chapter.7}% 27
-\BOOKMARK [1][-]{section.7.2}{Detailed comparison between MON/MMH and H2O2/RP-1}{chapter.7}% 28
-\BOOKMARK [1][-]{section.7.3}{H2O2/RP-1 feasibility check}{chapter.7}% 29
-\BOOKMARK [1][-]{section.7.4}{Summary}{chapter.7}% 30
-\BOOKMARK [0][-]{chapter.8}{Vehicle architecture}{}% 31
-\BOOKMARK [0][-]{chapter.9}{Mass model and burning times}{}% 32
-\BOOKMARK [1][-]{section.9.1}{Mass Budget - First Iteration}{chapter.9}% 33
-\BOOKMARK [2][-]{subsection.9.1.1}{Coefficients \046 Masses after steps}{section.9.1}% 34
-\BOOKMARK [2][-]{subsection.9.1.2}{Global equation between mUP and minitial}{section.9.1}% 35
-\BOOKMARK [2][-]{subsection.9.1.3}{First iteration of mass budget}{section.9.1}% 36
-\BOOKMARK [1][-]{section.9.2}{Mass Budget - Second iteration}{chapter.9}% 37
-\BOOKMARK [2][-]{subsection.9.2.1}{Coefficients \046 Masses after steps}{section.9.2}% 38
-\BOOKMARK [2][-]{subsection.9.2.2}{Global equation between m\137\173UP\175 and m\137\173initial\175}{section.9.2}% 39
-\BOOKMARK [2][-]{subsection.9.2.3}{Second iteration of mass budget}{section.9.2}% 40
-\BOOKMARK [1][-]{section.9.3}{Frozen information}{chapter.9}% 41
-\BOOKMARK [2][-]{subsection.9.3.1}{Frozen points}{section.9.3}% 42
-\BOOKMARK [1][-]{section.9.4}{Mass Budget - Final iteration}{chapter.9}% 43
-\BOOKMARK [2][-]{subsection.9.4.1}{Coefficients \046 Masses after steps}{section.9.4}% 44
-\BOOKMARK [2][-]{subsection.9.4.2}{Global equation between m\137\173UP\175 and m\137\173initial\175}{section.9.4}% 45
-\BOOKMARK [2][-]{subsection.9.4.3}{Detailed contributors}{section.9.4}% 46
-\BOOKMARK [2][-]{subsection.9.4.4}{Final mass budget}{section.9.4}% 47
-\BOOKMARK [1][-]{section.9.5}{Burn times}{chapter.9}% 48
-\BOOKMARK [0][-]{chapter.10}{Propulsion system}{}% 49
-\BOOKMARK [1][-]{section.10.1}{Engine cycle}{chapter.10}% 50
-\BOOKMARK [1][-]{section.10.2}{RCS / ACS}{chapter.10}% 51
-\BOOKMARK [1][-]{section.10.3}{Multi-usage of hydrogen peroxide}{chapter.10}% 52
-\BOOKMARK [1][-]{section.10.4}{Propellant tanks}{chapter.10}% 53
-\BOOKMARK [2][-]{subsection.10.4.1}{Requirements and specification}{section.10.4}% 54
-\BOOKMARK [2][-]{subsection.10.4.2}{Materials}{section.10.4}% 55
-\BOOKMARK [2][-]{subsection.10.4.3}{Concepts and options}{section.10.4}% 56
-\BOOKMARK [2][-]{subsection.10.4.4}{Final design}{section.10.4}% 57
-\BOOKMARK [2][-]{subsection.10.4.5}{Expulsion principle}{section.10.4}% 58
-\BOOKMARK [2][-]{subsection.10.4.6}{Stresses}{section.10.4}% 59
-\BOOKMARK [2][-]{subsection.10.4.7}{Liner tanks}{section.10.4}% 60
-\BOOKMARK [1][-]{section.10.5}{Catalyzer}{chapter.10}% 61
-\BOOKMARK [1][-]{section.10.6}{Injectors}{chapter.10}% 62
-\BOOKMARK [1][-]{section.10.7}{Feeding system}{chapter.10}% 63
-\BOOKMARK [2][-]{subsection.10.7.1}{Line diameters}{section.10.7}% 64
-\BOOKMARK [2][-]{subsection.10.7.2}{Fuel feeding system}{section.10.7}% 65
-\BOOKMARK [2][-]{subsection.10.7.3}{Oxidizer feeding system}{section.10.7}% 66
-\BOOKMARK [1][-]{section.10.8}{Turbo pumps}{chapter.10}% 67
-\BOOKMARK [1][-]{section.10.9}{Pressure evolution summary}{chapter.10}% 68
-\BOOKMARK [2][-]{subsection.10.9.1}{Fuel side}{section.10.9}% 69
-\BOOKMARK [2][-]{subsection.10.9.2}{Oxidizer side}{section.10.9}% 70
-\BOOKMARK [1][-]{section.10.10}{Engine}{chapter.10}% 71
-\BOOKMARK [1][-]{section.10.11}{Nozzle}{chapter.10}% 72
-\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 73
-\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 74
-\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 75
-\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 76
-\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 77
-\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 78
-\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 79
+\BOOKMARK [0][-]{chapter.6}{Thermal protection system}{}% 16
+\BOOKMARK [1][-]{section.6.1}{First estimation}{chapter.6}% 17
+\BOOKMARK [1][-]{section.6.2}{Material choice}{chapter.6}% 18
+\BOOKMARK [1][-]{section.6.3}{Lift and drag}{chapter.6}% 19
+\BOOKMARK [1][-]{section.6.4}{Aerobraking altitude}{chapter.6}% 20
+\BOOKMARK [1][-]{section.6.5}{Simplifications}{chapter.6}% 21
+\BOOKMARK [1][-]{section.6.6}{Heat shield interface}{chapter.6}% 22
+\BOOKMARK [1][-]{section.6.7}{Radiative cooling}{chapter.6}% 23
+\BOOKMARK [1][-]{section.6.8}{Final heat shield mass}{chapter.6}% 24
+\BOOKMARK [0][-]{chapter.7}{Propellant selection}{}% 25
+\BOOKMARK [1][-]{section.7.1}{Options overview}{chapter.7}% 26
+\BOOKMARK [1][-]{section.7.2}{Detailed comparison between MON/MMH and H2O2/RP-1}{chapter.7}% 27
+\BOOKMARK [1][-]{section.7.3}{H2O2/RP-1 feasibility check}{chapter.7}% 28
+\BOOKMARK [1][-]{section.7.4}{Summary}{chapter.7}% 29
+\BOOKMARK [0][-]{chapter.8}{Vehicle architecture}{}% 30
+\BOOKMARK [0][-]{chapter.9}{Mass model and burning times}{}% 31
+\BOOKMARK [1][-]{section.9.1}{Mass Budget - First Iteration}{chapter.9}% 32
+\BOOKMARK [2][-]{subsection.9.1.1}{Coefficients \046 Masses after steps}{section.9.1}% 33
+\BOOKMARK [2][-]{subsection.9.1.2}{Global equation between mUP and minitial}{section.9.1}% 34
+\BOOKMARK [2][-]{subsection.9.1.3}{First iteration of mass budget}{section.9.1}% 35
+\BOOKMARK [1][-]{section.9.2}{Mass Budget - Second iteration}{chapter.9}% 36
+\BOOKMARK [2][-]{subsection.9.2.1}{Coefficients \046 Masses after steps}{section.9.2}% 37
+\BOOKMARK [2][-]{subsection.9.2.2}{Global equation between m\137\173UP\175 and m\137\173initial\175}{section.9.2}% 38
+\BOOKMARK [2][-]{subsection.9.2.3}{Second iteration of mass budget}{section.9.2}% 39
+\BOOKMARK [1][-]{section.9.3}{Frozen information}{chapter.9}% 40
+\BOOKMARK [2][-]{subsection.9.3.1}{Frozen points}{section.9.3}% 41
+\BOOKMARK [1][-]{section.9.4}{Mass Budget - Final iteration}{chapter.9}% 42
+\BOOKMARK [2][-]{subsection.9.4.1}{Coefficients \046 Masses after steps}{section.9.4}% 43
+\BOOKMARK [2][-]{subsection.9.4.2}{Global equation between m\137\173UP\175 and m\137\173initial\175}{section.9.4}% 44
+\BOOKMARK [2][-]{subsection.9.4.3}{Detailed contributors}{section.9.4}% 45
+\BOOKMARK [2][-]{subsection.9.4.4}{Final mass budget}{section.9.4}% 46
+\BOOKMARK [1][-]{section.9.5}{Burn times}{chapter.9}% 47
+\BOOKMARK [0][-]{chapter.10}{Propulsion system}{}% 48
+\BOOKMARK [1][-]{section.10.1}{Engine cycle}{chapter.10}% 49
+\BOOKMARK [1][-]{section.10.2}{RCS / ACS}{chapter.10}% 50
+\BOOKMARK [1][-]{section.10.3}{Multi-usage of hydrogen peroxide}{chapter.10}% 51
+\BOOKMARK [1][-]{section.10.4}{Propellant tanks}{chapter.10}% 52
+\BOOKMARK [2][-]{subsection.10.4.1}{Requirements and specification}{section.10.4}% 53
+\BOOKMARK [2][-]{subsection.10.4.2}{Materials}{section.10.4}% 54
+\BOOKMARK [2][-]{subsection.10.4.3}{Concepts and options}{section.10.4}% 55
+\BOOKMARK [2][-]{subsection.10.4.4}{Final design}{section.10.4}% 56
+\BOOKMARK [2][-]{subsection.10.4.5}{Expulsion principle}{section.10.4}% 57
+\BOOKMARK [2][-]{subsection.10.4.6}{Stresses}{section.10.4}% 58
+\BOOKMARK [2][-]{subsection.10.4.7}{Liner tanks}{section.10.4}% 59
+\BOOKMARK [1][-]{section.10.5}{Catalyzer}{chapter.10}% 60
+\BOOKMARK [1][-]{section.10.6}{Injectors}{chapter.10}% 61
+\BOOKMARK [1][-]{section.10.7}{Feeding system}{chapter.10}% 62
+\BOOKMARK [2][-]{subsection.10.7.1}{Line diameters}{section.10.7}% 63
+\BOOKMARK [2][-]{subsection.10.7.2}{Fuel feeding system}{section.10.7}% 64
+\BOOKMARK [2][-]{subsection.10.7.3}{Oxidizer feeding system}{section.10.7}% 65
+\BOOKMARK [1][-]{section.10.8}{Turbo pumps}{chapter.10}% 66
+\BOOKMARK [1][-]{section.10.9}{Pressure evolution summary}{chapter.10}% 67
+\BOOKMARK [2][-]{subsection.10.9.1}{Fuel side}{section.10.9}% 68
+\BOOKMARK [2][-]{subsection.10.9.2}{Oxidizer side}{section.10.9}% 69
+\BOOKMARK [1][-]{section.10.10}{Engine}{chapter.10}% 70
+\BOOKMARK [1][-]{section.10.11}{Nozzle}{chapter.10}% 71
+\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 72
+\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 73
+\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 74
+\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 75
+\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 76
+\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 77
+\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 78
