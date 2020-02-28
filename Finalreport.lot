@@ -3,35 +3,34 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Requirements for the vehicle\relax }}{6}{table.caption.5}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Mission planning options\relax }}{13}{table.caption.7}
-\addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {6.1}{\ignorespaces Comparison of materials for heat shield\relax }}{22}{table.caption.12}
-\addvspace {10\p@ }
-\contentsline {table}{\numberline {7.1}{\ignorespaces Propellant combinations overview\relax }}{33}{table.caption.17}
-\contentsline {table}{\numberline {7.2}{\ignorespaces Detailed propellant comparison MON/MMH and H2O2/RP-1\relax }}{35}{table.caption.18}
-\contentsline {table}{\numberline {7.3}{\ignorespaces Historical data of flight H2O2/RP-1 engines\relax }}{36}{table.caption.19}
+\contentsline {table}{\numberline {3.1}{\ignorespaces Mission planning options\relax }}{13}{table.caption.7}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {9.7}{\ignorespaces Initial mass budget\relax }}{44}{table.caption.27}
-\contentsline {table}{\numberline {9.10}{\ignorespaces Frozen information\relax }}{48}{table.caption.28}
-\contentsline {table}{\numberline {9.11}{\ignorespaces Coefficients and masses after steps\relax }}{49}{table.9.11}
-\contentsline {table}{\numberline {9.13}{\ignorespaces Mass budget - Electrical systems\relax }}{50}{table.caption.32}
-\contentsline {table}{\numberline {9.14}{\ignorespaces Mass Budget - Attitude Control\relax }}{51}{table.caption.34}
-\contentsline {table}{\numberline {9.15}{\ignorespaces Mass Budget - Propulsion\relax }}{51}{table.caption.36}
-\contentsline {table}{\numberline {9.16}{\ignorespaces Final mass budget\relax }}{51}{table.caption.37}
-\contentsline {table}{\numberline {9.17}{\ignorespaces Masses after step\relax }}{52}{table.caption.38}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Comparison of materials for heat shield\relax }}{22}{table.caption.12}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {10.1}{\ignorespaces Propellant masses and volumes\relax }}{64}{table.caption.46}
-\contentsline {table}{\numberline {10.2}{\ignorespaces PTA driving requirements\relax }}{65}{table.caption.48}
-\contentsline {table}{\numberline {10.3}{\ignorespaces PTA pressure loads\relax }}{66}{table.caption.50}
-\contentsline {table}{\numberline {10.4}{\ignorespaces PTA pressure cycles\relax }}{66}{table.caption.51}
-\contentsline {table}{\numberline {10.5}{\ignorespaces Propellant tank materials\relax }}{67}{table.caption.52}
-\contentsline {table}{\numberline {10.6}{\ignorespaces Preliminary tank stresses calculation\relax }}{75}{table.caption.58}
-\contentsline {table}{\numberline {10.7}{\ignorespaces Helium liner tank specification\relax }}{76}{table.caption.60}
-\contentsline {table}{\numberline {10.8}{\ignorespaces Helium liner tank specification\relax }}{76}{table.caption.62}
-\contentsline {table}{\numberline {10.9}{\ignorespaces Pressure evolution on fuel side\relax }}{92}{table.caption.74}
-\contentsline {table}{\numberline {10.10}{\ignorespaces Pressure evolution on fuel side\relax }}{93}{table.caption.76}
+\contentsline {table}{\numberline {6.1}{\ignorespaces Propellant combinations overview\relax }}{33}{table.caption.17}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Detailed propellant comparison MON/MMH and H2O2/RP-1\relax }}{35}{table.caption.18}
+\contentsline {table}{\numberline {6.3}{\ignorespaces Historical data of flight H2O2/RP-1 engines\relax }}{36}{table.caption.19}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {8.7}{\ignorespaces Initial mass budget\relax }}{44}{table.caption.27}
+\contentsline {table}{\numberline {8.10}{\ignorespaces Frozen information\relax }}{48}{table.caption.28}
+\contentsline {table}{\numberline {8.11}{\ignorespaces Coefficients and masses after steps\relax }}{49}{table.8.11}
+\contentsline {table}{\numberline {8.13}{\ignorespaces Mass budget - Electrical systems\relax }}{50}{table.caption.32}
+\contentsline {table}{\numberline {8.14}{\ignorespaces Mass Budget - Attitude Control\relax }}{51}{table.caption.34}
+\contentsline {table}{\numberline {8.15}{\ignorespaces Mass Budget - Propulsion\relax }}{51}{table.caption.36}
+\contentsline {table}{\numberline {8.16}{\ignorespaces Final mass budget\relax }}{51}{table.caption.37}
+\contentsline {table}{\numberline {8.17}{\ignorespaces Masses after step\relax }}{52}{table.caption.38}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {9.1}{\ignorespaces Propellant masses and volumes\relax }}{64}{table.caption.46}
+\contentsline {table}{\numberline {9.2}{\ignorespaces PTA driving requirements\relax }}{65}{table.caption.48}
+\contentsline {table}{\numberline {9.3}{\ignorespaces PTA pressure loads\relax }}{66}{table.caption.50}
+\contentsline {table}{\numberline {9.4}{\ignorespaces PTA pressure cycles\relax }}{66}{table.caption.51}
+\contentsline {table}{\numberline {9.5}{\ignorespaces Propellant tank materials\relax }}{67}{table.caption.52}
+\contentsline {table}{\numberline {9.6}{\ignorespaces Preliminary tank stresses calculation\relax }}{75}{table.caption.58}
+\contentsline {table}{\numberline {9.7}{\ignorespaces Helium liner tank specification\relax }}{76}{table.caption.60}
+\contentsline {table}{\numberline {9.8}{\ignorespaces Helium liner tank specification\relax }}{76}{table.caption.62}
+\contentsline {table}{\numberline {9.9}{\ignorespaces Pressure evolution on fuel side\relax }}{92}{table.caption.74}
+\contentsline {table}{\numberline {9.10}{\ignorespaces Pressure evolution on fuel side\relax }}{93}{table.caption.76}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
