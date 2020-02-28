@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  28 FEB 2020 19:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  28 FEB 2020 22:41
 entering extended mode
 **./Finalreport.tex
 (Finalreport.tex
@@ -1734,18 +1734,20 @@ File: initialschedule.png Graphic file (type png)
 <use initialschedule.png>
 Package pdftex.def Info: initialschedule.png  used on input line 22.
 (pdftex.def)             Requested size: 460.72124pt x 186.92519pt.
-
+[3 <./initialschedule.png>]
 Overfull \hbox (23.77138pt too wide) in paragraph at lines 26--26
 []\T1/cmr/bx/n/17.28 Final sched-ule  com-par-i-son as planned and as achieved
  
  []
 
-<finalschedule.png, id=479, 505.89pt x 204.765pt>
+<finalschedule.png, id=487, 505.89pt x 204.765pt>
 File: finalschedule.png Graphic file (type png)
 <use finalschedule.png>
 Package pdftex.def Info: finalschedule.png  used on input line 31.
 (pdftex.def)             Requested size: 460.72124pt x 186.48639pt.
-[3 <./initialschedule.png>]) [4 <./finalschedule.png>]
+) [4
+
+ <./finalschedule.png>]
 \openout2 = `requirements.aux'.
 
  (requirements.tex
@@ -1854,6 +1856,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 [10]
+Underfull \vbox (badness 1292) has occurred while \output is active []
+
+ [11]
 Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
  []
@@ -1862,7 +1867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--101
 
 
 (_minted-Finalreport/AABDDE9720AADD1D012BEF488861FEC2F8C1700CD029DD70258A628F48
-755E37.pygtex [11])
+755E37.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 111--113
 
  []
@@ -1892,22 +1897,32 @@ Overfull \hbox (13.31668pt too wide) in paragraph at lines 137--164
 [][] 
  []
 
-<mission1.png, id=562, 351.11176pt x 287.8755pt>
-File: mission1.png Graphic file (type png)
-<use mission1.png>
-Package pdftex.def Info: mission1.png  used on input line 179.
-(pdftex.def)             Requested size: 276.43555pt x 226.65921pt.
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 198--199
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--169
 
  []
 
-<mission2.png, id=571, 387.849pt x 359.54324pt>
+[13]
+<mission1.png, id=568, 351.11176pt x 287.8755pt>
+File: mission1.png Graphic file (type png)
+<use mission1.png>
+Package pdftex.def Info: mission1.png  used on input line 181.
+(pdftex.def)             Requested size: 276.43555pt x 226.65921pt.
+ [14
+
+ <./mission1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
+
+ []
+
+<mission2.png, id=578, 387.849pt x 359.54324pt>
 File: mission2.png Graphic file (type png)
 <use mission2.png>
-Package pdftex.def Info: mission2.png  used on input line 202.
+Package pdftex.def Info: mission2.png  used on input line 205.
 (pdftex.def)             Requested size: 322.50345pt x 298.96942pt.
-) [14 <./mission1.png>] [15 <./mission2.png>]
+) [15
+
+ <./mission2.png>]
 \openout2 = `catch.aux'.
 
  (catch.tex
@@ -1937,23 +1952,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 38--39
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 <magnetCAD.png, id=601, 490.2315pt x 276.43275pt>
 File: magnetCAD.png Graphic file (type png)
 <use magnetCAD.png>
-Package pdftex.def Info: magnetCAD.png  used on input line 69.
+Package pdftex.def Info: magnetCAD.png  used on input line 70.
 (pdftex.def)             Requested size: 460.72124pt x 259.79619pt.
-[18 <./magnetCAD.png>]
+[18
+
+ <./magnetCAD.png>]
 <catching.png, id=609, 767.2665pt x 273.4215pt>
 File: catching.png Graphic file (type png)
 <use catching.png>
-Package pdftex.def Info: catching.png  used on input line 90.
+Package pdftex.def Info: catching.png  used on input line 91.
 (pdftex.def)             Requested size: 460.72124pt x 164.18349pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
@@ -1981,48 +1998,57 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--5
 
 
 
+] [22
+
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
 
-[22] [23]
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
+[23
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 87--88
 
  []
 
-<shapedrag.png, id=665, 356.0502pt x 266.4354pt>
+<shapedrag.png, id=661, 356.0502pt x 266.4354pt>
 File: shapedrag.png Graphic file (type png)
 <use shapedrag.png>
-Package pdftex.def Info: shapedrag.png  used on input line 89.
+Package pdftex.def Info: shapedrag.png  used on input line 91.
 (pdftex.def)             Requested size: 322.50345pt x 241.34264pt.
-[24 <./shapedrag.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
-
- []
-
-[25]
-<shadowgraph.png, id=694, 433.62pt x 335.3328pt>
-File: shadowgraph.png Graphic file (type png)
-<use shadowgraph.png>
-Package pdftex.def Info: shadowgraph.png  used on input line 122.
-(pdftex.def)             Requested size: 460.72124pt x 356.31068pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-
- []
-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27 <./shadowgraph.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--144
+ [24
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 100--101
+
+ []
+
+[25 <./shapedrag.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
+
+ []
+
+<shadowgraph.png, id=693, 433.62pt x 335.3328pt>
+File: shadowgraph.png Graphic file (type png)
+<use shadowgraph.png>
+Package pdftex.def Info: shadowgraph.png  used on input line 124.
+(pdftex.def)             Requested size: 460.72124pt x 356.31068pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--126
+
+ []
+
+[26
+
+]
+Underfull \vbox (badness 2435) has occurred while \output is active []
+
+ [27 <./shadowgraph.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--146
 
  []
 
@@ -2030,31 +2056,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--144
 
 
 (_minted-Finalreport/27155FF195068C1F55EDB68F9CA9545DF8C1700CD029DD70258A628F48
-755E37.pygtex)
-<radcooling.png, id=717, 308.352pt x 246.9225pt>
+755E37.pygtex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28])
+<radcooling.png, id=725, 308.352pt x 246.9225pt>
 File: radcooling.png Graphic file (type png)
 <use radcooling.png>
-Package pdftex.def Info: radcooling.png  used on input line 160.
+Package pdftex.def Info: radcooling.png  used on input line 162.
 (pdftex.def)             Requested size: 414.6463pt x 332.04616pt.
- [28] [29 <./radcooling.png>]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29 <./radcooling.png>]
 <grederviews.png, id=733, 433.62pt x 259.2084pt>
 File: grederviews.png Graphic file (type png)
 <use grederviews.png>
-Package pdftex.def Info: grederviews.png  used on input line 184.
+Package pdftex.def Info: grederviews.png  used on input line 187.
 (pdftex.def)             Requested size: 460.72124pt x 275.42404pt.
 ) [30 <./grederviews.png>]
 \openout2 = `propellantselection.aux'.
 
-
-(propellantselection.tex
+ (propellantselection.tex
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
@@ -2063,86 +2089,103 @@ Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
 
-<propcombination.png, id=748, 410.13225pt x 308.352pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--32
+
+ []
+
+[32
+
+]
+<propcombination.png, id=754, 410.13225pt x 308.352pt>
 File: propcombination.png Graphic file (type png)
 <use propcombination.png>
-Package pdftex.def Info: propcombination.png  used on input line 35.
+Package pdftex.def Info: propcombination.png  used on input line 36.
 (pdftex.def)             Requested size: 460.72124pt x 346.3917pt.
-[32]
-Overfull \hbox (54.59581pt too wide) in paragraph at lines 40--40
+ [33
+
+ <./propcombination.png>]
+Overfull \hbox (54.59581pt too wide) in paragraph at lines 41--41
 []\T1/cmr/bx/n/17.28 Detailed com-par-i-son be-tween MON/MMH and H2O2/RP-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
-
- []
-
-[33 <./propcombination.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 49--50
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 51--52
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<detailedcompprop.png, id=764, 409.53pt x 389.0535pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[34
+
+]
+<detailedcompprop.png, id=769, 409.53pt x 389.0535pt>
 File: detailedcompprop.png Graphic file (type png)
 <use detailedcompprop.png>
-Package pdftex.def Info: detailedcompprop.png  used on input line 65.
+Package pdftex.def Info: detailedcompprop.png  used on input line 68.
 (pdftex.def)             Requested size: 460.72124pt x 437.71378pt.
-[34] [35 <./detailedcompprop.png>]
-<histflightprop.png, id=777, 410.13225pt x 284.86424pt>
+<histflightprop.png, id=771, 410.13225pt x 284.86424pt>
 File: histflightprop.png Graphic file (type png)
 <use histflightprop.png>
-Package pdftex.def Info: histflightprop.png  used on input line 79.
+Package pdftex.def Info: histflightprop.png  used on input line 83.
 (pdftex.def)             Requested size: 460.72124pt x 320.00638pt.
-) [36 <./histflightprop.png>] [37]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35
+
+]
+[36 <./detailedcompprop.png>]) [37 <./histflightprop.png>]
 \openout2 = `vehicledesign.aux'.
 
-
-(vehicledesign.tex
+ (vehicledesign.tex
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
@@ -2162,14 +2205,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
 <vehtank.png, id=800, 286.06876pt x 334.24875pt>
 File: vehtank.png Graphic file (type png)
 <use vehtank.png>
-Package pdftex.def Info: vehtank.png  used on input line 16.
+Package pdftex.def Info: vehtank.png  used on input line 17.
 (pdftex.def)             Requested size: 368.57838pt x 430.66245pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -2211,15 +2254,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-[42]
-Underfull \vbox (badness 3058) has occurred while \output is active []
-
- [43]
+[42] [43]
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
 
-[44]
+[44
+
+]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45]
@@ -2227,13 +2269,10 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 8170) has occurred while \output is active []
 
  [50]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [51])
-[52]
+[51]) [52]
 \openout2 = `prop.aux'.
 
  (prop.tex
@@ -2310,9 +2349,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
 
 (_minted-Finalreport/7D45136036216B0953A56C5FF387534DF8C1700CD029DD70258A628F48
-755E37.pygtex) [59
-
-]
+755E37.pygtex)
 Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
@@ -2322,15 +2359,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
 
+[59
+
+]
 <tempreg.png, id=971, 381.22424pt x 142.73325pt>
 File: tempreg.png Graphic file (type png)
 <use tempreg.png>
 Package pdftex.def Info: tempreg.png  used on input line 141.
 (pdftex.def)             Requested size: 460.72124pt x 172.49866pt.
 
-Underfull \vbox (badness 3612) has occurred while \output is active []
-
- [60]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -2340,12 +2377,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 
  []
 
-
+[60 <./tempreg.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-[61 <./tempreg.png>] [62]
+
+Underfull \vbox (badness 1924) has occurred while \output is active []
+
+ [61]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
@@ -2355,22 +2396,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--210
 
  []
 
-[63]
-<propmassvol.png, id=1011, 410.7345pt x 134.30174pt>
+<propmassvol.png, id=1003, 410.7345pt x 132.495pt>
 File: propmassvol.png Graphic file (type png)
 <use propmassvol.png>
 Package pdftex.def Info: propmassvol.png  used on input line 218.
-(pdftex.def)             Requested size: 460.72124pt x 150.65053pt.
+(pdftex.def)             Requested size: 460.72124pt x 148.62384pt.
+[63
+
+]
 <ptareq.png, id=1014, 410.7345pt x 158.39175pt>
 File: ptareq.png Graphic file (type png)
 <use ptareq.png>
 Package pdftex.def Info: ptareq.png  used on input line 226.
 (pdftex.def)             Requested size: 460.72124pt x 177.67307pt.
- [64 <./propmassvol.png>]
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65 <./ptareq.png>]
-<ptapress.png, id=1034, 413.1435pt x 46.9755pt>
+ [64 <./propmassvol.png>]
+<ptapress.png, id=1028, 413.1435pt x 46.9755pt>
 File: ptapress.png Graphic file (type png)
 <use ptapress.png>
 Package pdftex.def Info: ptapress.png  used on input line 234.
@@ -2380,14 +2423,14 @@ File: ptapress.png Graphic file (type png)
 Package pdftex.def Info: ptapress.png  used on input line 241.
 (pdftex.def)             Requested size: 460.72124pt x 52.38712pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 2035) has occurred while \output is active []
 
- [66 <./ptapress.png>]
+ [65 <./ptareq.png> <./ptapress.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-<tankmat.png, id=1047, 408.3255pt x 159.59625pt>
+<tankmat.png, id=1042, 408.3255pt x 159.59625pt>
 File: tankmat.png Graphic file (type png)
 <use tankmat.png>
 Package pdftex.def Info: tankmat.png  used on input line 252.
@@ -2395,7 +2438,7 @@ Package pdftex.def Info: tankmat.png  used on input line 252.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./tankmat.png>]
+ [66 <./tankmat.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
@@ -2410,7 +2453,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
 
-<tankdesignoption.png, id=1056, 409.53pt x 363.759pt>
+<tankdesignoption.png, id=1051, 409.53pt x 363.759pt>
 File: tankdesignoption.png Graphic file (type png)
 <use tankdesignoption.png>
 Package pdftex.def Info: tankdesignoption.png  used on input line 268.
@@ -2418,303 +2461,303 @@ Package pdftex.def Info: tankdesignoption.png  used on input line 268.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [68]
-Underfull \hbox (badness 10000) in paragraph at lines 274--275
+ [67]
+Underfull \hbox (badness 10000) in paragraph at lines 275--276
 
  []
 
-[69 <./tankdesignoption.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[68 <./tankdesignoption.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
 
  []
 
-<tankdetail.png, id=1073, 484.6908pt x 343.5234pt>
+<tankdetail.png, id=1067, 484.6908pt x 343.5234pt>
 File: tankdetail.png Graphic file (type png)
 <use tankdetail.png>
-Package pdftex.def Info: tankdetail.png  used on input line 282.
+Package pdftex.def Info: tankdetail.png  used on input line 283.
 (pdftex.def)             Requested size: 460.72124pt x 326.53407pt.
-<tankfull.png, id=1074, 236.082pt x 627.3036pt>
+<tankfull.png, id=1068, 236.082pt x 627.3036pt>
 File: tankfull.png Graphic file (type png)
 <use tankfull.png>
-Package pdftex.def Info: tankfull.png  used on input line 287.
+Package pdftex.def Info: tankfull.png  used on input line 288.
 (pdftex.def)             Requested size: 184.28568pt x 489.6777pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [70 <./tankdetail.png>]
-<startbasket.png, id=1083, 154.6578pt x 185.493pt>
+ [69 <./tankdetail.png>] [70 <./tankfull.png>]
+<startbasket.png, id=1084, 154.6578pt x 185.493pt>
 File: startbasket.png Graphic file (type png)
 <use startbasket.png>
-Package pdftex.def Info: startbasket.png  used on input line 294.
+Package pdftex.def Info: startbasket.png  used on input line 296.
 (pdftex.def)             Requested size: 138.21777pt x 165.77602pt.
- [71 <./tankfull.png>]
+ [71
+
+ <./startbasket.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [72 <./startbasket.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [73]
-<tankstress.png, id=1116, 408.92775pt x 550.4565pt>
+ [72]
+<tankstress.png, id=1111, 408.92775pt x 550.4565pt>
 File: tankstress.png Graphic file (type png)
 <use tankstress.png>
-Package pdftex.def Info: tankstress.png  used on input line 361.
+Package pdftex.def Info: tankstress.png  used on input line 363.
 (pdftex.def)             Requested size: 437.68376pt x 589.19263pt.
 
-[74]
-<heliumliner.png, id=1134, 410.13225pt x 75.28125pt>
+[73]
+<heliumliner.png, id=1128, 410.13225pt x 75.28125pt>
 File: heliumliner.png Graphic file (type png)
 <use heliumliner.png>
-Package pdftex.def Info: heliumliner.png  used on input line 370.
+Package pdftex.def Info: heliumliner.png  used on input line 372.
 (pdftex.def)             Requested size: 460.72124pt x 84.56827pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [75 <./tankstress.png>]
-<h2liner.png, id=1142, 408.92775pt x 73.4745pt>
+ [74 <./tankstress.png>]
+<h2liner.png, id=1135, 408.92775pt x 73.4745pt>
 File: h2liner.png Graphic file (type png)
 <use h2liner.png>
-Package pdftex.def Info: h2liner.png  used on input line 377.
+Package pdftex.def Info: h2liner.png  used on input line 379.
 (pdftex.def)             Requested size: 460.72124pt x 82.78415pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 382--383
+ [75 <./heliumliner.png> <./h2liner.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
 
  []
 
-<H2O2.png, id=1143, 225.2415pt x 105.996pt>
+<H2O2.png, id=1148, 225.2415pt x 105.996pt>
 File: H2O2.png Graphic file (type png)
 <use H2O2.png>
-Package pdftex.def Info: H2O2.png  used on input line 388.
+Package pdftex.def Info: H2O2.png  used on input line 390.
 (pdftex.def)             Requested size: 225.24094pt x 105.99573pt.
-
-Underfull \vbox (badness 2134) has occurred while \output is active []
-
- [76 <./heliumliner.png> <./h2liner.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 392--393
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 394--395
 
  []
 
-<catalyst.png, id=1155, 274.626pt x 102.98476pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 396--397
+
+ []
+
+<catalyst.png, id=1149, 274.626pt x 102.98476pt>
 File: catalyst.png Graphic file (type png)
 <use catalyst.png>
-Package pdftex.def Info: catalyst.png  used on input line 401.
+Package pdftex.def Info: catalyst.png  used on input line 403.
 (pdftex.def)             Requested size: 274.62532pt x 102.98448pt.
+[76
 
-Underfull \hbox (badness 10000) in paragraph at lines 405--406
-
- []
-
-[77 <./H2O2.png> <./catalyst.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 413--414
+ <./H2O2.png> <./catalyst.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 407--408
 
  []
 
-<pressuredrop.png, id=1165, 1194.71344pt x 644.4075pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 415--416
+
+ []
+
+<pressuredrop.png, id=1159, 1194.71344pt x 644.4075pt>
 File: pressuredrop.png Graphic file (type png)
 <use pressuredrop.png>
-Package pdftex.def Info: pressuredrop.png  used on input line 419.
+Package pdftex.def Info: pressuredrop.png  used on input line 421.
 (pdftex.def)             Requested size: 460.72124pt x 248.50572pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 423--424
+Underfull \hbox (badness 10000) in paragraph at lines 425--426
 
  []
 
+[77
 
-Underfull \hbox (badness 10000) in paragraph at lines 430--431
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78 <./pressuredrop.png>]
+ <./pressuredrop.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 432--433
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 434--436
+Underfull \hbox (badness 10000) in paragraph at lines 434--435
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 438--439
+Underfull \hbox (badness 10000) in paragraph at lines 436--438
 
  []
 
-<swirl.png, id=1173, 787.743pt x 419.76825pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 440--441
+
+ []
+
+<swirl.png, id=1167, 787.743pt x 419.76825pt>
 File: swirl.png Graphic file (type png)
 <use swirl.png>
-Package pdftex.def Info: swirl.png  used on input line 445.
+Package pdftex.def Info: swirl.png  used on input line 447.
 (pdftex.def)             Requested size: 460.72124pt x 245.50899pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [79]
-Underfull \hbox (badness 10000) in paragraph at lines 449--450
-
- []
-
-
+[78]
 Underfull \hbox (badness 10000) in paragraph at lines 451--452
 
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [80 <./swirl.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 456--457
+ [79 <./swirl.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 458--459
 
  []
 
-[81]
-Underfull \hbox (badness 10000) in paragraph at lines 496--497
+[80]
+Underfull \hbox (badness 10000) in paragraph at lines 497--498
 
  []
 
-<injhead.png, id=1206, 327.02174pt x 264.99pt>
+<injhead.png, id=1199, 327.02174pt x 264.99pt>
 File: injhead.png Graphic file (type png)
 <use injhead.png>
-Package pdftex.def Info: injhead.png  used on input line 507.
+Package pdftex.def Info: injhead.png  used on input line 508.
 (pdftex.def)             Requested size: 368.57838pt x 298.6791pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [82]
-<sectioncc.png, id=1219, 337.26pt x 107.80275pt>
+ [81]
+<sectioncc.png, id=1213, 337.26pt x 107.80275pt>
 File: sectioncc.png Graphic file (type png)
 <use sectioncc.png>
-Package pdftex.def Info: sectioncc.png  used on input line 514.
+Package pdftex.def Info: sectioncc.png  used on input line 515.
 (pdftex.def)             Requested size: 368.57838pt x 117.81519pt.
-<isoview.png, id=1220, 166.221pt x 132.495pt>
+<isoview.png, id=1214, 166.221pt x 132.495pt>
 File: isoview.png Graphic file (type png)
 <use isoview.png>
-Package pdftex.def Info: isoview.png  used on input line 518.
+Package pdftex.def Info: isoview.png  used on input line 519.
 (pdftex.def)             Requested size: 230.36061pt x 183.62163pt.
-<headsection.png, id=1221, 160.1985pt x 142.131pt>
+<headsection.png, id=1215, 160.1985pt x 142.131pt>
 File: headsection.png Graphic file (type png)
 <use headsection.png>
-Package pdftex.def Info: headsection.png  used on input line 522.
+Package pdftex.def Info: headsection.png  used on input line 523.
 (pdftex.def)             Requested size: 230.36061pt x 204.39302pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [83 <./injhead.png> <./sectioncc.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 526--529
+ [82 <./injhead.png> <./sectioncc.png>] [83 <./isoview.png> <./headsection.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 528--531
 
  []
 
-[84 <./isoview.png> <./headsection.png>]
-<pertecharge.png, id=1239, 192.11775pt x 247.52475pt>
+<pertecharge.png, id=1233, 192.11775pt x 247.52475pt>
 File: pertecharge.png Graphic file (type png)
 <use pertecharge.png>
-Package pdftex.def Info: pertecharge.png  used on input line 539.
+Package pdftex.def Info: pertecharge.png  used on input line 541.
 (pdftex.def)             Requested size: 265.02896pt x 341.43306pt.
+[84
 
-Underfull \hbox (badness 10000) in paragraph at lines 542--543
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 544--545
+ <./pertecharge.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 545--546
 
  []
 
-<feeding.png, id=1240, 110.814pt x 218.0145pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 547--548
+
+ []
+
+<feeding.png, id=1241, 110.814pt x 218.0145pt>
 File: feeding.png Graphic file (type png)
 <use feeding.png>
-Package pdftex.def Info: feeding.png  used on input line 549.
+Package pdftex.def Info: feeding.png  used on input line 552.
 (pdftex.def)             Requested size: 144.62967pt x 284.52756pt.
-<feedingzoom.png, id=1241, 348.70274pt x 291.489pt>
+<feedingzoom.png, id=1242, 348.70274pt x 291.489pt>
 File: feedingzoom.png Graphic file (type png)
 <use feedingzoom.png>
-Package pdftex.def Info: feedingzoom.png  used on input line 554.
+Package pdftex.def Info: feedingzoom.png  used on input line 557.
 (pdftex.def)             Requested size: 272.30095pt x 227.62204pt.
-[85 <./pertecharge.png>]
-Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [86 <./feeding.png> <./feedingzoom.png>] [87]
-Underfull \hbox (badness 10000) in paragraph at lines 616--617
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85
+
+ <./feeding.png>] [86 <./feedingzoom.png>] [87]
+Underfull \hbox (badness 10000) in paragraph at lines 619--620
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 647--648
 
  []
 
 [88]
-Underfull \hbox (badness 10000) in paragraph at lines 644--645
+Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 646--647
+Underfull \vbox (badness 1377) has occurred while \output is active []
+
+ [89]
+[90]
+Underfull \hbox (badness 10000) in paragraph at lines 709--710
 
  []
 
-[89] [90]
-Underfull \hbox (badness 10000) in paragraph at lines 704--705
-
- []
-
-<fuelchart.png, id=1306, 487.22025pt x 235.47975pt>
+<fuelchart.png, id=1314, 487.22025pt x 235.47975pt>
 File: fuelchart.png Graphic file (type png)
 <use fuelchart.png>
-Package pdftex.def Info: fuelchart.png  used on input line 749.
+Package pdftex.def Info: fuelchart.png  used on input line 754.
 (pdftex.def)             Requested size: 460.72124pt x 222.66966pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [91]
-<oxchart.png, id=1320, 482.40225pt x 210.18526pt>
+ [91
+
+]
+<oxchart.png, id=1321, 482.40225pt x 210.18526pt>
 File: oxchart.png Graphic file (type png)
 <use oxchart.png>
-Package pdftex.def Info: oxchart.png  used on input line 796.
+Package pdftex.def Info: oxchart.png  used on input line 801.
 (pdftex.def)             Requested size: 460.72124pt x 200.74925pt.
 
-Underfull \vbox (badness 1168) has occurred while \output is active []
+Underfull \vbox (badness 4752) has occurred while \output is active []
 
  [92 <./fuelchart.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 801--802
+Underfull \hbox (badness 10000) in paragraph at lines 806--807
 
  []
 
-
-Underfull \vbox (badness 5622) has occurred while \output is active []
-
- [93 <./oxchart.png>]
-<enginediameter.png, id=1339, 417.9615pt x 194.52675pt>
+<enginediameter.png, id=1331, 417.9615pt x 194.52675pt>
 File: enginediameter.png Graphic file (type png)
 <use enginediameter.png>
-Package pdftex.def Info: enginediameter.png  used on input line 809.
+Package pdftex.def Info: enginediameter.png  used on input line 814.
 (pdftex.def)             Requested size: 322.50345pt x 150.10661pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 818--819
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 820--824
+[93 <./oxchart.png> <./enginediameter.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 
  []
 
-[94 <./enginediameter.png>]
-<coolch.png, id=1352, 416.15475pt x 314.3745pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 826--830
+
+ []
+
+<coolch.png, id=1345, 416.15475pt x 314.3745pt>
 File: coolch.png Graphic file (type png)
 <use coolch.png>
-Package pdftex.def Info: coolch.png  used on input line 831.
+Package pdftex.def Info: coolch.png  used on input line 837.
 (pdftex.def)             Requested size: 322.50345pt x 243.6425pt.
-<channelvis.png, id=1353, 418.56375pt x 127.677pt>
+<channelvis.png, id=1346, 418.56375pt x 127.677pt>
 File: channelvis.png Graphic file (type png)
 <use channelvis.png>
-Package pdftex.def Info: channelvis.png  used on input line 837.
+Package pdftex.def Info: channelvis.png  used on input line 843.
 (pdftex.def)             Requested size: 322.50345pt x 98.37393pt.
-) [95 <./coolch.png> <./channelvis.png>]
+) [94
+
+ <./coolch.png>] [95 <./channelvis.png>]
 \openout2 = `Simulation.aux'.
 
-
-(Simulation.tex
+ (Simulation.tex
 Chapter 10.
 <thrusttime.png, id=1362, 421.575pt x 316.0608pt>
 File: thrusttime.png Graphic file (type png)
@@ -2729,15 +2772,12 @@ Underfull \vbox (badness 1147) has occurred while \output is active []
 
 
 ]
-<accdeltav.png, id=1370, 421.575pt x 316.0608pt>
+[97 <./thrusttime.png>]
+<accdeltav.png, id=1376, 421.575pt x 316.0608pt>
 File: accdeltav.png Graphic file (type png)
 <use accdeltav.png>
 Package pdftex.def Info: accdeltav.png  used on input line 30.
 (pdftex.def)             Requested size: 414.6463pt x 310.8708pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [97 <./thrusttime.png>]
 <propmasstime.png, id=1378, 421.575pt x 316.0608pt>
 File: propmasstime.png Graphic file (type png)
 <use propmasstime.png>
@@ -2746,15 +2786,12 @@ Package pdftex.def Info: propmasstime.png  used on input line 38.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [98 <./accdeltav.png>]
+ [98
+
+ <./accdeltav.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99 <./propmasstime.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 56--57
-
- []
-
-[100]
+ [99 <./propmasstime.png>] [100]
 <coolingchannelwidth.png, id=1399, 421.575pt x 316.0608pt>
 File: coolingchannelwidth.png Graphic file (type png)
 <use coolingchannelwidth.png>
@@ -2766,18 +2803,22 @@ File: relevanttemps.png Graphic file (type png)
 Package pdftex.def Info: relevanttemps.png  used on input line 70.
 (pdftex.def)             Requested size: 414.6463pt x 310.8708pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 6559) has occurred while \output is active []
 
- [101 <./coolingchannelwidth.png>] [102 <./relevanttemps.png>]
+ [101
+
+ <./coolingchannelwidth.png>] [102 <./relevanttemps.png>]
 <feasibility.png, id=1419, 371.58826pt x 302.93175pt>
 File: feasibility.png Graphic file (type png)
 <use feasibility.png>
-Package pdftex.def Info: feasibility.png  used on input line 89.
+Package pdftex.def Info: feasibility.png  used on input line 90.
 (pdftex.def)             Requested size: 460.72124pt x 375.6176pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1014) has occurred while \output is active []
 
- [103])
+ [103
+
+])
 [104 <./feasibility.png>]
 \openout2 = `lessons.aux'.
 
@@ -2787,42 +2828,35 @@ Chapter 11.
 File: reqveh.png Graphic file (type png)
 <use reqveh.png>
 Package pdftex.def Info: reqveh.png  used on input line 7.
-(pdftex.def)             Requested size: 391.61586pt x 280.332pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [105
-
-
-
-]
-<lessonlearnt.png, id=1441, 395.67825pt x 184.2885pt>
+(pdftex.def)             Requested size: 368.57838pt x 263.84111pt.
+<lessonlearnt.png, id=1435, 395.67825pt x 184.2885pt>
 File: lessonlearnt.png Graphic file (type png)
 <use lessonlearnt.png>
 Package pdftex.def Info: lessonlearnt.png  used on input line 16.
 (pdftex.def)             Requested size: 460.72124pt x 214.5931pt.
-)
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[105
 
- [106 <./reqveh.png>] [107 <./lessonlearnt.png>] (Finalreport.lof [108
+
+
+ <./reqveh.png>]) [106 <./lessonlearnt.png>] (Finalreport.lof [107
 
 
 ])
 \tf@lof=\write11
 \openout11 = `Finalreport.lof'.
 
- [109]
-(Finalreport.lot)
+
+[108] (Finalreport.lot)
 \tf@lot=\write12
 \openout12 = `Finalreport.lot'.
 
- [110
+ [109
 
 ]
 \openout2 = `annexes.aux'.
 
  (annexes.tex
-<gantt1.png, id=1541, 708.246pt x 490.2315pt>
+<gantt1.png, id=1536, 708.246pt x 490.2315pt>
 File: gantt1.png Graphic file (type png)
 <use gantt1.png>
 Package pdftex.def Info: gantt1.png  used on input line 6.
@@ -2830,16 +2864,16 @@ Package pdftex.def Info: gantt1.png  used on input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111
+ [110
 
 
  <./gantt1.png>]
-<gantt2.png, id=1550, 705.23476pt x 490.2315pt>
+<gantt2.png, id=1544, 705.23476pt x 490.2315pt>
 File: gantt2.png Graphic file (type png)
 <use gantt2.png>
 Package pdftex.def Info: gantt2.png  used on input line 12.
 (pdftex.def)             Requested size: 460.72124pt x 320.26245pt.
-<gantt3.png, id=1551, 706.43925pt x 490.2315pt>
+<gantt3.png, id=1545, 706.43925pt x 490.2315pt>
 File: gantt3.png Graphic file (type png)
 <use gantt3.png>
 Package pdftex.def Info: gantt3.png  used on input line 13.
@@ -2848,13 +2882,13 @@ Package pdftex.def Info: gantt3.png  used on input line 13.
 Overfull \vbox (44.47134pt too high) has occurred while \output is active []
 
 
-[112 <./gantt2.png> <./gantt3.png>]
+[111 <./gantt2.png> <./gantt3.png>]
 Overfull \hbox (27.12483pt too wide) in paragraph at lines 314--316
 []\T1/cmr/m/n/10 https://ocw.mit.edu/courses/aeronautics-and-astronautics/16-85
 1-satellite-engineering-fall-2003/le cture-
  []
 
-[113
+[112
 
 
 ]
@@ -2866,14 +2900,14 @@ IwAR0Hb8WsFsULcc9T4bC3MltpIUH-
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114]
+ [113]
 Underfull \hbox (badness 10000) in paragraph at lines 340--341
 
  []
 
 
 AED: lastpage setting LastPage
-[115]
+[114]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2898,9 +2932,9 @@ runsystem(del Finalreport.pyg)...executed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 343.
  ) 
 Here is how much of TeX's memory you used:
- 44117 strings out of 492970
- 969316 string characters out of 3143823
- 1291536 words of memory out of 3000000
+ 44116 strings out of 492970
+ 969308 string characters out of 3143823
+ 1288536 words of memory out of 3000000
  46414 multiletter control sequences out of 15000+200000
  35650 words of font info for 106 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2969,9 +3003,9 @@ msfonts/cm/cmr7.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Mikt
 ex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Miktex/fonts/type1/public/amsf
 onts/cm/cmsy6.pfb><D:/Miktex/fonts/type1/public/amsfonts/cm/cmsy7.pfb><D:/Mikte
 x/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Finalreport.pdf (119 pages, 5701973 bytes).
+Output written on Finalreport.pdf (118 pages, 5700609 bytes).
 PDF statistics:
- 2498 PDF objects out of 2984 (max. 8388607)
- 483 named destinations out of 1000 (max. 500000)
+ 2492 PDF objects out of 2984 (max. 8388607)
+ 482 named destinations out of 1000 (max. 500000)
  985 words of extra memory for PDF output out of 10000 (max. 10000000)
 

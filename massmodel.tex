@@ -145,7 +145,7 @@ Helium (including tank) & 30\tabularnewline
 We then get
 
 \[m_{rest} = m_{Sub systems} + m_{Payload} + m_{Structure} + m_{Others} = 4098.166kg\]
-
+\clearpage
 Which, with the previously obtained equation :
 
 \[m_{UP} = 42\ 870.926kg\\\]
@@ -359,7 +359,7 @@ m_0 &= 24\ 962.41kg
 
 In this second iteration with a better \(I_{sp}\) and refined values for all of the contributors, we have a large improvement as our initial mass decreased drastically.
 \newpage
-\section{Frozen information}[H]
+\section{Frozen information}
 After our second iteration of the mass budget, we decided to make a list of the fixed values that we will work around in our further design.
 \subsection{Frozen points}
 \begin{itemize}
@@ -372,7 +372,7 @@ After our second iteration of the mass budget, we decided to make a list of the 
 \item $H_2O_2/O_2$ separation via thermodynamic properties
 \item $H_2/O_2$ will be used in fuel cells to produce energy
 \end{itemize}
-\begin{table}
+\begin{table}[H]
 \centering
 \begin{tabular}[H]{|c|c|c|}
 	\hline
@@ -455,7 +455,7 @@ m_{UsablePropellant} = \frac 1{0.1495}[0.8505m_{rest}+1244.232]
 $$
 \subsection{Detailed contributors}
 \subsubsection{Structure}
-\begin{table}
+\begin{table}[H]
 
 \begin{center}
 \begin{tabular}[H]{|c|c|}
@@ -483,7 +483,7 @@ $$
 \label{Mass budget - Structure}	
 \end{table}
 \subsubsection{Electrical systems}
-\begin{table}
+\begin{table}[H]
 	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
@@ -518,7 +518,7 @@ $$
 \end{table}
 The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{ED_{Lithium}}$ with a considered energy density of $100Wh/kg$
 \subsubsection{Attitude control}
-\begin{table}
+\begin{table}[H]
 	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
@@ -539,7 +539,7 @@ The mass of the batteries is given by $m_{Bat} = \frac{E_{pumps} + E_{magnet}}{E
 \caption{Mass Budget - Attitude Control}
 \end{table}
 \subsubsection{Propulsion}
-\begin{table}
+\begin{table}[H]
 	
 \begin{center}
 \begin{tabular}[H]{|c|c|}
@@ -601,7 +601,7 @@ With $\dot{m}$ being the general mass flow of $10$ kg/s. We separate our first s
 \begin{equation}
 	\Delta m_j  = m_{j-1}
 \end{equation}
-\begin{table}
+\begin{table}[H]
 	\centering
 	\begin{tabular}{|c|c|}
 		\hline

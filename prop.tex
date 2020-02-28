@@ -67,7 +67,7 @@ P_t = P_c \left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma}{\gamma - 1}} \hspace{
 Exhaust characteristics:
 $$M_e = \sqrt{\frac{2}{\gamma - 1}\left[\left(\frac{P_c}{P_e}\right)^\frac{\gamma - 1 }{\gamma} - 1 \right]} \hspace{20pt} T_e = \frac{T_c}{1 + \frac{\gamma - 1}{2}M_e^2}  \hspace{20pt} \rho_e = \frac{P_e}{R T_e}$$
 
-\clearpage
+
 
 Thus we can compute the area ratio and the thrust coefficient:
 
@@ -80,7 +80,7 @@ $$ C_F = \gamma \sqrt{\left(\frac{2}{\gamma + 1}\right)^{\frac{\gamma + 1}{\gamm
 Finally we can compute the exhaust velocity, throat area and the mass flow: 
 
 $$c = C_F c^* \hspace{20pt} A_t = \frac{F}{C_F P_c} \hspace{20pt} \dot m = \frac{P_c A_t}{c^*}$$
-
+\clearpage
 Thus we can write the following Matlab code to simulate:
 
 \begin{minted}[linenos, autogobble, breaklines]{matlab}
@@ -161,7 +161,7 @@ For the reaction :
 \begin{center}
 	$2H_2\ +\ O_2\ =\ 2H_2O$
 \end{center}
-
+\pagebreak
 Taking the mole masses into account and assuming complete reaction, for every kilogram of hydrogen the fuel cell uses $7.937$ kg of oxygen. The resulting energy per kilogram of hydrogen can then be calculated as follows:
 \begin{equation}
 	E_{Fuel\ cell_{real}} = 286\ 000\ J/mole \times 0.6\times\frac{1kg}{0.01\ kg/mole} = 47.29\ kWh
@@ -195,7 +195,7 @@ This results in a \textbf{mass difference of 448.2kg in favour of the fuel-cell 
 	\item	The energy density estimate is at the lower end of current lithium battery technology and a higher density would result in a shift towards the advantages of using only a battery.
 	\item	The fuel-cell architecture is not technologically proven in combination with hydrogen peroxide decomposition and constitutes larger technical complexity.
 \end{enumerate}
-
+\clearpage
 While these points are valid arguments for using only a battery, the trade-off analysis clearly pointed out using a fuel-cell would result in a mass reduction, the higher level of technical complexity of which is justifiable. The above-mentioned arguments can be answered as follows:
 \begin{enumerate}
 	\item	While lithium batteries of higher energy densities have been flight-proven, the mission itself has never been performed in a similar way. Refuelling and frequent satellite capturing are completely new territory and therefore, conservative estimates in key design criteria offer a way of compensating for the additional mission challenges.
@@ -226,7 +226,7 @@ The driving requirements for the oxidizer propellant tank assembly (PTA) are sum
     \includegraphics[width = \linewidth]{ptareq}
     \caption{PTA driving requirements}
     \label{tab:PTAreq}
-\end{table}{}\pagebreak
+\end{table}{}
 \subsubsection{Pressure loads}
 The ECSS\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control} requires a safety factor of 1.25 on proof pressure and 1.5 on burst pressure. Therefore the pressure levels including safety factors are listed in \autoref{tab:ptapress}.
 \begin{table}[H]
@@ -268,8 +268,9 @@ The third option is a rather simple “two-tanks-on-top-of-each-other” design.
 	\includegraphics[width=\linewidth]{tankdesignoption}
 	\caption{Different propellant tank design options}\label{fig:tankdesign}
 \end{figure}
+
 \subsection{Final design}
-The final design is therefore an option with a stacked structure, as already mentioned in the previous chapter. \autoref{fig:detail} shows a detailed view on the final design with the major parts shown. The Oxidizer tank consists of two cassini shaped hemispheres and one large cylinder (or several smaller cylinders if easier to manufacture). The fuel tank is built with the same cassini hemispheres, but without a cylinder. This usage of the same hemispheres for both oxidizer and fuel tanks reduces costs for jigs and tools and also for development. Each tank has an inlet at the top of the tank and an outlet at the bottom. It has to be mentioned that the upper port of the oxidizer tank is used to extract the H2O2 decomposition products and not to pressurize the tank since the tank is self-pressurizing.
+\qquad The final design is therefore an option with a stacked structure, as already mentioned in the previous chapter. \autoref{fig:detail} shows a detailed view on the final design with the major parts shown. The Oxidizer tank consists of two cassini shaped hemispheres and one large cylinder (or several smaller cylinders if easier to manufacture). The fuel tank is built with the same cassini hemispheres, but without a cylinder. This usage of the same hemispheres for both oxidizer and fuel tanks reduces costs for jigs and tools and also for development. Each tank has an inlet at the top of the tank and an outlet at the bottom. It has to be mentioned that the upper port of the oxidizer tank is used to extract the H2O2 decomposition products and not to pressurize the tank since the tank is self-pressurizing.
 
 Both propellant tanks make use of start baskets, the function is explained in the subsequent chapter.\\
 
@@ -287,6 +288,7 @@ At the bottom of the spacecraft near the engine are the liners located. There is
 	\includegraphics[width=0.4\linewidth]{tankfull}
 	\caption{Final propellant tank design full view}\label{fig:designfull}
 \end{figure}
+\clearpage
 \subsection{Expulsion principle}
 The refillable start basket is a structure within the propellant tanks located at the outlet of the tank that is designed to ensure that there is always propellant at the outlet in zero gravity condition – at least until the spacecraft acceleration again forces the propellant towards the outlet. If the thrusting duration is sufficient to settle the liquid each time, the start basket, is the best light weight and simple propellant management device. The start basked volume for each of the tanks must be big enough (with margin) to supply propellant to the engine until acceleration settles the liquid again. Another important aspect is that the start basket must be refillable to allow several ignitions of the engine. This principle is shown in \autoref{fig:startbasket}.
 \begin{figure}[H]
@@ -331,9 +333,9 @@ It is now possible to roughly calculate size of the start basket by assuming it 
 Afterwards the screens and screen drillings have to be dimensioned in such a way that the screens are capable to hold the propellant inside of the start basked by propellant surface tension. The if the pressure on the grids due to hydrostatic pressure by $g_x$ (the highest acceleration) exceeds the bubble point pressure, the liquid will break through and is not captured inside the start basket anymore
 
 \begin{align}
-    p_{BubblePoint_{Oxidizer}} = \rho_{Oxidizer}\times g_x \times h_{Oxidizer} = 206mbar\\
-    p_{BubblePoint_{Fuel}} = \rho_{Fuel}\times g_x \times h_{Fuel} = 65mbar\\
-\end{align}{}
+    p_{BubblePoint_{Oxidizer}} &= \rho_{Oxidizer}\times g_x \times h_{Oxidizer} = 206mbar\\
+    p_{BubblePoint_{Fuel}} &= \rho_{Fuel}\times g_x \times h_{Fuel} = 65mbar
+\end{align}
 In the last step the screen drillings are dimensioned in that way that the bubble point is not exceeded by the acceleration taking the surface tension into account
 \begin{align}
     Stens_{Oxidizer} &= 0.08 N/m\\
@@ -377,7 +379,7 @@ The H2 is needed for the fuel cell. The specification of the h2 liner tank is sh
     \includegraphics[width = \linewidth]{h2liner}
     \caption{Helium liner tank specification}\label{tab:h2liner}
 \end{table}{}
-
+\clearpage
 \section{Catalyzer}
 \qquad \underline{By} : Alexis\\
 
@@ -401,7 +403,7 @@ Why silver ? We chose silver because is the mostly used catalyser for $H_2O_2$. 
 	\includegraphics{catalyst}
 	\caption{Example of catalyst bed}
 \end{figure}
-
+\clearpage
 The figure above shows basically how a catalyser works. To have an idea of the shape of ours we just have to swap the ceramic catalyst by silver catalyst. So, it will be a steel cylinder filled with small spherical silver pellet separated by some baffles (silver grid mesh). \\
 
 An important characteristic of the catalyser is the pressure drop it creates. This pressure drop influences the whole feeding system, the turbo pump sizing and even the injector design. that's why we need to characterize the pressure drop created by the catalyser. In order to do so, we are going to use the Ergun equation for packed bed reactor:
@@ -491,7 +493,6 @@ C_{D_F} &= 0.61\\
 \Delta P_{Oxidizer\ injection} &= \bigg(\frac{w_{inj_{Ox}}}{C_{D_{Ox}}}\bigg)^2 \times \frac{\rho_{Ox}}{2} = 4.9599\ bars\\
 \Delta P_{Fuel\ injection} &= \bigg(\frac{w_{inj_F}}{C_{D_F}}\bigg)^2 \times \frac{\rho_F}{2} = 9.3843\ bars 
 \end{align}
-
 \subsection{Injection system concept}
 \qquad \underline{By} : Tim\\
 
@@ -522,6 +523,7 @@ The swirl injector used, swirls fuel and oxidizer separately. To ensure the sepa
 	\centering\includegraphics[width=0.5\linewidth]{headsection}
 	\caption{Section of injection head}
 \end{figure}
+\clearpage
 \section{Feeding system}
 \qquad \underline{By} : Julien\\
 \label{sec:10-7}
@@ -539,6 +541,7 @@ With $K$ depending on the type of change in system geometry as follow :
 	\includegraphics[height=12cm]{pertecharge}
 	\caption{$K$ values for geometry changes}
 \end{figure}
+\clearpage
 In our case, we will use the progressive line entering loss $K = 0.04$ and the bends $ K(\alpha) = \sin^2(\alpha) + 2\sin^4\bigg(\frac\alpha 2\bigg)$. Another $K$ will also be used for the entrance of the injector, which will be specified later on.\\
 
 For manufacturing costs and simplicity purposes, we choose to only use $45^\circ$ bends which will result in $K_{bends}=0.5429$.\\
@@ -683,7 +686,7 @@ We can then get the number of stages :
 \end{equation}
 Thus, using $\Delta p_{ps} = 47\times 10^6\ Pa$,
 \begin{align}
-	n_{Fuel} &= 126\ 373
+	n_{Fuel} &= 126\ 373\\
 	n_{Ox} &= 228\ 256
 \end{align}
 We can also get the rotation speeds :
@@ -700,6 +703,8 @@ Then
 	D_{1t_{Fuel}} &= \sqrt[3]{\frac{\frac{4}{\pi}Q_{Fuel}}{\phi N_{r_{Fuel}}(1-L^2)}} = 2.197\ m\\
 	D_{1t_{Fuel}} &=\sqrt[3]{\frac{\frac{4}{\pi}Q_{Ox}}{\phi N_{r_{Ox}}(1-L^2)}} = 6.131\ m
 \end{align}
+\clearpage
+Those diameters certainly look very large and oversized for our application so we will need to find another way to fit them in. We believe it is possible as the Electron uses a similar kind of electrically driven turbo pump system for their mission although the scale is different. The parts other than the physical dimensioning do seem to make sense though.
 \section{Pressure evolution summary}
 \qquad \underline{By} : Julien\\
 \subsection{Fuel side}
@@ -809,6 +814,7 @@ also defined as a result and are highlighted in \autoref{fig:engd}.
 	\includegraphics[width=0.7\linewidth]{enginediameter}
 	\caption{Functional engine diameters}\label{fig:engd}
 \end{figure}
+\clearpage
 The engine length of $0.9807$ meters, $0.11$ meter of which is the combustion chamber length,
 considers suggestions on the characteristic length of hydrogen peroxide / RP-1 engines from
 current research, which states different value ranges. GREDER’s characteristic length is

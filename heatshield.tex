@@ -4,6 +4,7 @@
 A complete deorbiting mission from LEO to GEO and returning to LEO has a very high delta-V requirement of  roughly $8.5$ km/s. To reduce this delta-V the GREDER spacecraft will use atmospheric drag in the upper atmosphere at an altitude of $70-120$ km to reduce its relative velocity when returning from GEO to LEO. This kind of maneuver is called an aerobrake and has the potential to save a significant amount of fuel and total spacecraft mass. Aerobrakes are commonly used for reentry vehicles. However, these experience very high thermal loads since the kinetic energy is converted to heat through friction with the atmosphere in a single reentry trajectory. Thus, a high mass for a heat shield is necessary. For a reusable spacecraft ablative heat shields are not useful. Instead, a passively cooled thermal protection system (TPS) was chosen. This allows to radiate the heat away. When the velocity is reduced into small increments the spacecraft can radiate the heat away in the time between the aerobrakes. The advantage is, that fuel is only required for trimming maneuvers to set the targeted perigee radius and not for the decelleration itself. A high number of aerobrakes can be performed with relatively small heat loads if extended mission time is not of a large concern.\\
 
 Since the GREDER spacecraft is unmanned and does not utilize cryogenic fuels the extended mission time is not as critical. A heat shield needs to be developed for the spacecraft to protect it at the areas with the highest heat loads.
+\clearpage
 
 \section{First estimation}
 
@@ -46,6 +47,7 @@ For a number of $15$ aerobrakes this kinetic energy needs to be divided by $15$ 
  (*thru-the-thickness not isotropic; **values extrapolated by ratio of single/multiple use of CFRC) 
 	\caption{Comparison of materials for heat shield}
 \end{table}
+\clearpage
 The table above is a comparison of possible TPS materials. The values are taken from the TPSX NASA Material Properties Database. Multiple Use Temperature values were not available for the chosen metals but were extrapolated based on the ratio of the multiple and single use temperature limits of CFRC. The last row shows the product of the values of the lines Specific Heat and Multiple Use Temperature Limit. This relative value allows to quickly compare the materials with each other regarding the required mass for a heat shield. The unit is J/kg showing that a high value is favorable to store as much energy as possible per mass.\\
 
 Carbon Fibre Reinforced Carbon quickly proves as the material of choice for a low heat shield mass. Several metals were also taken into account since the manufacturing and integration into the spacecraft struture would be a lot easier. But the low mass for a CFRC TPS in combination with the low thermal conductivity made this the material of choice. CFRC was utilised in the space shuttle heat shield and was found to be the cause of the columbia catastrophe since it is quite brittle and thus sensitive to impact (Columbia Accident Investigation Board Report \footnote{\url{https://www.nasa.gov/columbia/home/CAIB\_Vol1.html}}). But since the GREDER spacecraft will be launched inside a rocket launcher fairing no high velocity impacts are to be expected. The capturing of the satellite on the nose cone will be done at very low relative velocities since the force applied by the magnets is controllable with the applied current and can be carefully adjusted (compare \autoref{sec:5}).
@@ -62,7 +64,7 @@ With :
 	\item $T_{max}$ : Maximum allowable temperature of CFRC
 	\item $T_0$ : Temperature at beginning of aerobrakes
 \end{itemize}
-
+\clearpage
 \section{Lift and drag}
 
 \qquad An aerobrake can also be used to change the inclination of the orbital plane. To achieve this the spacecraft needs to be a lifting body. To increase the lift wings can be attached to increase the projeted area of the spacecraft. This area affects both the lift and drag of the spacecraft.
@@ -103,7 +105,7 @@ To reduce fuel consumption for attitude control a constant angle of attack would
 	\beta_{\Delta v_{res}}&=\arctan\bigg(\frac{\Delta v_{inc_{2_p}}}{\Delta v_5}\bigg) = 76^\circ\\
 	\beta_{F_{res}} &= \arctan\bigg(\frac{C_L}{C_D}\bigg)
 \end{align}
-
+\clearpage
 To compute the angle of attack these formulas need to be equated and the formula for $C_L$ included.\\
 
 \begin{equation}
@@ -144,7 +146,7 @@ period of the shortest and last orbit with a period of roughly $80$ minutes or $
 
 Calculating the emitted energy could be transferred into a temperature delta for each second of the
 simulation. after $4800$ iterations the temperature is plotted. The last value of $233$ K is lower than the assumed $400$ K and thus leaves some safety margin.
-
+\pagebreak
 \begin{minted}[fontsize=\footnotesize, linenos, autogobble, breaklines]{matlab}
 sigma=5.6703E-8 %W/m2K4 stefan boltzmann constant
 eps_cc=0.78;
@@ -160,12 +162,13 @@ plot(T1);
 	\centering\includegraphics[width=0.9\linewidth]{radcooling}
 	\caption{Radiative cooling of the heat shield}
 \end{figure}
-
+\pagebreak
 \section{Final heat shield mass}
 
 \qquad For the final mass of the TPS a specific heat capacity for CFRC of $c_{cc} = 840$ kJ/kg-K was assumed. Furthermore :
 
 \begin{itemize}
+	\itemsep0em
 	\item $\Delta v_5=2.396$ km/s
 	\item Spacecraft mass $m_{sc}=3000$ kg
 	\item Number of aerobrakes $n_{ab}=20$

@@ -24,7 +24,7 @@ assuming a constant mass flow rate of $\dot{m} = 10$ kg/s. Considering a constan
 	\centering\includegraphics[width=0.9\linewidth]{thrusttime}
 	\caption{Engine simulation - Thrust over time}\label{fig1}
 \end{figure}
-
+\clearpage
 The resulting acceleration and $\Delta v$ over time are shown in \autoref{fig2}.
 \begin{figure}[H]
 	\centering\includegraphics[width=0.9\linewidth]{accdeltav}
@@ -53,8 +53,8 @@ With roughly one third of the total usable propellant having been burnt througho
 	\item	\textbf{The RP-1 is assumed to not change phase during the regenerative cooling} (While this decreases simulation accuracy, too little data on high-pressure RP-1 phase change behaviour was available. The temperature does however affect the liquid’s heat capacity within the simulation)
 \end{itemize}
 
-In order to simulate the steady-state thermal behaviour of the engine along its length, some simplifications needed to be conducted. All coefficients (e.g. ratio of specific heat capacities) are assumed to be constant throughout each section, with three different values for the combustion chamber, throat area and nozzle respectively. In addition, all time-related values were transformed into distance-based values, so that the simulation time is actually millimetres, instead of seconds. This was achieved by limiting the simulation time to the engine length in millimetres and using switches to change constants based on what section the propellant is in at any given millimetre value, while using the flow velocity as the key parameter to transform into metres. The simulation script, model and complete results can be found in the annex. At this point, only some key conclusions will be presented and discussed.\\
-
+In order to simulate the steady-state thermal behaviour of the engine along its length, some simplifications needed to be conducted. All coefficients (e.g. ratio of specific heat capacities) are assumed to be constant throughout each section, with three different values for the combustion chamber, throat area and nozzle respectively. In addition, all time-related values were transformed into distance-based values, so that the simulation time is actually millimetres, instead of seconds. This was achieved by limiting the simulation time to the engine length in millimetres and using switches to change constants based on what section the propellant is in at any given millimetre value, while using the flow velocity as the key parameter to transform into metres. The simulation script, model and complete results can be found in the annex. At this point, only some key conclusions will be presented and discussed.
+\clearpage
 The central aim of the iterative calculation was to determine a combination of material, wall thickness and cooling channel geometry which allows the inner wall temperature to remain below its maximum operating temperature. All other temperatures, like the coolant and outer wall temperatures, were of secondary importance. Due to its high thermal conductivity, copper was chosen as the inner wall material.
 
  The cooling channel cross-section was defined to always be equally sized relative to the local engine diameter, with the ratio being a function of the local engine wall cross-section area and a factor, which represents the filling grade. \autoref{fig4} shows the cross-section change over the engine length. The rectangular geometry is defined by a ratio of width to height of $5$.
@@ -72,6 +72,7 @@ The final cooling channel system is a compromise between the copper wall tempera
 \end{figure}
 
 The highest temperatures can be observed in the combustion chamber section, as low flow speeds cause less convective heat transfer to take place, reducing the overall heat flux. The gas-side wall temperature then drops in the beginning of the throat area, before rising again towards the throat. After passing the throat, the gas-side wall temperature drops sharply and then rises again towards the nozzle exit.
+\clearpage
 \section{Hydrogen peroxide decomposition simulation}
 \label{sec:11-3}
 \qquad As mentioned in \autoref{sec:10-3}, the decomposition of hydrogen peroxide is used for self-pressurization of the oxidizer tank as well as power generation in a fuel cell in combination with hydrogen. As hydrogen peroxide is not only decomposing, but the decomposition is also an exothermal process, the thermal control system needs to be well under control in order to avoid critical behavior of the hydrogen peroxide if $150^\circ$ C are exceeded. Therefore, a detailed simulation has been performed, taking wall thicknesses, materials, radiative and absorbing coefficients as input parameters. The simulation is structured like a control system, calculating the temperature of the hydrogen peroxide inside the tank, the cold and hot wall temperatures. Upon reaching the specified target temperature, the control loop rotates the spacecraft to a neutral degree for constant hydrogen peroxide temperature. Before discussing the results, an overview of the simplifications taken for facilitation of the simulation follows:
