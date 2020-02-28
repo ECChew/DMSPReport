@@ -4,7 +4,7 @@
 \contentsline {section}{\numberline {1.2}Final schedule \IeC {\textendash } comparison as planned and as achieved}{3}{section.1.2}
 \contentsline {chapter}{\numberline {2}Requirements}{5}{chapter.2}
 \contentsline {chapter}{\numberline {3}Launcher requirements and launch envelope}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Mission analysis }{9}{chapter.4}
+\contentsline {chapter}{\numberline {4}Mission analysis}{9}{chapter.4}
 \contentsline {section}{\numberline {4.1}Mission Summary}{9}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Phase 1}{9}{subsection.4.1.1}
 \contentsline {subsection}{\numberline {4.1.2}Phase 2 }{11}{subsection.4.1.2}
@@ -32,7 +32,7 @@
 \contentsline {chapter}{\numberline {9}Mass model and burning times}{41}{chapter.9}
 \contentsline {section}{\numberline {9.1}Mass Budget - First Iteration}{41}{section.9.1}
 \contentsline {subsection}{\numberline {9.1.1}Coefficients \& Masses after steps}{41}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{41}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.2}Global equation between $m_{UP}$ and $m_{initial}$}{42}{subsection.9.1.2}
 \contentsline {subsection}{\numberline {9.1.3}First iteration of mass budget}{42}{subsection.9.1.3}
 \contentsline {subsubsection}{Sub systems}{42}{section*.22}
 \contentsline {subsubsection}{Payload}{43}{section*.23}
@@ -58,41 +58,41 @@
 \contentsline {chapter}{\numberline {10}Propulsion system}{53}{chapter.10}
 \contentsline {section}{\numberline {10.1}Engine cycle}{53}{section.10.1}
 \contentsline {section}{\numberline {10.2}RCS / ACS}{56}{section.10.2}
-\contentsline {section}{\numberline {10.3}Multi-usage of hydrogen peroxide}{59}{section.10.3}
-\contentsline {section}{\numberline {10.4}Propellant tanks}{62}{section.10.4}
-\contentsline {subsection}{\numberline {10.4.1}Requirements and specification}{62}{subsection.10.4.1}
-\contentsline {subsubsection}{Propellant Tank masses and volumes}{62}{section*.45}
-\contentsline {subsubsection}{Driving requirements}{63}{section*.47}
-\contentsline {subsubsection}{Pressure loads}{64}{section*.49}
-\contentsline {subsection}{\numberline {10.4.2}Materials}{65}{subsection.10.4.2}
-\contentsline {subsection}{\numberline {10.4.3}Concepts and options}{66}{subsection.10.4.3}
-\contentsline {subsection}{\numberline {10.4.4}Final design}{67}{subsection.10.4.4}
-\contentsline {subsection}{\numberline {10.4.5}Expulsion principle}{69}{subsection.10.4.5}
-\contentsline {subsubsection}{Start basket design}{70}{section*.57}
-\contentsline {subsection}{\numberline {10.4.6}Stresses}{72}{subsection.10.4.6}
-\contentsline {subsection}{\numberline {10.4.7}Liner tanks}{74}{subsection.10.4.7}
-\contentsline {subsubsection}{Helium liner tank}{74}{section*.59}
-\contentsline {subsubsection}{$H_2$ liner tank}{74}{section*.61}
-\contentsline {section}{\numberline {10.5}Catalyzer}{74}{section.10.5}
-\contentsline {section}{\numberline {10.6}Injectors}{77}{section.10.6}
-\contentsline {subsection}{\numberline {10.6.1}Choice of injector type}{77}{subsection.10.6.1}
-\contentsline {subsection}{\numberline {10.6.2}Swirl injector functionnality}{77}{subsection.10.6.2}
-\contentsline {subsection}{\numberline {10.6.3}Injector design calculations}{79}{subsection.10.6.3}
-\contentsline {subsection}{\numberline {10.6.4}Injection system concept}{80}{subsection.10.6.4}
-\contentsline {section}{\numberline {10.7}Feeding system}{82}{section.10.7}
-\contentsline {subsection}{\numberline {10.7.1}Line diameters}{85}{subsection.10.7.1}
-\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{85}{subsection.10.7.2}
-\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{86}{subsection.10.7.3}
-\contentsline {section}{\numberline {10.8}Turbo pumps}{87}{section.10.8}
-\contentsline {section}{\numberline {10.9}Pressure evolution summary}{90}{section.10.9}
-\contentsline {subsection}{\numberline {10.9.1}Fuel side}{90}{subsection.10.9.1}
-\contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{91}{subsection.10.9.2}
-\contentsline {section}{\numberline {10.10}Engine}{92}{section.10.10}
-\contentsline {section}{\numberline {10.11}Nozzle}{92}{section.10.11}
-\contentsline {chapter}{\numberline {11}Simulations}{93}{chapter.11}
-\contentsline {section}{\numberline {11.1}Engine performance simulation}{93}{section.11.1}
-\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{97}{section.11.2}
-\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{99}{section.11.3}
-\contentsline {chapter}{\numberline {12}Evaluation}{102}{chapter.12}
-\contentsline {section}{\numberline {12.1}Requirement verification}{102}{section.12.1}
-\contentsline {section}{\numberline {12.2}Lessons learnt}{103}{section.12.2}
+\contentsline {section}{\numberline {10.3}Multi-usage of hydrogen peroxide}{60}{section.10.3}
+\contentsline {section}{\numberline {10.4}Propellant tanks}{63}{section.10.4}
+\contentsline {subsection}{\numberline {10.4.1}Requirements and specification}{64}{subsection.10.4.1}
+\contentsline {subsubsection}{Propellant Tank masses and volumes}{64}{section*.45}
+\contentsline {subsubsection}{Driving requirements}{64}{section*.47}
+\contentsline {subsubsection}{Pressure loads}{66}{section*.49}
+\contentsline {subsection}{\numberline {10.4.2}Materials}{67}{subsection.10.4.2}
+\contentsline {subsection}{\numberline {10.4.3}Concepts and options}{68}{subsection.10.4.3}
+\contentsline {subsection}{\numberline {10.4.4}Final design}{69}{subsection.10.4.4}
+\contentsline {subsection}{\numberline {10.4.5}Expulsion principle}{71}{subsection.10.4.5}
+\contentsline {subsubsection}{Start basket design}{72}{section*.57}
+\contentsline {subsection}{\numberline {10.4.6}Stresses}{74}{subsection.10.4.6}
+\contentsline {subsection}{\numberline {10.4.7}Liner tanks}{76}{subsection.10.4.7}
+\contentsline {subsubsection}{Helium liner tank}{76}{section*.59}
+\contentsline {subsubsection}{$H_2$ liner tank}{76}{section*.61}
+\contentsline {section}{\numberline {10.5}Catalyzer}{76}{section.10.5}
+\contentsline {section}{\numberline {10.6}Injectors}{79}{section.10.6}
+\contentsline {subsection}{\numberline {10.6.1}Choice of injector type}{79}{subsection.10.6.1}
+\contentsline {subsection}{\numberline {10.6.2}Swirl injector functionnality}{79}{subsection.10.6.2}
+\contentsline {subsection}{\numberline {10.6.3}Injector design calculations}{81}{subsection.10.6.3}
+\contentsline {subsection}{\numberline {10.6.4}Injection system concept}{82}{subsection.10.6.4}
+\contentsline {section}{\numberline {10.7}Feeding system}{84}{section.10.7}
+\contentsline {subsection}{\numberline {10.7.1}Line diameters}{87}{subsection.10.7.1}
+\contentsline {subsection}{\numberline {10.7.2}Fuel feeding system}{87}{subsection.10.7.2}
+\contentsline {subsection}{\numberline {10.7.3}Oxidizer feeding system}{88}{subsection.10.7.3}
+\contentsline {section}{\numberline {10.8}Turbo pumps}{89}{section.10.8}
+\contentsline {section}{\numberline {10.9}Pressure evolution summary}{91}{section.10.9}
+\contentsline {subsection}{\numberline {10.9.1}Fuel side}{92}{subsection.10.9.1}
+\contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{93}{subsection.10.9.2}
+\contentsline {section}{\numberline {10.10}Engine}{94}{section.10.10}
+\contentsline {section}{\numberline {10.11}Nozzle}{94}{section.10.11}
+\contentsline {chapter}{\numberline {11}Simulations}{95}{chapter.11}
+\contentsline {section}{\numberline {11.1}Engine performance simulation}{95}{section.11.1}
+\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{99}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{101}{section.11.3}
+\contentsline {chapter}{\numberline {12}Evaluation}{104}{chapter.12}
+\contentsline {section}{\numberline {12.1}Requirement verification}{104}{section.12.1}
+\contentsline {section}{\numberline {12.2}Lessons learnt}{105}{section.12.2}
