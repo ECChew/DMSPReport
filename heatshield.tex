@@ -21,7 +21,7 @@ For a number of $15$ aerobrakes this kinetic energy needs to be divided by $15$ 
 	E_{kinetic} &= \frac{mv^2}{2}\\
 	m_{shield} &=\frac{E_{kinetic}}{c\times dT}
 \end{align}
-\begin{table}
+\begin{table}[H]
 	\centering
 	\footnotesize
 	\begin{tabular}{|c|c|c|c|c|}
@@ -46,7 +46,7 @@ For a number of $15$ aerobrakes this kinetic energy needs to be divided by $15$ 
  (*thru-the-thickness not isotropic; **values extrapolated by ratio of single/multiple use of CFRC) 
 	\caption{Comparison of materials for heat shield}
 \end{table}
-The table above is a comparison of possible TPS materials. The values are taken from the TPSX NASA Material Properties Database. Multiple Use Temperature values were not available for the chosen metals but were extrapolated based on the ratio of the multiple and single use temperature limits of CFRC. The last row shows the product of the values of the lines Specific Heat and Multiple Use Temperature Limit. This relative value allows to quickly compare the materials with euach other regarding the required mass for a heat shield. The unit is J/kg showing that a high value is favorable to store as much energy as possible per mass.\\
+The table above is a comparison of possible TPS materials. The values are taken from the TPSX NASA Material Properties Database. Multiple Use Temperature values were not available for the chosen metals but were extrapolated based on the ratio of the multiple and single use temperature limits of CFRC. The last row shows the product of the values of the lines Specific Heat and Multiple Use Temperature Limit. This relative value allows to quickly compare the materials with each other regarding the required mass for a heat shield. The unit is J/kg showing that a high value is favorable to store as much energy as possible per mass.\\
 
 Carbon Fibre Reinforced Carbon quickly proves as the material of choice for a low heat shield mass. Several metals were also taken into account since the manufacturing and integration into the spacecraft struture would be a lot easier. But the low mass for a CFRC TPS in combination with the low thermal conductivity made this the material of choice. CFRC was utilised in the space shuttle heat shield and was found to be the cause of the columbia catastrophe since it is quite brittle and thus sensitive to impact (Columbia Accident Investigation Board Report \footnote{\url{https://www.nasa.gov/columbia/home/CAIB\_Vol1.html}}). But since the GREDER spacecraft will be launched inside a rocket launcher fairing no high velocity impacts are to be expected. The capturing of the satellite on the nose cone will be done at very low relative velocities since the force applied by the magnets is controllable with the applied current and can be carefully adjusted (compare \autoref{sec:5}).
 \begin{equation}
@@ -84,10 +84,10 @@ The angle of attack influences the lift and drag coefficients. Since both forces
 
 It may be noted that unlike an aircraft the lift vector does not point "upwards" but rather parallel to ground and perpendicular to the orbital plane. Thus, the altitude is not affected by the "lift".\\
 
-The lift and drag coefficient are typically experimental values. For the drag similar shapes can be used as a reference. For the GREDER spacecraft a value of 0.3 is assumed to be reasonable because of its similarity to the bullet shape (compare \autoref{figtim1} and fig xafter). The delta wing should have a significantly lower drag coefficient and is therefore not taken into account.
+The lift and drag coefficient are typically experimental values. For the drag similar shapes can be used as a reference. For the GREDER spacecraft a value of 0.3 is assumed to be reasonable because of its similarity to the bullet shape (compare \autoref{fig:shapedrag} and \autoref{fig:grederview}). The delta wing should have a significantly lower drag coefficient and is therefore not taken into account.
 \begin{figure}[H]
 	\centering\includegraphics[width=0.7\linewidth]{shapedrag}
-	\caption{Shape effect on drag}
+	\caption{Shape effect on drag}\label{fig:shapedrag}
 \end{figure}
 
 Regarding the lift coefficient a strong simplification as made. For a flat plate the lift coefficient can be approximated with the following formula based on the angle of attack\footnote{\url{http://brennen.caltech.edu/fluidbook/externalflows/lift/flatplateairfoil.pdf}} :
@@ -135,7 +135,7 @@ The thermal loads are expected to be highest on the leading edges of the spacecr
 \section{Radiative cooling}
 \qquad To verify that the radiative cooling of the CFRC shield is sufficient, an interactive model of the radiated heat was created. To calculate the Power radiated by a gray body in space the following formula was used:
 \begin{equation}
-	P = Aj^* = A\varepsilon\sigma T^4
+	P  = A\varepsilon\sigma T^4
 \end{equation}
 
 The emissivity of CFRC is $\varepsilon = 0.78$ and $\sigma$ is the Stefan-Boltzmann constant. \footnote{\url{https://tpsx.arc.nasa.gov/material.html?matid=24\&units=si}}As a starting
@@ -163,7 +163,7 @@ plot(T1);
 
 \section{Final heat shield mass}
 
-\qquad For the final mass of the TPS a specific heat capacity for CFRC of $c_{cc} = 840$ kJ/kg-K was assumed. Moreover :
+\qquad For the final mass of the TPS a specific heat capacity for CFRC of $c_{cc} = 840$ kJ/kg-K was assumed. Furthermore :
 
 \begin{itemize}
 	\item $\Delta v_5=2.396$ km/s
@@ -185,5 +185,5 @@ surface covered with the TPS also the AFRSI blanket mass can be calculated.
 \end{align}
 \begin{figure}[H]
 	\centering\includegraphics[width=\linewidth]{grederviews}
-	\caption{GREDER Spacecraft (various views) - Heat shield sown in gray}
+	\caption{GREDER Spacecraft (various views) - Heat shield shown in gray}\label{fig:grederview}
 \end{figure}

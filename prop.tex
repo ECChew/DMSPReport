@@ -425,6 +425,7 @@ We see on the graph that the pressure drop rise quickly with the size of the bed
 This geometry allows the catalyser to provide a sufficient decomposition rate, a "contained" pressure drop and size. It also generates a great heat as high as $1000K$ at the exit of the catalyst bed. 
 
 \section{Injectors}
+\label{sec:inj}
 \subsection{Choice of injector type}
 \qquad \underline{By} : Alexis\\
 
@@ -796,9 +797,43 @@ Then
 	\caption{Pressure evolution on oxidizer side (bars)}
 \end{figure}
 \section{Engine}
+\subsection{Engine parameters}
+\qquad \underline{By} : Lukas\\
+
+The functional engine geometry is a result of the area-specific mass flow for the chosen
+chamber pressure determined using RPA and the mass flow of $10$ kg/s. The area ratios were
+also defined as a result and are highlighted in \autoref{fig:engd}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{enginediameter}
+	\caption{Functional engine diameters}\label{fig:engd}
+\end{figure}
+The engine length of $0.9807$ meters, $0.11$ meter of which is the combustion chamber length,
+considers suggestions on the characteristic length of hydrogen peroxide / RP-1 engines from
+current research, which states different value ranges. GREDER’s characteristic length is
+ultimately $1.65$ meters. The contraction ratio is 12.25, while the length of the throat is $0.0707$
+and the nozzle is $0.8$ meters long.
+\subsection{Engine design}
 \qquad \underline{By} : Tim\\
 
+The combustion chamber, throat and nozzle of the engine are manufactured in one part. It shall be
+additively manufactured from stainless steel. This allows the integration of cooling channels, that are
+optimized throughout the engine length. They vary in the channel width, depth and their distance from
+the inner wall. 25 channels are spread circularly.\\
 
-\section{Nozzle}
-\qquad \underline{By} : Tim\\
+\autoref{fig:coolch} and \autoref{fig:channelvis} below show the engine design and the arrangement of the cooling channel. The inner wall is coated with copper to ensure an even spreading of the heat load to and in between the channels. The injection head described in \autoref{sec:inj} shall be manufactured as a welding construction joining the three machined plates with the fuel channels together with the 7 swirl injectors. A tube
+connects the lower end of the nozzle with the injection head to transport the pre-heated fuel to the
+injection.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{coolch}
+	\caption{Section of the Engine showing the positioning of the cooling channels}\label{fig:coolch}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\linewidth]{channelvis}
+	\caption{Cooling channel visualization}\label{fig:channelvis}
+\end{figure}

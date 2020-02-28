@@ -72,11 +72,12 @@
 \BOOKMARK [2][-]{subsection.10.9.1}{Fuel side}{section.10.9}% 72
 \BOOKMARK [2][-]{subsection.10.9.2}{Oxidizer side}{section.10.9}% 73
 \BOOKMARK [1][-]{section.10.10}{Engine}{chapter.10}% 74
-\BOOKMARK [1][-]{section.10.11}{Nozzle}{chapter.10}% 75
-\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 76
-\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 77
-\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 78
-\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 79
-\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 80
-\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 81
-\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 82
+\BOOKMARK [2][-]{subsection.10.10.1}{Engine parameters}{section.10.10}% 75
+\BOOKMARK [2][-]{subsection.10.10.2}{Engine design}{section.10.10}% 76
+\BOOKMARK [0][-]{chapter.11}{Simulations}{}% 77
+\BOOKMARK [1][-]{section.11.1}{Engine performance simulation}{chapter.11}% 78
+\BOOKMARK [1][-]{section.11.2}{Regenerative cooling simulation}{chapter.11}% 79
+\BOOKMARK [1][-]{section.11.3}{Hydrogen peroxide decomposition simulation}{chapter.11}% 80
+\BOOKMARK [0][-]{chapter.12}{Evaluation}{}% 81
+\BOOKMARK [1][-]{section.12.1}{Requirement verification}{chapter.12}% 82
+\BOOKMARK [1][-]{section.12.2}{Lessons learnt}{chapter.12}% 83

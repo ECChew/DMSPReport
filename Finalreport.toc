@@ -88,11 +88,12 @@
 \contentsline {subsection}{\numberline {10.9.1}Fuel side}{92}{subsection.10.9.1}
 \contentsline {subsection}{\numberline {10.9.2}Oxidizer side}{93}{subsection.10.9.2}
 \contentsline {section}{\numberline {10.10}Engine}{94}{section.10.10}
-\contentsline {section}{\numberline {10.11}Nozzle}{94}{section.10.11}
-\contentsline {chapter}{\numberline {11}Simulations}{95}{chapter.11}
-\contentsline {section}{\numberline {11.1}Engine performance simulation}{95}{section.11.1}
-\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{99}{section.11.2}
-\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{101}{section.11.3}
-\contentsline {chapter}{\numberline {12}Evaluation}{104}{chapter.12}
-\contentsline {section}{\numberline {12.1}Requirement verification}{104}{section.12.1}
-\contentsline {section}{\numberline {12.2}Lessons learnt}{105}{section.12.2}
+\contentsline {subsection}{\numberline {10.10.1}Engine parameters}{94}{subsection.10.10.1}
+\contentsline {subsection}{\numberline {10.10.2}Engine design}{94}{subsection.10.10.2}
+\contentsline {chapter}{\numberline {11}Simulations}{96}{chapter.11}
+\contentsline {section}{\numberline {11.1}Engine performance simulation}{96}{section.11.1}
+\contentsline {section}{\numberline {11.2}Regenerative cooling simulation}{100}{section.11.2}
+\contentsline {section}{\numberline {11.3}Hydrogen peroxide decomposition simulation}{102}{section.11.3}
+\contentsline {chapter}{\numberline {12}Evaluation}{105}{chapter.12}
+\contentsline {section}{\numberline {12.1}Requirement verification}{105}{section.12.1}
+\contentsline {section}{\numberline {12.2}Lessons learnt}{106}{section.12.2}

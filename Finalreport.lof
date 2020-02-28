@@ -15,7 +15,7 @@
 \contentsline {figure}{\numberline {6.1}{\ignorespaces Shape effect on drag\relax }}{24}{figure.caption.13}
 \contentsline {figure}{\numberline {6.2}{\ignorespaces Shadowgraph images of Reentry vehicles\relax }}{27}{figure.caption.14}
 \contentsline {figure}{\numberline {6.3}{\ignorespaces Radiative cooling of the heat shield\relax }}{29}{figure.caption.15}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces GREDER Spacecraft (various views) - Heat shield sown in gray\relax }}{30}{figure.caption.16}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces GREDER Spacecraft (various views) - Heat shield shown in gray\relax }}{30}{figure.caption.16}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {8.1}{\ignorespaces Vehicle design 3D-Render\relax }}{39}{figure.caption.20}
@@ -43,14 +43,17 @@
 \contentsline {figure}{\numberline {10.19}{\ignorespaces Feeding system layout - Zoomed (To scale)\relax }}{86}{figure.caption.73}
 \contentsline {figure}{\numberline {10.20}{\ignorespaces Pressure evolution on fuel side (bars)\relax }}{92}{figure.caption.75}
 \contentsline {figure}{\numberline {10.21}{\ignorespaces Pressure evolution on oxidizer side (bars)\relax }}{93}{figure.caption.77}
+\contentsline {figure}{\numberline {10.22}{\ignorespaces Functional engine diameters\relax }}{94}{figure.caption.78}
+\contentsline {figure}{\numberline {10.23}{\ignorespaces Section of the Engine showing the positioning of the cooling channels\relax }}{95}{figure.caption.79}
+\contentsline {figure}{\numberline {10.24}{\ignorespaces Cooling channel visualization\relax }}{95}{figure.caption.80}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{96}{figure.caption.78}
-\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{97}{figure.caption.79}
-\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{98}{figure.caption.80}
-\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{100}{figure.caption.81}
-\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{101}{figure.caption.82}
-\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{103}{figure.caption.83}
+\contentsline {figure}{\numberline {11.1}{\ignorespaces Engine simulation - Thrust over time\relax }}{97}{figure.caption.81}
+\contentsline {figure}{\numberline {11.2}{\ignorespaces Engine simulation - Acceleration and $\Delta v$ over time\relax }}{98}{figure.caption.82}
+\contentsline {figure}{\numberline {11.3}{\ignorespaces Engine simulation - Propellant masses over time\relax }}{99}{figure.caption.83}
+\contentsline {figure}{\numberline {11.4}{\ignorespaces Regenerative cooling simulation - Cooling channel width over engine length\relax }}{101}{figure.caption.84}
+\contentsline {figure}{\numberline {11.5}{\ignorespaces Regenerative cooling simulation - Relevant temperatures\relax }}{102}{figure.caption.85}
+\contentsline {figure}{\numberline {11.6}{\ignorespaces Demonstration case for technical feasibility of $H_2O_2$ decomposition regulation\relax }}{104}{figure.caption.86}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {12.1}{\ignorespaces Requirements for the vehicle\relax }}{105}{figure.caption.84}
-\contentsline {figure}{\numberline {12.2}{\ignorespaces Lessons learnt\relax }}{106}{figure.caption.85}
-\contentsline {figure}{\numberline {12.3}{\ignorespaces Gantt Schedule\relax }}{111}{figure.caption.91}
+\contentsline {figure}{\numberline {12.1}{\ignorespaces Requirements for the vehicle\relax }}{106}{figure.caption.87}
+\contentsline {figure}{\numberline {12.2}{\ignorespaces Lessons learnt\relax }}{107}{figure.caption.88}
+\contentsline {figure}{\numberline {12.3}{\ignorespaces Gantt Schedule\relax }}{112}{figure.caption.94}
