@@ -139,7 +139,7 @@ Hydrogen peroxide’s decomposition behavior is the reason for its multi-purpose
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{tempreg}
-	\caption{Lessons learnt}\label{fig:tempreg}
+	\caption{Temperature regulation hydrogen peroxide tank}\label{fig:tempreg}
 \end{figure}
 
 The absorbing side of the space craft is painted in a way which causes a high absorption coefficient and a low emissivity, while the radiative side is coated vice-versa. The tank materials are chosen to deliver high heat transfer while being compatible with hydrogen peroxide. Thereby, a rotation of the space craft will cause a change in the heat flux, while every hydrogen peroxide temperature can be assigned a rotational angle for neutral heat flux at which no temperature change happens. This design was simulated with some simplifications and its technological feasibility could be verified. This is detailed in \autoref{sec:11-3}. \\
@@ -220,7 +220,7 @@ Several parameters have to be set in prior to the propellant tank design in orde
     \label{tab:propmass}
 \end{table}{}
 \subsubsection{Driving requirements}
-The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP is taken according to ECSS\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control}
+The driving requirements for the oxidizer propellant tank assembly (PTA) are summarized in \autoref{tab:PTAreq}. MDP was set to 1.3 because a turbo pump driven is used to achieve the engine pressure and the pressure cannot exceed $1.7$ bar due to limitations in the $H_2O_2$ decomposition\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control}.
 \begin{table}[H]
     \centering
     \includegraphics[width = \linewidth]{ptareq}
@@ -238,7 +238,7 @@ The ECSS\footnote{ECSS‐E‐ST‐32‐01C Rev. 1, Fracture control} requires a 
 The number of pressure cycles after delivery is shown in \autoref{tab:ptacycle}. This number of pressure cycles applies for both the oxidizer and fuel tank.
 \begin{table}[H]
 	\centering
-	\includegraphics[width = 0.6\linewidth]{ptapress}
+	\includegraphics[width =\linewidth]{ptapress}
 	\caption{PTA pressure cycles}
 	\label{tab:ptacycle}
 \end{table}{}
@@ -280,7 +280,7 @@ At the bottom of the spacecraft near the engine are the liners located. There is
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=\linewidth]{tankdetail}
-	\caption{Final propellant tank design detailed view}\label{fig:detauk}
+	\caption{Final propellant tank design detailed view}\label{fig:detail}
 \end{figure}
 \begin{figure}[H]
 	\centering
@@ -299,7 +299,7 @@ For the start basket design, the maximum acceleration has to be defined. As alre
 \begin{align}
     g_x &= 4\times g_0\\
     g_z &= 2\times g_0\\
-    g_0 &= 9.81 m/s
+    g_0 &= 9.81 m/s^2
 \end{align}{}
 
 The first step for the start basket design is the calculation of settling acceleration, the acceleration with which the propellant moves towards the outlet
@@ -309,7 +309,7 @@ The first step for the start basket design is the calculation of settling accele
 With this acceleration the time the propellant needs to reach the ground can be calculated
 \begin{align}
     t_{fall_{Oxidizer}} &= \sqrt{\frac{h_{Ox}}{\frac{1.16}{2}}} = \sqrt{\frac{4.74}{\frac{a_{set}}{2}}} =2.54s\\
-    t_{fall_{Fuel}} &= \sqrt{\frac{1.2}{\frac{1.16}{2}}} = 2.54s
+    t_{fall_{Fuel}} &= \sqrt{\frac{1.2}{\frac{1.16}{2}}} = 1.44s
 \end{align}{}
 
 Since the time that the oxidizer and fuel need to reach the outlet is now known, the settling time can be calculated. The settling time is the falling time multiplied by four. This is a heritage value
